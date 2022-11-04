@@ -21,7 +21,6 @@ RSpec.describe 'The Welcome Page' do
 
     visit root_path
 
-    expect(page).to have_link('Home')
     expect(page).to have_link('Sign Up/Sign In with Google')
 
     click_link 'Sign Up/Sign In with Google'
