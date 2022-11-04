@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
 
     user = User.find_or_create_by(email: email) do |user|
     user.update(uid: uid, name: name, token: token)
-  end
+    end
   
     session[:user_id] = user.id
     redirect_to root_path
