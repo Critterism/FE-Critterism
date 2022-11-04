@@ -25,12 +25,15 @@
 #google_signin {
     position: fixed;
     text-align: center;
-    bottom: 20%;
-    left: 50%;
+    bottom: 15%;
+    left: 45%;
     background-color: #00adb5;
-    padding: 10px;
-    margin-left: -104.5px;
-    border-radius: 20px;
+    padding: 8px;
+    /* margin-left: -104.5px; */
+    border-radius: 50px;
+    border-style: outset;
+    border-collapse: collapse;
+    width: 160px
 }
 
 #google_signin a:link, #google_signin a:visited, #google_signin a:hover, #google_signin a:active {
