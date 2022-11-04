@@ -65,9 +65,9 @@ RSpec.configure do |config|
 end
 
 VCR.configure do |config|
-  config.before_record do |config|
-    i.response.body.force_encoding('UTF-8')
-  end
+  # config.before_record do |config|
+  #   i.response.body.force_encoding('UTF-8')
+  # end
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   config.hook_into :webmock
   config.configure_rspec_metadata!
