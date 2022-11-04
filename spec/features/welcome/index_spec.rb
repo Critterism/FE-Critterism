@@ -29,6 +29,7 @@ RSpec.describe 'The Welcome Page' do
     expect(page).to have_content('Jerry')
     expect(page).to_not have_link('Sign Up/Sign In with Google')
     expect(page).to have_link('Log Out')
+    expect(page).to have_link('Play')
 
     click_link 'Log Out'
 
