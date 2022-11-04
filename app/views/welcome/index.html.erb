@@ -1,0 +1,15 @@
+<%= stylesheet_link_tag 'background' %>
+
+<div id='test'>
+
+<% if current_user %>
+  <div id='play_trivia'>
+    <%= link_to 'Play', '/trivia', method: :get %>
+  </div>
+<% else %>
+  <div id='google_signin'>
+    <%= link_to 'Sign Up/Sign In with Google', 'auth/google_oauth2', method: :get %>
+  </div>
+<% end %>
+
+</div>
