@@ -13,18 +13,35 @@
  *= require_tree .
  *= require_self
  */
-.hero {
+
+/* body {
   background: url('CritterismBackground.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover
+} */
+
+#google_signin {
+    position: fixed;
+    text-align: center;
+    bottom: 20%;
+    left: 50%;
+    background-color: #00adb5;
+    padding: 10px;
+    margin-left: -104.5px;
+    border-radius: 20px;
 }
 
-body {
-  background: url('CritterismBackground.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover
+#google_signin a:link, #google_signin a:visited, #google_signin a:hover, #google_signin a:active {
+  text-decoration: none
+}
+
+#google_signin a {
+  color: #22252a;
+  font-family: sans-serif
+}
+
+#test {
+  height:auto;
 }
