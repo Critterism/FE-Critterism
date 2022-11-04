@@ -21,38 +21,39 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Fri, 04 Nov 2022 19:22:37 GMT
+      - Fri, 04 Nov 2022 19:44:04 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e2974d10645fb457c10df8d6f14fb9eb"
+      - W/"e243719c9b27a17333724156798f5f85"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - bc0d7bd4-5973-4656-947d-53ca75a0b2a0
+      - 94a50823-1cba-41c5-9ad5-7a9dc2278900
       X-Runtime:
-      - '0.046625'
+      - '0.113837'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        Axolotl is an amphibian that can spend its whole life in a larval state.","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        does \u0026quot;hippopotamus\u0026quot; mean and in what langauge?","correct_answer":"River
-        Horse (Greek)","incorrect_answers":["River Horse (Latin)","Fat Pig (Greek)","Fat
-        Pig (Latin)"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"A
-        carnivorous animal eats flesh, what does a nucivorous animal eat?","correct_answer":"Nuts","incorrect_answers":["Nothing","Fruit","Seaweed"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        flock of crows is known as a homicide.","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Tigers
-        have one colour of skin despite the stripey fur.","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the name for a male bee that comes from an unfertilized egg?","correct_answer":"Drone","incorrect_answers":["Soldier","Worker","Male"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the name of a rabbit\u0026#039;s abode?","correct_answer":"Burrow","incorrect_answers":["Nest","Den","Dray"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        bird is born with claws on its wing digits?","correct_answer":"Hoatzin","incorrect_answers":["Cormorant","Cassowary","Secretary
-        bird"]}}]}'
-  recorded_at: Fri, 04 Nov 2022 19:22:37 GMT
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        slug\u0026rsquo;s blood is green.","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
+        Ergaster","Homo Erectus","Homo Neanderthalensis"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        average lifespan of a wildcat is only around 5-6 years. ","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Cats
+        have whiskers under their legs.","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
+        dish Fugu, is made from what family of fish?","correct_answer":"Pufferfish","incorrect_answers":["Bass","Salmon","Mackerel"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of the following is another name for the \u0026quot;Poecilotheria Metallica
+        Tarantula\u0026quot;?","correct_answer":"Gooty","incorrect_answers":["Hopper","Silver
+        Stripe","Woebegone"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
+        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Tigers
+        have one colour of skin despite the stripey fur.","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"]}}]}'
+  recorded_at: Fri, 04 Nov 2022 19:44:05 GMT
 recorded_with: VCR 6.1.0

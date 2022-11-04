@@ -1,8 +1,9 @@
 class TriviaService
   class << self
     def conn 
-      Faraday.new(url:  ENV['HEROKU_API_URL']) #connection to heroku (in application.yml)
+      # Faraday.new(url: ENV['HEROKU_API_URL']) #connection to heroku (in application.yml)
       # Faraday.new(url: ENV['API_URL']) # connection to localhost (in application.yml)
+       Faraday.new(url: 'https://critterism-be.herokuapp.com/')
     end
 
     def json_response(response)
