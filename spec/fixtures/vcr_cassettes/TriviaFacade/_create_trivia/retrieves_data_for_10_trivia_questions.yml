@@ -21,39 +21,40 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Fri, 04 Nov 2022 19:44:04 GMT
+      - Sat, 05 Nov 2022 16:38:16 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e243719c9b27a17333724156798f5f85"
+      - W/"24440c10fb2e8bc5af90e9f7f69801cc"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 94a50823-1cba-41c5-9ad5-7a9dc2278900
+      - 7c1cf65e-020c-49cf-8dc2-fe305761ebb2
       X-Runtime:
-      - '0.113837'
+      - '0.048457'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        slug\u0026rsquo;s blood is green.","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        Axolotl is an amphibian that can spend its whole life in a larval state.","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is
+        also known to be a decendent of the Tyrannosaurus Rex.","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
         is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
-        Ergaster","Homo Erectus","Homo Neanderthalensis"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
-        average lifespan of a wildcat is only around 5-6 years. ","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Cats
-        have whiskers under their legs.","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
-        dish Fugu, is made from what family of fish?","correct_answer":"Pufferfish","incorrect_answers":["Bass","Salmon","Mackerel"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of the following is another name for the \u0026quot;Poecilotheria Metallica
-        Tarantula\u0026quot;?","correct_answer":"Gooty","incorrect_answers":["Hopper","Silver
-        Stripe","Woebegone"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
-        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Tigers
-        have one colour of skin despite the stripey fur.","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"]}}]}'
-  recorded_at: Fri, 04 Nov 2022 19:44:05 GMT
+        Ergaster","Homo Erectus","Homo Neanderthalensis"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"\u0026quot;Kamea,\u0026quot;
+        the Gilbertese Islander word for dog, is derived from the English phrase \u0026quot;Come
+        here!\u0026quot;","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the Gray Wolf\u0026#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
+        Aureus","Canis Latrans","Canis Lupus Lycaon"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the scientific name of the Common Chimpanzee?","correct_answer":"Pan troglodytes","incorrect_answers":["Gorilla
+        gorilla","Pan paniscus","Panthera leo"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
+        many teeth does an adult rabbit have?","correct_answer":"28","incorrect_answers":["30","26","24"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        are carnivores.","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        internet browser Firefox is named after the Red Panda.","correct_answer":"True","incorrect_answers":["False"]}}]}'
+  recorded_at: Sat, 05 Nov 2022 16:38:17 GMT
 recorded_with: VCR 6.1.0
