@@ -21,42 +21,26 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Sat, 05 Nov 2022 00:08:14 GMT
+      - Sat, 05 Nov 2022 16:11:42 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"3fed5fc2e92110858ccb9164aec088f0"
+      - W/"bf987591b1d1c5bab0cea2dcf5c2bef0"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - fe41aec7-0705-4600-ae7d-9230d05ac24e
+      - 62d614ee-e733-4651-9bd7-e4ce6731f542
       X-Runtime:
-      - '1.028952'
+      - '1.026793'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
-      encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        Axolotl is an amphibian that can spend its whole life in a larval state.","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the fastest  land animal?","correct_answer":"Cheetah","incorrect_answers":["Lion","Thomson\u0026rsquo;s
-        Gazelle","Pronghorn Antelope"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
-        Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is
-        also known to be a decendent of the Tyrannosaurus Rex.","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"\u0026quot;Kamea,\u0026quot;
-        the Gilbertese Islander word for dog, is derived from the English phrase \u0026quot;Come
-        here!\u0026quot;","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        bear does NOT defecate during hibernation. ","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"How
-        many known living species of hyenas are there?","correct_answer":"4","incorrect_answers":["8","2","6"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the name of the copper-rich protein that creates the blue blood in the
-        Antarctic octopus?","correct_answer":"Hemocyanin","incorrect_answers":["Cytochrome","Iron","Methionine"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of the following is another name for the \u0026quot;Poecilotheria Metallica
-        Tarantula\u0026quot;?","correct_answer":"Gooty","incorrect_answers":["Hopper","Silver
-        Stripe","Woebegone"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
-        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"You
-        can tell the age of a ladybird by counting the spots on his back.","correct_answer":"False","incorrect_answers":["True"]}}]}'
-  recorded_at: Sat, 05 Nov 2022 00:08:14 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIFx1MDAyNnF1b3Q7aGlwcG9wb3RhbXVzXHUwMDI2cXVvdDsgbWVhbiBhbmQgaW4gd2hhdCBsYW5nYXVnZT8iLCJjb3JyZWN0X2Fuc3dlciI6IlJpdmVyIEhvcnNlIChHcmVlaykiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJSaXZlciBIb3JzZSAoTGF0aW4pIiwiRmF0IFBpZyAoR3JlZWspIiwiRmF0IFBpZyAoTGF0aW4pIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoiZWFzeSIsInF1ZXN0aW9uIjoiVGhlIEvEgWvEgXDFjSBpcyBhIGxhcmdlLCBmbGlnaHRsZXNzLCBub2N0dXJuYWwgcGFycm90IG5hdGl2ZSB0byB3aGljaCBjb3VudHJ5PyIsImNvcnJlY3RfYW5zd2VyIjoiTmV3IFplYWxhbmQiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJTb3V0aCBBZnJpY2EiLCJBdXN0cmFsaWEiLCJNYWRhZ2FzY2FyIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoiYm9vbGVhbiIsImRpZmZpY3VsdHkiOiJlYXN5IiwicXVlc3Rpb24iOiJLYW5nYXJvb3Mga2VlcCBmb29kIGluIHRoZWlyIHBvdWNoZXMgbmV4dCB0byB0aGVpciBjaGlsZHJlbi4iLCJjb3JyZWN0X2Fuc3dlciI6IkZhbHNlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiVHJ1ZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgcmhpbm9cdTAwMjYjMDM5O3MgaG9ybiBtYWRlIG9mPyIsImNvcnJlY3RfYW5zd2VyIjoiS2VyYXRpbiIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkJvbmUiLCJJdm9yeSIsIlNraW4iXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJoYXJkIiwicXVlc3Rpb24iOiJXaGF0IHNjaWVudGlmaWMgZmFtaWx5IGRvZXMgdGhlIEFhcmR3b2xmIGJlbG9uZyB0bz8iLCJjb3JyZWN0X2Fuc3dlciI6Ikh5YWVuaWRhZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkNhbmlkYWUiLCJGZWxpZGFlIiwiRXVwbGVyaWRhZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImVhc3kiLCJxdWVzdGlvbiI6IldoYXQgZG8geW91IGNhbGwgYSBiYWJ5IGJhdD8iLCJjb3JyZWN0X2Fuc3dlciI6IlB1cCIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkN1YiIsIkNoaWNrIiwiS2lkIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJXaGljaCBhbmltYWwgd2FzIHBhcnQgb2YgYW4gUnVzc2lhbiBkb21lc3RpY2F0aW9uIGV4cGVyaW1lbnQgaW4gMTk1OT8iLCJjb3JyZWN0X2Fuc3dlciI6IkZveGVzIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiUGlnZW9ucyIsIkJlYXJzIiwiQWxsaWdhdG9ycyJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6ImJvb2xlYW4iLCJkaWZmaWN1bHR5IjoiZWFzeSIsInF1ZXN0aW9uIjoiQSBjYXRlcnBpbGxhciBoYXMgbW9yZSBtdXNjbGVzIHRoYW4gaHVtYW5zIGRvLiIsImNvcnJlY3RfYW5zd2VyIjoiVHJ1ZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkZhbHNlIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoiZWFzeSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgY29sbGVjdGl2ZSBub3VuIGZvciBhIGdyb3VwIG9mIGNyb3dzPyIsImNvcnJlY3RfYW5zd2VyIjoiTXVyZGVyIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiUGFjayIsIkdhZ2dsZSIsIkhlcmQiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6Ilx1MDAyNnF1b3Q7RGVjYXBvZHNcdTAwMjZxdW90OyBhcmUgYW4gb3JkZXIgb2YgdGVuLWZvb3RlZCBjcnVzdGFjZWFucy4gIFdoaWNoIG9mIHRoZXNlIGFyZSBOT1QgZGVjYXBvZHM/IiwiY29ycmVjdF9hbnN3ZXIiOiJLcmlsbCIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkxvYnN0ZXJzIiwiU2hyaW1wIiwiQ3JhYnMiXX19XX0=
+  recorded_at: Sat, 05 Nov 2022 16:11:42 GMT
 recorded_with: VCR 6.1.0

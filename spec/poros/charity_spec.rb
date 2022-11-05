@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Charity Poro' do
-  it 'exists and has proper Charity attributes' do
+  xit 'exists and has proper Charity attributes' do
     data = {
       "description": 'The Fungi Foundation is a global organization that works for the Fungi, their habitats, and the people who depend on them.. Launched in 2012, the Fungi Foundation is the first NGO dedicated to the fungi kingdom. Since its inception, it has achieved',
       "ein": '851478153',
