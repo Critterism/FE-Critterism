@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   resources :user, only: [:create, :show]
   resources :trivia, only: %i[index]
+  resources :charity, only: %i[index]
+
 
   controller :sessions do
     delete 'logout' => :destroy
