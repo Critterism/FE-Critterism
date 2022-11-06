@@ -1,6 +1,16 @@
 class CharityController < ApplicationController
   def index
-    @wildlife_charities = CharityFacade.top_wildlife
-    @animal_charities = CharityFacade.top_animal
+
+    if params[:q] == 'animals'
+      @charities = CharityFacade.top_animal
+
+      @title = 'Animal Charities'
+    elsif params[:q] == 'wildlife'
+      @charities = CharityFacade.top_wildlife
+      @title = 'Wildlife Charities'
+    else
+      @title = 'Error: you effed up!'
+    end
   end
+
 end
