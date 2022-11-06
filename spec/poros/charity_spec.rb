@@ -30,13 +30,14 @@ RSpec.describe 'Charity Poro' do
 
     it 'instantiates described class' do
       charity_data = Charity.new(data)
-
       expect(charity_data).to be_a(Charity)
       expect(charity_data.description).to eq('The Fungi Foundation is a global organization that works for the Fungi, their habitats, and the people who depend on them.. Launched in 2012, the Fungi Foundation is the first NGO dedicated to the fungi kingdom. Since its inception, it has achieved')
       expect(charity_data.ein).to eq('851478153')
       expect(charity_data.name).to eq('Fungi Foundation')
       expect(charity_data.location).to eq('New York, NY, USA')
       expect(charity_data.tags[0]).to eq('wildlife')
+      # expect(charity_data.logo).to be_a String
+      # expect(charity_data.logo).to include('http')
     end
   end
 end

@@ -20,6 +20,9 @@ RSpec.describe CharityService do
 
     expect(charity_data[:attributes]).to have_key(:profile_url)
     expect(charity_data[:attributes][:profile_url]).to be_a(String)
+    
+    expect(charity_data[:attributes]).to have_key(:logo)
+    expect(charity_data[:attributes][:logo]).to be_a(String)
 
     expect(charity_data[:attributes]).to have_key(:location)
     expect(charity_data[:attributes][:location]).to be_a(String)

@@ -21,40 +21,26 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Sat, 05 Nov 2022 16:38:16 GMT
+      - Sun, 06 Nov 2022 03:30:55 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"24440c10fb2e8bc5af90e9f7f69801cc"
+      - W/"c0e4948dd9803fa5ba5d67a90cecb821"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7c1cf65e-020c-49cf-8dc2-fe305761ebb2
+      - 6091f80b-787a-44d6-b800-d89b40ed53dc
       X-Runtime:
-      - '0.048457'
+      - '0.028391'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
-      encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        Axolotl is an amphibian that can spend its whole life in a larval state.","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
-        Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is
-        also known to be a decendent of the Tyrannosaurus Rex.","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
-        Ergaster","Homo Erectus","Homo Neanderthalensis"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"\u0026quot;Kamea,\u0026quot;
-        the Gilbertese Islander word for dog, is derived from the English phrase \u0026quot;Come
-        here!\u0026quot;","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the Gray Wolf\u0026#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
-        Aureus","Canis Latrans","Canis Lupus Lycaon"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the scientific name of the Common Chimpanzee?","correct_answer":"Pan troglodytes","incorrect_answers":["Gorilla
-        gorilla","Pan paniscus","Panthera leo"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
-        many teeth does an adult rabbit have?","correct_answer":"28","incorrect_answers":["30","26","24"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        are carnivores.","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        internet browser Firefox is named after the Red Panda.","correct_answer":"True","incorrect_answers":["False"]}}]}'
-  recorded_at: Sat, 05 Nov 2022 16:38:17 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImhhcmQiLCJxdWVzdGlvbiI6IldoYXQgd2FzIHRoZSBuYW1lIG9mIHRoZSBFdGhpb3BpYW4gV29sZiBiZWZvcmUgdGhleSBrbmV3IGl0IHdhcyByZWxhdGVkIHRvIHdvbHZlcz8iLCJjb3JyZWN0X2Fuc3dlciI6IlNpbWllbiBKYWNrZWwiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJFdGhpb3BpYW4gQ295b3RlIiwiQW1oYXJpYyBGb3giLCJDYW5pcyBTaW1pZW5zaXMiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJib29sZWFuIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiQW4gb2N0b3B1cyBjYW4gZml0IHRocm91Z2ggYW55IGhvbGUgbGFyZ2VyIHRoYW4gaXRzIGJlYWsuIiwiY29ycmVjdF9hbnN3ZXIiOiJUcnVlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRmFsc2UiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJlYXN5IiwicXVlc3Rpb24iOiJUaGUgS8SBa8SBcMWNIGlzIGEgbGFyZ2UsIGZsaWdodGxlc3MsIG5vY3R1cm5hbCBwYXJyb3QgbmF0aXZlIHRvIHdoaWNoIGNvdW50cnk/IiwiY29ycmVjdF9hbnN3ZXIiOiJOZXcgWmVhbGFuZCIsImluY29ycmVjdF9hbnN3ZXJzIjpbIlNvdXRoIEFmcmljYSIsIkF1c3RyYWxpYSIsIk1hZGFnYXNjYXIiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJib29sZWFuIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiXHUwMDI2cXVvdDtLYW1lYSxcdTAwMjZxdW90OyB0aGUgR2lsYmVydGVzZSBJc2xhbmRlciB3b3JkIGZvciBkb2csIGlzIGRlcml2ZWQgZnJvbSB0aGUgRW5nbGlzaCBwaHJhc2UgXHUwMDI2cXVvdDtDb21lIGhlcmUhXHUwMDI2cXVvdDsiLCJjb3JyZWN0X2Fuc3dlciI6IlRydWUiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJGYWxzZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6ImJvb2xlYW4iLCJkaWZmaWN1bHR5IjoiZWFzeSIsInF1ZXN0aW9uIjoiQSBjYXRlcnBpbGxhciBoYXMgbW9yZSBtdXNjbGVzIHRoYW4gaHVtYW5zIGRvLiIsImNvcnJlY3RfYW5zd2VyIjoiVHJ1ZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkZhbHNlIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJXaGF0IGRvZyBicmVhZCBpcyBvbmUgb2YgdGhlIG9sZGVzdCBicmVlZHMgb2YgZG9nIGFuZCBoYXMgZmxvdXJpc2hlZCBzaW5jZSBiZWZvcmUgNDAwIEJDRS4iLCJjb3JyZWN0X2Fuc3dlciI6IlB1Z3MiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJCdWxsZG9ncyIsIkJveGVycyIsIkNoaWh1YWh1YSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgZmFzdGVzdCBhbmltYWw/IiwiY29ycmVjdF9hbnN3ZXIiOiJQZXJlZ3JpbmUgRmFsY29uIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiR29sZGVuIEVhZ2xlIiwiQ2hlZXRhaCIsIkhvcnNlZmx5Il19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJUaGUgZGlzaCBGdWd1LCBpcyBtYWRlIGZyb20gd2hhdCBmYW1pbHkgb2YgZmlzaD8iLCJjb3JyZWN0X2Fuc3dlciI6IlB1ZmZlcmZpc2giLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJCYXNzIiwiU2FsbW9uIiwiTWFja2VyZWwiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHNjaWVudGlmaWMgbmFtZSBvZiB0aGUgQ29tbW9uIENoaW1wYW56ZWU/IiwiY29ycmVjdF9hbnN3ZXIiOiJQYW4gdHJvZ2xvZHl0ZXMiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJHb3JpbGxhIGdvcmlsbGEiLCJQYW4gcGFuaXNjdXMiLCJQYW50aGVyYSBsZW8iXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJib29sZWFuIiwiZGlmZmljdWx0eSI6ImVhc3kiLCJxdWVzdGlvbiI6IlRoZSBmcmVzaHdhdGVyIGFtcGhpYmlhbiwgdGhlIEF4b2xvdGwsIGNhbiByZWdyb3cgaXRcdTAwMjYjMDM5O3MgbGltYnMuIiwiY29ycmVjdF9hbnN3ZXIiOiJUcnVlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRmFsc2UiXX19XX0=
+  recorded_at: Sun, 06 Nov 2022 03:30:55 GMT
 recorded_with: VCR 6.1.0

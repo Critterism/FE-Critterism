@@ -1,7 +1,9 @@
-Charities
+<h1><%= @title %></h1>
 
-<% @wildlife_charities.each do |wildlife| %>
-  <div id="wildlife-<%= wildlife %>">
-  <h3> Name: <%= wildlife.name %></h3>
+<% @charities.each do |charity| %>
+
+  <div id="charity-<%= charity.name %>">
+  <h3> Name: <%= charity.name %></h3>
+  <img src="<%= charity.logo.to_s %>" alt="<%= charity.name %>" width="100"/>
   <% end %>
   </div>
