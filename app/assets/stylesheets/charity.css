@@ -3,14 +3,57 @@
 *= require_self
 */
 
-* {
-  box-sizing: border-box;
+h1 {
+  text-align: center;
 }
 
-.box {
-  font-family: sans-serif;
-  font-size: 3em;
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  width: 100vw;
+  height: 70vh;
+}
+
+.grid-container {
+  display: flex;
+  grid-column-gap: 10px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+  width: 15vw;
+}
+
+.grid-item {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 3vw;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 1vw;
+  align-items: center;
+  color: #22252a;
   text-align: center;
-  color: #000000;
-  /* text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); */
+}
+
+.logo {
+  padding: 10px;
+}
+
+img {
+  height: 5vw;
+  width: 5vw;
+}
+
+button {
+  background-color: #00adb5;
+  color: #ffffff;
 }
