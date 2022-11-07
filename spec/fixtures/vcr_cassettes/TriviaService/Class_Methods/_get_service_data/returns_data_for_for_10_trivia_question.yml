@@ -21,39 +21,39 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Sun, 06 Nov 2022 03:30:59 GMT
+      - Mon, 07 Nov 2022 17:57:11 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"8a75988db86fb856606dbc8664252343"
+      - W/"f2520e9ac74352d5970846ded2ae7f3e"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f08cb4a2-a8f2-4447-a428-5beac83e734c
+      - 6e0ccf7b-9fef-4807-b819-89ba8c96bff1
       X-Runtime:
-      - '0.022516'
+      - '0.025425'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"An
-        octopus can fit through any hole larger than its beak.","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        slug\u0026rsquo;s blood is green.","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        color/colour is a polar bear\u0026#039;s skin?","correct_answer":"Black","incorrect_answers":["White","Pink","Green"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the scientific name for the \u0026quot;Polar Bear\u0026quot;?","correct_answer":"Ursus
-        Maritimus","incorrect_answers":["Polar Bear","Ursus Spelaeus","Ursus Arctos"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the scientific name of the cheetah?","correct_answer":"Acinonyx jubatus","incorrect_answers":["Panthera
-        onca","Lynx rufus","Felis catus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        are rodents.","correct_answer":"False","incorrect_answers":["True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        can see what\u0026#039;s behind themselves without turning their heads.","correct_answer":"True","incorrect_answers":["False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the common term for bovine spongiform encephalopathy (BSE)?","correct_answer":"Mad
-        Cow disease","incorrect_answers":["Weil\u0026#039;s disease","Milk fever","Foot-and-mouth
-        disease"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for rats?","correct_answer":"Mischief","incorrect_answers":["Pack","Race","Drift"]}}]}'
-  recorded_at: Sun, 06 Nov 2022 03:31:00 GMT
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        color/colour is a polar bear\u0026#039;s skin?","correct_answer":"Black","incorrect_answers":["White","Pink","Green"],"answers":["White","Pink","Green","Black"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        are rhino\u0026#039;s horn made of?","correct_answer":"Keratin","incorrect_answers":["Bone","Ivory","Skin"],"answers":["Bone","Ivory","Skin","Keratin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"],"answers":["Canidae","Felidae","Eupleridae","Hyaenidae"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of these animals is NOT a lizard?","correct_answer":"Tuatara","incorrect_answers":["Komodo
+        Dragon","Gila Monster","Green Iguana"],"answers":["Komodo Dragon","Gila Monster","Green
+        Iguana","Tuatara"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"],"answers":["Lion","Parrot","Wildcat","Ape"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        species is a \u0026quot;mountain chicken\u0026quot;?","correct_answer":"Frog","incorrect_answers":["Chicken","Horse","Fly"],"answers":["Chicken","Horse","Fly","Frog"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
+        dish Fugu, is made from what family of fish?","correct_answer":"Pufferfish","incorrect_answers":["Bass","Salmon","Mackerel"],"answers":["Bass","Salmon","Mackerel","Pufferfish"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        can see what\u0026#039;s behind themselves without turning their heads.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the collective noun for rats?","correct_answer":"Mischief","incorrect_answers":["Pack","Race","Drift"],"answers":["Pack","Race","Drift","Mischief"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the world\u0026#039;s longest venomous snake?","correct_answer":"King Cobra","incorrect_answers":["Green
+        Anaconda","Inland Taipan","Yellow Bellied Sea Snake"],"answers":["Green Anaconda","Inland
+        Taipan","Yellow Bellied Sea Snake","King Cobra"]}}]}'
+  recorded_at: Mon, 07 Nov 2022 17:57:11 GMT
 recorded_with: VCR 6.1.0

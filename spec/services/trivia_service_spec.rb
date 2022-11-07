@@ -4,6 +4,7 @@ RSpec.describe TriviaService, type: :service do
     describe '.get_service_data' do
       it 'returns data for for 10 trivia question' do
         trivia_hash = TriviaService.get_trivia_data
+
         expect(trivia_hash).to be_a Hash
         expect(trivia_hash[:data].count).to eq 10
         expect(trivia_hash[:data]).to be_an Array

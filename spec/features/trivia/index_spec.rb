@@ -17,6 +17,7 @@ RSpec.describe 'Trivia Game' do
      })
      visit '/auth/google_oauth2'
   end
+
   context 'success' do
     it 'displays a link to play trivia to a signed in user' do
 
@@ -24,7 +25,7 @@ RSpec.describe 'Trivia Game' do
 
       click_link 'Play'
 
-      expect(current_path).to eq(trivia_path)
+      expect(current_path).to eq('/trivia')
     end
   end
 end
