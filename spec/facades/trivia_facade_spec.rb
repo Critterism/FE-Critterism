@@ -9,8 +9,6 @@ RSpec.describe TriviaFacade do
       expect(trivia.count).to eq(10)
 
       trivia.each do |section|
-        expect(section.current_question).to be_a Hash
-        expect(section.current_question.keys).to eq([:category, :type, :difficulty, :question, :correct_answer, :incorrect_answers, :answers])
         expect(section).to be_a Trivia
         expect(section.category).to eq('Animals')
         expect(section.answers).to be_an Array

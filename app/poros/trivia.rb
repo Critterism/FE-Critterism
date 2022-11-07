@@ -15,9 +15,6 @@ class Trivia
     @question = data[:attributes][:question]
     @correct_answer = data[:attributes][:correct_answer]
     @incorrect_answers = data[:attributes][:incorrect_answers]
-    @answers = data[:attributes][:answers]
-    @current_question = data[:attributes]
+    @answers = data[:attributes][:answers].shuffle
   end
-
-  
 end

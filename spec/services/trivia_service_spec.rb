@@ -14,7 +14,8 @@ RSpec.describe TriviaService, type: :service do
         expect(trivia_hash[:data][0][:attributes][:category]).to eq("Animals")
         expect(trivia_hash[:data][0][:attributes][:question]).to be_a String
         expect(trivia_hash[:data][0][:attributes][:correct_answer]).to be_a String
-        expect(trivia_hash[:data][0][:attributes][:incorrect_answers]).to be_a Array
+        expect(trivia_hash[:data][0][:attributes][:incorrect_answers]).to be_an Array
+        expect(trivia_hash[:data][0][:attributes][:answers]).to be_an Array
       end
     end
   end
