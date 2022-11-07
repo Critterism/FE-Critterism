@@ -15,7 +15,9 @@
 
     <nav>
       <ul>
-        <li><%= link_to 'Home', root_path if !root_path %></li>
+        <% unless current_page?(root_path) %>
+          <li><%= link_to 'Home', root_path %></li>
+        <% end %>
         <li style='float:right'>
           <% if current_user %>
             <strong><%= current_user.name %></strong>
