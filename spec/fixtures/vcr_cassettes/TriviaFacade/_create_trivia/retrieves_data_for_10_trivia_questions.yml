@@ -21,44 +21,41 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Mon, 07 Nov 2022 20:31:17 GMT
+      - Tue, 08 Nov 2022 00:06:11 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e4e5a5aea1dfc288c09a7ac4fd761132"
+      - W/"6eb186af01d19bee3b898247bb9b4f25"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c2d2025f-7aee-4d0f-bfd8-1708686c6d92
+      - '0097e1b1-345f-4074-b942-03e32b71d02e'
       X-Runtime:
-      - '0.040079'
+      - '0.112078'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        slug\u0026rsquo;s blood is green.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Cashmere
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the fastest  land animal?","correct_answer":"Cheetah","incorrect_answers":["Lion","Thomson\u0026rsquo;s
+        Gazelle","Pronghorn Antelope"],"answers":["Lion","Thomson\u0026rsquo;s Gazelle","Pronghorn
+        Antelope","Cheetah"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Cashmere
         is the wool from which kind of animal?","correct_answer":"Goat","incorrect_answers":["Sheep","Camel","Llama"],"answers":["Sheep","Camel","Llama","Goat"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        bear does NOT defecate during hibernation. ","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the scientific name of the Budgerigar?","correct_answer":"Melopsittacus
-        undulatus","incorrect_answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara
-        macao"],"answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara macao","Melopsittacus
-        undulatus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the name of the copper-rich protein that creates the blue blood in the
-        Antarctic octopus?","correct_answer":"Hemocyanin","incorrect_answers":["Cytochrome","Iron","Methionine"],"answers":["Cytochrome","Iron","Methionine","Hemocyanin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
-        dish Fugu, is made from what family of fish?","correct_answer":"Pufferfish","incorrect_answers":["Bass","Salmon","Mackerel"],"answers":["Bass","Salmon","Mackerel","Pufferfish"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Finnish
-        Lapphund dogs were used for herding reindeer.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of the following is another name for the \u0026quot;Poecilotheria Metallica
-        Tarantula\u0026quot;?","correct_answer":"Gooty","incorrect_answers":["Hopper","Silver
-        Stripe","Woebegone"],"answers":["Hopper","Silver Stripe","Woebegone","Gooty"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
-        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"],"answers":["Sea
-        Wasp","Irukandji","Sea Nettle","Portuguese Man-of-War"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        bird is born with claws on its wing digits?","correct_answer":"Hoatzin","incorrect_answers":["Cormorant","Cassowary","Secretary
-        bird"],"answers":["Cormorant","Cassowary","Secretary bird","Hoatzin"]}}]}'
-  recorded_at: Mon, 07 Nov 2022 20:31:18 GMT
+        bear does NOT defecate during hibernation. ","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        are rhino\u0026#039;s horn made of?","correct_answer":"Keratin","incorrect_answers":["Bone","Ivory","Skin"],"answers":["Bone","Ivory","Skin","Keratin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"],"answers":["Canidae","Felidae","Eupleridae","Hyaenidae"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"In
+        2016, the IUCN reclassified the status of Giant Pandas from endangered to
+        vulnerable.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        caterpillar has more muscles than humans do.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        Killer Whale is considered a type of dolphin.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"You
+        can tell the age of a ladybird by counting the spots on his back.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the common term for bovine spongiform encephalopathy (BSE)?","correct_answer":"Mad
+        Cow disease","incorrect_answers":["Weil\u0026#039;s disease","Milk fever","Foot-and-mouth
+        disease"],"answers":["Weil\u0026#039;s disease","Milk fever","Foot-and-mouth
+        disease","Mad Cow disease"]}}]}'
+  recorded_at: Tue, 08 Nov 2022 00:06:11 GMT
 recorded_with: VCR 6.1.0
