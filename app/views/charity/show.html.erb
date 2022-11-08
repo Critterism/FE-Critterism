@@ -1,0 +1,8 @@
+<h1><%= @charity.name %></h1>
+  <h4>EIN: <%= @charity.ein %></h4>
+  <div id="charity">
+  <img src="<%= @charity.logo.to_s %>" alt="<%= @charity.name %>" width="100"/>
+  <h3>Purpose: <%= @charity.description %></h3>
+  <h3>Location: <%= @charity.location %></h3>
+  <h3>Visit their <%= link_to "Website", "#{@charity.profile_url}" %> to donate! </h3>
+  </div>

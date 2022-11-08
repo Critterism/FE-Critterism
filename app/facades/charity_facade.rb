@@ -12,4 +12,9 @@ class CharityFacade
       Charity.new(data)
     end
   end
+
+  def self.single_charity(slug_or_ein)
+    response = CharityService.charity(slug_or_ein)[:data]
+    Charity.new(response)
+  end
 end

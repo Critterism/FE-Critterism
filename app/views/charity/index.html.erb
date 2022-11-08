@@ -1,9 +1,7 @@
 <h1><%= @title %></h1>
-
 <% @charities.each do |charity| %>
-
   <div id="charity-<%= charity.name %>">
-  <h3> Name: <%= charity.name %></h3>
+  <h3> Name: <%= link_to charity.name, charity_path(charity.ein)%></h3>
   <img src="<%= charity.logo.to_s %>" alt="<%= charity.name %>" width="100"/>
   <% end %>
   </div>
