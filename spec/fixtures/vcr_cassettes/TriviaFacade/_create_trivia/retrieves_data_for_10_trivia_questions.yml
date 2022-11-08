@@ -21,26 +21,41 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Mon, 07 Nov 2022 17:57:04 GMT
+      - Tue, 08 Nov 2022 00:06:11 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"48b91a4680332b982154f6bd262261a6"
+      - W/"6eb186af01d19bee3b898247bb9b4f25"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e56ffd88-f338-4df6-8eac-ed667e0a7a71
+      - '0097e1b1-345f-4074-b942-03e32b71d02e'
       X-Runtime:
-      - '7.127648'
+      - '0.112078'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJkYXRhIjpbeyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIFx1MDAyNnF1b3Q7aGlwcG9wb3RhbXVzXHUwMDI2cXVvdDsgbWVhbiBhbmQgaW4gd2hhdCBsYW5nYXVnZT8iLCJjb3JyZWN0X2Fuc3dlciI6IlJpdmVyIEhvcnNlIChHcmVlaykiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJSaXZlciBIb3JzZSAoTGF0aW4pIiwiRmF0IFBpZyAoR3JlZWspIiwiRmF0IFBpZyAoTGF0aW4pIl0sImFuc3dlcnMiOlsiUml2ZXIgSG9yc2UgKExhdGluKSIsIkZhdCBQaWcgKEdyZWVrKSIsIkZhdCBQaWcgKExhdGluKSIsIlJpdmVyIEhvcnNlIChHcmVlaykiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6IldoYXQgdHlwZSBvZiBhbmltYWwgaXMgYSBuYXR0ZXJqYWNrPyIsImNvcnJlY3RfYW5zd2VyIjoiVG9hZCIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkJpcmQiLCJGaXNoIiwiSW5zZWN0Il0sImFuc3dlcnMiOlsiQmlyZCIsIkZpc2giLCJJbnNlY3QiLCJUb2FkIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoiZWFzeSIsInF1ZXN0aW9uIjoiVGhlIEvEgWvEgXDFjSBpcyBhIGxhcmdlLCBmbGlnaHRsZXNzLCBub2N0dXJuYWwgcGFycm90IG5hdGl2ZSB0byB3aGljaCBjb3VudHJ5PyIsImNvcnJlY3RfYW5zd2VyIjoiTmV3IFplYWxhbmQiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJTb3V0aCBBZnJpY2EiLCJBdXN0cmFsaWEiLCJNYWRhZ2FzY2FyIl0sImFuc3dlcnMiOlsiU291dGggQWZyaWNhIiwiQXVzdHJhbGlhIiwiTWFkYWdhc2NhciIsIk5ldyBaZWFsYW5kIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoiZWFzeSIsInF1ZXN0aW9uIjoiSGlwcG9jYW1wdXMgaXMgdGhlIExhdGluIG5hbWUgZm9yIHdoaWNoIG1hcmluZSBjcmVhdHVyZT8iLCJjb3JyZWN0X2Fuc3dlciI6IlNlYWhvcnNlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRG9scGhpbiIsIldoYWxlIiwiT2N0b3B1cyJdLCJhbnN3ZXJzIjpbIkRvbHBoaW4iLCJXaGFsZSIsIk9jdG9wdXMiLCJTZWFob3JzZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgc2NpZW50aWZpYyBuYW1lIGZvciB0aGUgXHUwMDI2cXVvdDtQb2xhciBCZWFyXHUwMDI2cXVvdDs/IiwiY29ycmVjdF9hbnN3ZXIiOiJVcnN1cyBNYXJpdGltdXMiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJQb2xhciBCZWFyIiwiVXJzdXMgU3BlbGFldXMiLCJVcnN1cyBBcmN0b3MiXSwiYW5zd2VycyI6WyJQb2xhciBCZWFyIiwiVXJzdXMgU3BlbGFldXMiLCJVcnN1cyBBcmN0b3MiLCJVcnN1cyBNYXJpdGltdXMiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJoYXJkIiwicXVlc3Rpb24iOiJXaGF0IHR5cGUgb2YgY3JlYXR1cmUgaXMgYSBCb25vYm8/IiwiY29ycmVjdF9hbnN3ZXIiOiJBcGUiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJMaW9uIiwiUGFycm90IiwiV2lsZGNhdCJdLCJhbnN3ZXJzIjpbIkxpb24iLCJQYXJyb3QiLCJXaWxkY2F0IiwiQXBlIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBuYW1lIG9mIHRoZSBmYW1pbHkgdGhhdCB0aGUgZG9tZXN0aWMgY2F0IGlzIGEgbWVtYmVyIG9mPyIsImNvcnJlY3RfYW5zd2VyIjoiRmVsaWRhZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkZlbGluYWUiLCJGZWxpcyIsIkNhdCJdLCJhbnN3ZXJzIjpbIkZlbGluYWUiLCJGZWxpcyIsIkNhdCIsIkZlbGlkYWUiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJib29sZWFuIiwiZGlmZmljdWx0eSI6ImVhc3kiLCJxdWVzdGlvbiI6IkEgY2F0ZXJwaWxsYXIgaGFzIG1vcmUgbXVzY2xlcyB0aGFuIGh1bWFucyBkby4iLCJjb3JyZWN0X2Fuc3dlciI6IlRydWUiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJGYWxzZSJdLCJhbnN3ZXJzIjpbIkZhbHNlIiwiVHJ1ZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6ImJvb2xlYW4iLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJUaWdlcnMgaGF2ZSBvbmUgY29sb3VyIG9mIHNraW4gZGVzcGl0ZSB0aGUgc3RyaXBleSBmdXIuIiwiY29ycmVjdF9hbnN3ZXIiOiJGYWxzZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIlRydWUiXSwiYW5zd2VycyI6WyJUcnVlIiwiRmFsc2UiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJoYXJkIiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBjb2xsZWN0aXZlIG5vdW4gZm9yIHZ1bHR1cmVzPyIsImNvcnJlY3RfYW5zd2VyIjoiV2FrZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkFtYnVzaCIsIkJ1aWxkaW5nIiwiR2F6ZSJdLCJhbnN3ZXJzIjpbIkFtYnVzaCIsIkJ1aWxkaW5nIiwiR2F6ZSIsIldha2UiXX19XX0=
-  recorded_at: Mon, 07 Nov 2022 17:57:05 GMT
+      encoding: UTF-8
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the fastest  land animal?","correct_answer":"Cheetah","incorrect_answers":["Lion","Thomson\u0026rsquo;s
+        Gazelle","Pronghorn Antelope"],"answers":["Lion","Thomson\u0026rsquo;s Gazelle","Pronghorn
+        Antelope","Cheetah"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Cashmere
+        is the wool from which kind of animal?","correct_answer":"Goat","incorrect_answers":["Sheep","Camel","Llama"],"answers":["Sheep","Camel","Llama","Goat"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        bear does NOT defecate during hibernation. ","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        are rhino\u0026#039;s horn made of?","correct_answer":"Keratin","incorrect_answers":["Bone","Ivory","Skin"],"answers":["Bone","Ivory","Skin","Keratin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"],"answers":["Canidae","Felidae","Eupleridae","Hyaenidae"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"In
+        2016, the IUCN reclassified the status of Giant Pandas from endangered to
+        vulnerable.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        caterpillar has more muscles than humans do.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        Killer Whale is considered a type of dolphin.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"You
+        can tell the age of a ladybird by counting the spots on his back.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the common term for bovine spongiform encephalopathy (BSE)?","correct_answer":"Mad
+        Cow disease","incorrect_answers":["Weil\u0026#039;s disease","Milk fever","Foot-and-mouth
+        disease"],"answers":["Weil\u0026#039;s disease","Milk fever","Foot-and-mouth
+        disease","Mad Cow disease"]}}]}'
+  recorded_at: Tue, 08 Nov 2022 00:06:11 GMT
 recorded_with: VCR 6.1.0

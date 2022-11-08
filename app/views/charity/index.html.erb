@@ -1,9 +1,17 @@
 <h1><%= @title %></h1>
 
+<div class="wrapper">
 <% @charities.each do |charity| %>
-
-  <div id="charity-<%= charity.name %>">
-  <h3> Name: <%= charity.name %></h3>
-  <img src="<%= charity.logo.to_s %>" alt="<%= charity.name %>" width="100"/>
-  <% end %>
-  </div>
+  <div class="grid-container">
+    <c:forEach var="charity" items="${charity_list}">
+      <div class="grid-item"> 
+        <div class="name"><%= charity.name %></div>
+        <div class="logo"><img src="<%= charity.logo.to_s %>" alt="<%= charity.name %>"></div>
+        <form action="/charities/#{charity_slug}" method="GET">
+        <button type="submit">More Info</button>
+        </form>
+      </div>
+    </c:forEach>
+  </div> 
+<% end %>
+</div>
