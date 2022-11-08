@@ -19,6 +19,7 @@
 body {
   background-color: #ffffff
 }
+
 #google_signin {
     position: fixed;
     text-align: center;
@@ -33,13 +34,6 @@ body {
     border-collapse: collapse;
     width: 160px
 }
-
-/* #google_signin a:link, #google_signin a:visited, #google_signin a:hover, #google_signin a:active {
-  text-decoration: none;
-  color: #00adb5;
-  font-family: sans-serif;
-  cursor: pointer;
-} */
 
 #google_signin a {
   text-decoration: none;
@@ -79,3 +73,15 @@ body {
 #test {
   height:auto;
 }
+
+/* #trivia_questions-2 {
+  display: none;
+} */
+
+#button-q-1-a-1 {
+  background-color: red;
+}
+
+/* #button-q-1-a-1 {
+  background-color: red;
+} */
