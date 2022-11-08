@@ -21,19 +21,19 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Tue, 08 Nov 2022 00:54:43 GMT
+      - Tue, 08 Nov 2022 20:51:41 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"8318bf213eb36904837ebf483ce24892"
+      - W/"a2fc68926d2936ac052f61bcaf0a2a78"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f3043581-2282-4f47-9341-345d126e2969
+      - 860fe0d1-41af-49da-b3d1-1b87ca839258
       X-Runtime:
-      - '0.029697'
+      - '0.027831'
       Transfer-Encoding:
       - chunked
       Via:
@@ -41,16 +41,20 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        color/colour is a polar bear\u0026#039;s skin?","correct_answer":"Black","incorrect_answers":["White","Pink","Green"],"answers":["White","Pink","Green","Black"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Kangaroos
-        keep food in their pouches next to their children.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"How
-        many known living species of hyenas are there?","correct_answer":"4","incorrect_answers":["8","2","6"],"answers":["8","2","6","4"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        are rodents.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
-        Platypus is a mammal.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        dog bread is one of the oldest breeds of dog and has flourished since before
-        400 BCE.","correct_answer":"Pugs","incorrect_answers":["Bulldogs","Boxers","Chihuahua"],"answers":["Bulldogs","Boxers","Chihuahua","Pugs"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
-        dish Fugu, is made from what family of fish?","correct_answer":"Pufferfish","incorrect_answers":["Bass","Salmon","Mackerel"],"answers":["Bass","Salmon","Mackerel","Pufferfish"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Finnish
-        Lapphund dogs were used for herding reindeer.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"],"answers":["Pack","Gaggle","Herd","Murder"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
-        many teeth does an adult rabbit have?","correct_answer":"28","incorrect_answers":["30","26","24"],"answers":["30","26","24","28"]}}]}'
-  recorded_at: Tue, 08 Nov 2022 00:54:44 GMT
+        type of animal is a natterjack?","correct_answer":"Toad","incorrect_answers":["Bird","Fish","Insect"],"answers":["Bird","Fish","Insect","Toad"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        slug\u0026rsquo;s blood is green.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
+        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"],"answers":["Dolphin","Whale","Octopus","Seahorse"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the scientific name for the \u0026quot;Polar Bear\u0026quot;?","correct_answer":"Ursus
+        Maritimus","incorrect_answers":["Polar Bear","Ursus Spelaeus","Ursus Arctos"],"answers":["Polar
+        Bear","Ursus Spelaeus","Ursus Arctos","Ursus Maritimus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the scientific name of the cheetah?","correct_answer":"Acinonyx jubatus","incorrect_answers":["Panthera
+        onca","Lynx rufus","Felis catus"],"answers":["Panthera onca","Lynx rufus","Felis
+        catus","Acinonyx jubatus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is Grumpy Cat\u0026#039;s real name?","correct_answer":"Tardar Sauce","incorrect_answers":["Sauce","Minnie","Broccoli"],"answers":["Sauce","Minnie","Broccoli","Tardar
+        Sauce"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"],"answers":["Lion","Parrot","Wildcat","Ape"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        caterpillar has more muscles than humans do.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"],"answers":["Black","White","Yellow","Brown"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        freshwater amphibian, the Axolotl, can regrow it\u0026#039;s limbs.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}}]}'
+  recorded_at: Tue, 08 Nov 2022 20:51:42 GMT
 recorded_with: VCR 6.1.0

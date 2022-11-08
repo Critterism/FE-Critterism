@@ -1,7 +1,7 @@
 class TriviaService
   class << self
     def conn
-       Faraday.new(url: 'https://critterism-be.herokuapp.com')
+      Faraday.new(url: 'https://critterism-be.herokuapp.com')
     end
 
     def json_response(response)

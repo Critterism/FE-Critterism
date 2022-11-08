@@ -21,26 +21,45 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Tue, 08 Nov 2022 00:54:34 GMT
+      - Tue, 08 Nov 2022 20:51:36 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"130c087801659a597ffebe54beae6571"
+      - W/"6dafc8230176d44b45fec69342a09bb4"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f987584e-224a-4323-83e4-7c7649c8b3e4
+      - a093f750-7037-45b5-a38e-99809261c709
       X-Runtime:
-      - '0.034916'
+      - '0.030974'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJkYXRhIjpbeyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIFx1MDAyNnF1b3Q7aGlwcG9wb3RhbXVzXHUwMDI2cXVvdDsgbWVhbiBhbmQgaW4gd2hhdCBsYW5nYXVnZT8iLCJjb3JyZWN0X2Fuc3dlciI6IlJpdmVyIEhvcnNlIChHcmVlaykiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJSaXZlciBIb3JzZSAoTGF0aW4pIiwiRmF0IFBpZyAoR3JlZWspIiwiRmF0IFBpZyAoTGF0aW4pIl0sImFuc3dlcnMiOlsiUml2ZXIgSG9yc2UgKExhdGluKSIsIkZhdCBQaWcgKEdyZWVrKSIsIkZhdCBQaWcgKExhdGluKSIsIlJpdmVyIEhvcnNlIChHcmVlaykiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJlYXN5IiwicXVlc3Rpb24iOiJUaGUgS8SBa8SBcMWNIGlzIGEgbGFyZ2UsIGZsaWdodGxlc3MsIG5vY3R1cm5hbCBwYXJyb3QgbmF0aXZlIHRvIHdoaWNoIGNvdW50cnk/IiwiY29ycmVjdF9hbnN3ZXIiOiJOZXcgWmVhbGFuZCIsImluY29ycmVjdF9hbnN3ZXJzIjpbIlNvdXRoIEFmcmljYSIsIkF1c3RyYWxpYSIsIk1hZGFnYXNjYXIiXSwiYW5zd2VycyI6WyJTb3V0aCBBZnJpY2EiLCJBdXN0cmFsaWEiLCJNYWRhZ2FzY2FyIiwiTmV3IFplYWxhbmQiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJoYXJkIiwicXVlc3Rpb24iOiJIb3cgbWFueSBrbm93biBsaXZpbmcgc3BlY2llcyBvZiBoeWVuYXMgYXJlIHRoZXJlPyIsImNvcnJlY3RfYW5zd2VyIjoiNCIsImluY29ycmVjdF9hbnN3ZXJzIjpbIjgiLCIyIiwiNiJdLCJhbnN3ZXJzIjpbIjgiLCIyIiwiNiIsIjQiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJoYXJkIiwicXVlc3Rpb24iOiJVbmxpa2Ugb24gbW9zdCBzYWxhbWFuZGVycywgdGhpcyBwYXJ0IG9mIGEgbmV3dCBpcyBmbGF0PyIsImNvcnJlY3RfYW5zd2VyIjoiVGFpbCIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkhlYWQiLCJUZWV0aCIsIkZlZXQiXSwiYW5zd2VycyI6WyJIZWFkIiwiVGVldGgiLCJGZWV0IiwiVGFpbCJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgZmFzdGVzdCBhbmltYWw/IiwiY29ycmVjdF9hbnN3ZXIiOiJQZXJlZ3JpbmUgRmFsY29uIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiR29sZGVuIEVhZ2xlIiwiQ2hlZXRhaCIsIkhvcnNlZmx5Il0sImFuc3dlcnMiOlsiR29sZGVuIEVhZ2xlIiwiQ2hlZXRhaCIsIkhvcnNlZmx5IiwiUGVyZWdyaW5lIEZhbGNvbiJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6ImJvb2xlYW4iLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJGaW5uaXNoIExhcHBodW5kIGRvZ3Mgd2VyZSB1c2VkIGZvciBoZXJkaW5nIHJlaW5kZWVyLiIsImNvcnJlY3RfYW5zd2VyIjoiVHJ1ZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkZhbHNlIl0sImFuc3dlcnMiOlsiRmFsc2UiLCJUcnVlIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBzY2llbnRpZmljIG5hbWUgb2YgdGhlIENvbW1vbiBDaGltcGFuemVlPyIsImNvcnJlY3RfYW5zd2VyIjoiUGFuIHRyb2dsb2R5dGVzIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiR29yaWxsYSBnb3JpbGxhIiwiUGFuIHBhbmlzY3VzIiwiUGFudGhlcmEgbGVvIl0sImFuc3dlcnMiOlsiR29yaWxsYSBnb3JpbGxhIiwiUGFuIHBhbmlzY3VzIiwiUGFudGhlcmEgbGVvIiwiUGFuIHRyb2dsb2R5dGVzIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoiYm9vbGVhbiIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6IlRpZ2VycyBoYXZlIG9uZSBjb2xvdXIgb2Ygc2tpbiBkZXNwaXRlIHRoZSBzdHJpcGV5IGZ1ci4iLCJjb3JyZWN0X2Fuc3dlciI6IkZhbHNlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiVHJ1ZSJdLCJhbnN3ZXJzIjpbIlRydWUiLCJGYWxzZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgY29sbGVjdGl2ZSBub3VuIGZvciBiZWFycz8iLCJjb3JyZWN0X2Fuc3dlciI6IlNsb3RoIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRHJvdmUiLCJUcmliZSIsIkh1c2siXSwiYW5zd2VycyI6WyJEcm92ZSIsIlRyaWJlIiwiSHVzayIsIlNsb3RoIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoiaGFyZCIsInF1ZXN0aW9uIjoiVG8gd2hpY2ggYmlvbG9naWNhbCBwaHlsdW0gZG8gYWxsIG1hbW1hbHMsIGJpcmRzIGFuZCByZXB0aWxlcyBiZWxvbmc/IiwiY29ycmVjdF9hbnN3ZXIiOiJDaG9yZGF0YSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkVjaGlub2Rlcm1hdGEiLCJBbm5lbGlkYSIsIlBsYWNhem9hIl0sImFuc3dlcnMiOlsiRWNoaW5vZGVybWF0YSIsIkFubmVsaWRhIiwiUGxhY2F6b2EiLCJDaG9yZGF0YSJdfX1dfQ==
-  recorded_at: Tue, 08 Nov 2022 00:54:34 GMT
+      encoding: UTF-8
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        does \u0026quot;hippopotamus\u0026quot; mean and in what langauge?","correct_answer":"River
+        Horse (Greek)","incorrect_answers":["River Horse (Latin)","Fat Pig (Greek)","Fat
+        Pig (Latin)"],"answers":["River Horse (Latin)","Fat Pig (Greek)","Fat Pig
+        (Latin)","River Horse (Greek)"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"\u0026quot;Kamea,\u0026quot;
+        the Gilbertese Islander word for dog, is derived from the English phrase \u0026quot;Come
+        here!\u0026quot;","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        are rhino\u0026#039;s horn made of?","correct_answer":"Keratin","incorrect_answers":["Bone","Ivory","Skin"],"answers":["Bone","Ivory","Skin","Keratin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
+        now extinct species \u0026quot;Thylacine\u0026quot; was native to where?","correct_answer":"Tasmania,
+        Australia","incorrect_answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
+        United States"],"answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
+        United States","Tasmania, Australia"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"],"answers":["Lion","Parrot","Wildcat","Ape"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Which
+        of these species is not extinct?","correct_answer":"Komodo dragon","incorrect_answers":["Japanese
+        sea lion","Tasmanian tiger","Saudi gazelle"],"answers":["Japanese sea lion","Tasmanian
+        tiger","Saudi gazelle","Komodo dragon"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
+        many teeth does an adult rabbit have?","correct_answer":"28","incorrect_answers":["30","26","24"],"answers":["30","26","24","28"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"],"answers":["Drove","Tribe","Husk","Sloth"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        internet browser Firefox is named after the Red Panda.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        bird is born with claws on its wing digits?","correct_answer":"Hoatzin","incorrect_answers":["Cormorant","Cassowary","Secretary
+        bird"],"answers":["Cormorant","Cassowary","Secretary bird","Hoatzin"]}}]}'
+  recorded_at: Tue, 08 Nov 2022 20:51:37 GMT
 recorded_with: VCR 6.1.0

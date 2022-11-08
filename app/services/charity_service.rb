@@ -14,7 +14,7 @@ class CharityService
   end
 
   def self.charity(slug)
-    response = conn.get('api/v1/charities/#{slug}')
+    response = conn.get("/api/v1/charities/#{slug}")
     parse(response)
   end
 
