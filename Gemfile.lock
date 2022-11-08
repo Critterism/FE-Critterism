@@ -53,7 +53,7 @@ GEM
       msgpack (~> 1.2)
     bootstrap (4.6.2)
       autoprefixer-rails (>= 6.0.3)
-      popper_js (>= 1.12.9, < 2)
+      popper_js (>= 1.16.1, < 2)
       sassc-rails (>= 2.0.0)
     builder (3.2.4)
     capybara (3.38.0)
