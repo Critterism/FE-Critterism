@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://critterism-be.herokuapp.com/api/v1/trivia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Nov 2022 22:24:14 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"277cf84bee59948407cd4328a8ec1e7d"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 294bc8bb-ae9b-4fff-97f4-8bb197554a7e
+      X-Runtime:
+      - '7.038053'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is
+        also known to be a decendent of the Tyrannosaurus Rex.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"An
+        octopus can fit through any hole larger than its beak.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        do you call a baby bat?","correct_answer":"Pup","incorrect_answers":["Cub","Chick","Kid"],"answers":["Cub","Chick","Kid","Pup"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the Gray Wolf\u0026#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
+        Aureus","Canis Latrans","Canis Lupus Lycaon"],"answers":["Canis Aureus","Canis
+        Latrans","Canis Lupus Lycaon","Canis Lupus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        dog bread is one of the oldest breeds of dog and has flourished since before
+        400 BCE.","correct_answer":"Pugs","incorrect_answers":["Bulldogs","Boxers","Chihuahua"],"answers":["Bulldogs","Boxers","Chihuahua","Pugs"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        species is a \u0026quot;mountain chicken\u0026quot;?","correct_answer":"Frog","incorrect_answers":["Chicken","Horse","Fly"],"answers":["Chicken","Horse","Fly","Frog"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the fastest animal?","correct_answer":"Peregrine Falcon","incorrect_answers":["Golden
+        Eagle","Cheetah","Horsefly"],"answers":["Golden Eagle","Cheetah","Horsefly","Peregrine
+        Falcon"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"],"answers":["Pack","Gaggle","Herd","Murder"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the common term for bovine spongiform encephalopathy (BSE)?","correct_answer":"Mad
+        Cow disease","incorrect_answers":["Weil\u0026#039;s disease","Milk fever","Foot-and-mouth
+        disease"],"answers":["Weil\u0026#039;s disease","Milk fever","Foot-and-mouth
+        disease","Mad Cow disease"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
+        many teeth does an adult rabbit have?","correct_answer":"28","incorrect_answers":["30","26","24"],"answers":["30","26","24","28"]}}]}'
+  recorded_at: Tue, 08 Nov 2022 22:24:15 GMT
+recorded_with: VCR 6.1.0

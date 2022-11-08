@@ -21,19 +21,19 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Tue, 08 Nov 2022 20:51:36 GMT
+      - Tue, 08 Nov 2022 22:24:07 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"6dafc8230176d44b45fec69342a09bb4"
+      - W/"ec7b625ada7addc8d1523916c59d157d"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a093f750-7037-45b5-a38e-99809261c709
+      - 5f667d92-7eeb-4344-9c28-a5ffb4da01b2
       X-Runtime:
-      - '0.030974'
+      - '1.028587'
       Transfer-Encoding:
       - chunked
       Via:
@@ -44,22 +44,15 @@ http_interactions:
         does \u0026quot;hippopotamus\u0026quot; mean and in what langauge?","correct_answer":"River
         Horse (Greek)","incorrect_answers":["River Horse (Latin)","Fat Pig (Greek)","Fat
         Pig (Latin)"],"answers":["River Horse (Latin)","Fat Pig (Greek)","Fat Pig
-        (Latin)","River Horse (Greek)"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"\u0026quot;Kamea,\u0026quot;
-        the Gilbertese Islander word for dog, is derived from the English phrase \u0026quot;Come
-        here!\u0026quot;","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        are rhino\u0026#039;s horn made of?","correct_answer":"Keratin","incorrect_answers":["Bone","Ivory","Skin"],"answers":["Bone","Ivory","Skin","Keratin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
-        now extinct species \u0026quot;Thylacine\u0026quot; was native to where?","correct_answer":"Tasmania,
-        Australia","incorrect_answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
-        United States"],"answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
-        United States","Tasmania, Australia"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"],"answers":["Lion","Parrot","Wildcat","Ape"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Which
-        of these species is not extinct?","correct_answer":"Komodo dragon","incorrect_answers":["Japanese
-        sea lion","Tasmanian tiger","Saudi gazelle"],"answers":["Japanese sea lion","Tasmanian
-        tiger","Saudi gazelle","Komodo dragon"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
-        many teeth does an adult rabbit have?","correct_answer":"28","incorrect_answers":["30","26","24"],"answers":["30","26","24","28"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"],"answers":["Drove","Tribe","Husk","Sloth"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        internet browser Firefox is named after the Red Panda.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        bird is born with claws on its wing digits?","correct_answer":"Hoatzin","incorrect_answers":["Cormorant","Cassowary","Secretary
-        bird"],"answers":["Cormorant","Cassowary","Secretary bird","Hoatzin"]}}]}'
-  recorded_at: Tue, 08 Nov 2022 20:51:37 GMT
+        (Latin)","River Horse (Greek)"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        type of animal is a natterjack?","correct_answer":"Toad","incorrect_answers":["Bird","Fish","Insect"],"answers":["Bird","Fish","Insect","Toad"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        color/colour is a polar bear\u0026#039;s skin?","correct_answer":"Black","incorrect_answers":["White","Pink","Green"],"answers":["White","Pink","Green","Black"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Cashmere
+        is the wool from which kind of animal?","correct_answer":"Goat","incorrect_answers":["Sheep","Camel","Llama"],"answers":["Sheep","Camel","Llama","Goat"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
+        many legs do butterflies have?","correct_answer":"6","incorrect_answers":["2","4","0"],"answers":["2","4","0","6"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        are rodents.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        Platypus is a mammal.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Cats
+        have whiskers under their legs.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"],"answers":["Pack","Gaggle","Herd","Murder"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        internet browser Firefox is named after the Red Panda.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}}]}'
+  recorded_at: Tue, 08 Nov 2022 22:24:07 GMT
 recorded_with: VCR 6.1.0

@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2022_11_08_203529) do
     t.string "incorrect1"
     t.string "incorrect2"
     t.string "incorrect3"
+    t.string "answer_type"
     t.bigint "game_id"
     t.index ["game_id"], name: "index_answers_on_game_id"
   end
@@ -28,7 +29,6 @@ ActiveRecord::Schema.define(version: 2022_11_08_203529) do
     t.string "category"
     t.string "difficulty"
     t.string "question"
-    t.string "type"
   end
 
   create_table "users", force: :cascade do |t|

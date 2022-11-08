@@ -21,40 +21,41 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Tue, 08 Nov 2022 20:51:41 GMT
+      - Tue, 08 Nov 2022 22:24:23 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"a2fc68926d2936ac052f61bcaf0a2a78"
+      - W/"15c04eb9389fc3affb980293ea40fba2"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 860fe0d1-41af-49da-b3d1-1b87ca839258
+      - a6f8719a-a57e-4857-886a-a4df09292332
       X-Runtime:
-      - '0.027831'
+      - '0.026038'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        type of animal is a natterjack?","correct_answer":"Toad","incorrect_answers":["Bird","Fish","Insect"],"answers":["Bird","Fish","Insect","Toad"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        slug\u0026rsquo;s blood is green.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
-        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"],"answers":["Dolphin","Whale","Octopus","Seahorse"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the scientific name for the \u0026quot;Polar Bear\u0026quot;?","correct_answer":"Ursus
-        Maritimus","incorrect_answers":["Polar Bear","Ursus Spelaeus","Ursus Arctos"],"answers":["Polar
-        Bear","Ursus Spelaeus","Ursus Arctos","Ursus Maritimus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the scientific name of the cheetah?","correct_answer":"Acinonyx jubatus","incorrect_answers":["Panthera
-        onca","Lynx rufus","Felis catus"],"answers":["Panthera onca","Lynx rufus","Felis
-        catus","Acinonyx jubatus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
+        Ergaster","Homo Erectus","Homo Neanderthalensis"],"answers":["Homo Ergaster","Homo
+        Erectus","Homo Neanderthalensis","Homo Sapiens"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"\u0026quot;Kamea,\u0026quot;
+        the Gilbertese Islander word for dog, is derived from the English phrase \u0026quot;Come
+        here!\u0026quot;","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        are rhino\u0026#039;s horn made of?","correct_answer":"Keratin","incorrect_answers":["Bone","Ivory","Skin"],"answers":["Bone","Ivory","Skin","Keratin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"],"answers":["Canidae","Felidae","Eupleridae","Hyaenidae"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"For
+        what reason would a spotted hyena \u0026quot;laugh\u0026quot;?","correct_answer":"Nervousness","incorrect_answers":["Excitement","Aggression","Exhaustion"],"answers":["Excitement","Aggression","Exhaustion","Nervousness"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        do you call a baby bat?","correct_answer":"Pup","incorrect_answers":["Cub","Chick","Kid"],"answers":["Cub","Chick","Kid","Pup"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
         is Grumpy Cat\u0026#039;s real name?","correct_answer":"Tardar Sauce","incorrect_answers":["Sauce","Minnie","Broccoli"],"answers":["Sauce","Minnie","Broccoli","Tardar
-        Sauce"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"],"answers":["Lion","Parrot","Wildcat","Ape"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        caterpillar has more muscles than humans do.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"],"answers":["Black","White","Yellow","Brown"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        freshwater amphibian, the Axolotl, can regrow it\u0026#039;s limbs.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}}]}'
-  recorded_at: Tue, 08 Nov 2022 20:51:42 GMT
+        Sauce"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the collective noun for rats?","correct_answer":"Mischief","incorrect_answers":["Pack","Race","Drift"],"answers":["Pack","Race","Drift","Mischief"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the collective noun for vultures?","correct_answer":"Wake","incorrect_answers":["Ambush","Building","Gaze"],"answers":["Ambush","Building","Gaze","Wake"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the world\u0026#039;s longest venomous snake?","correct_answer":"King Cobra","incorrect_answers":["Green
+        Anaconda","Inland Taipan","Yellow Bellied Sea Snake"],"answers":["Green Anaconda","Inland
+        Taipan","Yellow Bellied Sea Snake","King Cobra"]}}]}'
+  recorded_at: Tue, 08 Nov 2022 22:24:23 GMT
 recorded_with: VCR 6.1.0

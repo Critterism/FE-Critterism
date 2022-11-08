@@ -4,7 +4,6 @@ class CreateGame < ActiveRecord::Migration[5.2]
       t.string :category
       t.string :difficulty
       t.string :question
-      t.string :type
     end
   end
 end
