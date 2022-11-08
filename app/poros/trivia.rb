@@ -18,6 +18,4 @@ class Trivia
     @answers = data[:attributes][:answers]
     @current_question = data[:attributes]
   end
-
-  
 end

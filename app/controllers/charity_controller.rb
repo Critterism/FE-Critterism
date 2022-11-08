@@ -1,9 +1,7 @@
 class CharityController < ApplicationController
   def index
-
     if params[:q] == 'animals'
       @charities = CharityFacade.top_animal
-
       @title = 'Animal Charities'
     elsif params[:q] == 'wildlife'
       @charities = CharityFacade.top_wildlife
@@ -13,4 +11,7 @@ class CharityController < ApplicationController
     end
   end
 
+  def show
+    @charity = CharityFacade.single_charity(params[:id])
+  end
 end

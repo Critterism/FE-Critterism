@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   resources :user, only: %i[create show]
   resources :trivia, only: %i[index]
-  resources :charity, only: %i[index]
+  resources :charity, only: %i[index show]
 
 
   controller :sessions do
