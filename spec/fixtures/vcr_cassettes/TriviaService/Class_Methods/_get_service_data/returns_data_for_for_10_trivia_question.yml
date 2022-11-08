@@ -21,45 +21,26 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Mon, 07 Nov 2022 18:27:06 GMT
+      - Tue, 08 Nov 2022 15:57:19 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"1289d32cb060799d634014a2f00b2cf7"
+      - W/"ab25e433d55998ff07f4246f241ad22c"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 8b317410-f716-4abc-8a79-a83cff514f36
+      - 8f03daa9-4158-48f4-90d5-18f1e2deaea5
       X-Runtime:
-      - '0.029576'
+      - '0.049451'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
-      encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
-        Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is
-        also known to be a decendent of the Tyrannosaurus Rex.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"How
-        many known living species of hyenas are there?","correct_answer":"4","incorrect_answers":["8","2","6"],"answers":["8","2","6","4"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        do you call a baby bat?","correct_answer":"Pup","incorrect_answers":["Cub","Chick","Kid"],"answers":["Cub","Chick","Kid","Pup"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
-        now extinct species \u0026quot;Thylacine\u0026quot; was native to where?","correct_answer":"Tasmania,
-        Australia","incorrect_answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
-        United States"],"answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
-        United States","Tasmania, Australia"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the Gray Wolf\u0026#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
-        Aureus","Canis Latrans","Canis Lupus Lycaon"],"answers":["Canis Aureus","Canis
-        Latrans","Canis Lupus Lycaon","Canis Lupus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of these animals is NOT a lizard?","correct_answer":"Tuatara","incorrect_answers":["Komodo
-        Dragon","Gila Monster","Green Iguana"],"answers":["Komodo Dragon","Gila Monster","Green
-        Iguana","Tuatara"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of the following is another name for the \u0026quot;Poecilotheria Metallica
-        Tarantula\u0026quot;?","correct_answer":"Gooty","incorrect_answers":["Hopper","Silver
-        Stripe","Woebegone"],"answers":["Hopper","Silver Stripe","Woebegone","Gooty"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        can see what\u0026#039;s behind themselves without turning their heads.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
-        many teeth does an adult rabbit have?","correct_answer":"28","incorrect_answers":["30","26","24"],"answers":["30","26","24","28"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        are carnivores.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}}]}'
-  recorded_at: Mon, 07 Nov 2022 18:27:06 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6ImJvb2xlYW4iLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJBbiBvY3RvcHVzIGNhbiBmaXQgdGhyb3VnaCBhbnkgaG9sZSBsYXJnZXIgdGhhbiBpdHMgYmVhay4iLCJjb3JyZWN0X2Fuc3dlciI6IlRydWUiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJGYWxzZSJdLCJhbnN3ZXJzIjpbIkZhbHNlIiwiVHJ1ZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImVhc3kiLCJxdWVzdGlvbiI6IlRoZSBLxIFrxIFwxY0gaXMgYSBsYXJnZSwgZmxpZ2h0bGVzcywgbm9jdHVybmFsIHBhcnJvdCBuYXRpdmUgdG8gd2hpY2ggY291bnRyeT8iLCJjb3JyZWN0X2Fuc3dlciI6Ik5ldyBaZWFsYW5kIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiU291dGggQWZyaWNhIiwiQXVzdHJhbGlhIiwiTWFkYWdhc2NhciJdLCJhbnN3ZXJzIjpbIlNvdXRoIEFmcmljYSIsIkF1c3RyYWxpYSIsIk1hZGFnYXNjYXIiLCJOZXcgWmVhbGFuZCJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImhhcmQiLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHNjaWVudGlmaWMgbmFtZSBvZiB0aGUgQnVkZ2VyaWdhcj8iLCJjb3JyZWN0X2Fuc3dlciI6Ik1lbG9wc2l0dGFjdXMgdW5kdWxhdHVzIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiTnltcGhpY3VzIGhvbGxhbmRpY3VzIiwiUHlycmh1cmEgbW9saW5hZSIsIkFyYSBtYWNhbyJdLCJhbnN3ZXJzIjpbIk55bXBoaWN1cyBob2xsYW5kaWN1cyIsIlB5cnJodXJhIG1vbGluYWUiLCJBcmEgbWFjYW8iLCJNZWxvcHNpdHRhY3VzIHVuZHVsYXR1cyJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiVGhlIG5vdyBleHRpbmN0IHNwZWNpZXMgXHUwMDI2cXVvdDtUaHlsYWNpbmVcdTAwMjZxdW90OyB3YXMgbmF0aXZlIHRvIHdoZXJlPyIsImNvcnJlY3RfYW5zd2VyIjoiVGFzbWFuaWEsIEF1c3RyYWxpYSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkJhbHVjaGlzdGFuLCBQYWtpc3RhbiIsIldhbGxhY2hpYSwgUm9tYW5pYSIsIk9yZWdvbiwgVW5pdGVkIFN0YXRlcyJdLCJhbnN3ZXJzIjpbIkJhbHVjaGlzdGFuLCBQYWtpc3RhbiIsIldhbGxhY2hpYSwgUm9tYW5pYSIsIk9yZWdvbiwgVW5pdGVkIFN0YXRlcyIsIlRhc21hbmlhLCBBdXN0cmFsaWEiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJib29sZWFuIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiRmlubmlzaCBMYXBwaHVuZCBkb2dzIHdlcmUgdXNlZCBmb3IgaGVyZGluZyByZWluZGVlci4iLCJjb3JyZWN0X2Fuc3dlciI6IlRydWUiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJGYWxzZSJdLCJhbnN3ZXJzIjpbIkZhbHNlIiwiVHJ1ZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgc2NpZW50aWZpYyBuYW1lIG9mIHRoZSBDb21tb24gQ2hpbXBhbnplZT8iLCJjb3JyZWN0X2Fuc3dlciI6IlBhbiB0cm9nbG9keXRlcyIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkdvcmlsbGEgZ29yaWxsYSIsIlBhbiBwYW5pc2N1cyIsIlBhbnRoZXJhIGxlbyJdLCJhbnN3ZXJzIjpbIkdvcmlsbGEgZ29yaWxsYSIsIlBhbiBwYW5pc2N1cyIsIlBhbnRoZXJhIGxlbyIsIlBhbiB0cm9nbG9keXRlcyJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImhhcmQiLCJxdWVzdGlvbiI6IldoaWNoIG9mIHRoZXNlIGlzIGEgY29sb255IG9mIHBvbHlwcyBhbmQgbm90IGEgamVsbHlmaXNoPyIsImNvcnJlY3RfYW5zd2VyIjoiUG9ydHVndWVzZSBNYW4tb2YtV2FyIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiU2VhIFdhc3AiLCJJcnVrYW5kamkiLCJTZWEgTmV0dGxlIl0sImFuc3dlcnMiOlsiU2VhIFdhc3AiLCJJcnVrYW5kamkiLCJTZWEgTmV0dGxlIiwiUG9ydHVndWVzZSBNYW4tb2YtV2FyIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoiYm9vbGVhbiIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6IlRpZ2VycyBoYXZlIG9uZSBjb2xvdXIgb2Ygc2tpbiBkZXNwaXRlIHRoZSBzdHJpcGV5IGZ1ci4iLCJjb3JyZWN0X2Fuc3dlciI6IkZhbHNlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiVHJ1ZSJdLCJhbnN3ZXJzIjpbIlRydWUiLCJGYWxzZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgY29tbW9uIHRlcm0gZm9yIGJvdmluZSBzcG9uZ2lmb3JtIGVuY2VwaGFsb3BhdGh5IChCU0UpPyIsImNvcnJlY3RfYW5zd2VyIjoiTWFkIENvdyBkaXNlYXNlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiV2VpbFx1MDAyNiMwMzk7cyBkaXNlYXNlIiwiTWlsayBmZXZlciIsIkZvb3QtYW5kLW1vdXRoIGRpc2Vhc2UiXSwiYW5zd2VycyI6WyJXZWlsXHUwMDI2IzAzOTtzIGRpc2Vhc2UiLCJNaWxrIGZldmVyIiwiRm9vdC1hbmQtbW91dGggZGlzZWFzZSIsIk1hZCBDb3cgZGlzZWFzZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6ImJvb2xlYW4iLCJkaWZmaWN1bHR5IjoiZWFzeSIsInF1ZXN0aW9uIjoiUmFiYml0cyBhcmUgY2Fybml2b3Jlcy4iLCJjb3JyZWN0X2Fuc3dlciI6IkZhbHNlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiVHJ1ZSJdLCJhbnN3ZXJzIjpbIlRydWUiLCJGYWxzZSJdfX1dfQ==
+  recorded_at: Tue, 08 Nov 2022 15:57:19 GMT
 recorded_with: VCR 6.1.0

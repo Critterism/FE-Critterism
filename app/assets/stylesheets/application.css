@@ -14,14 +14,11 @@
  *= require_self
  */
 
-/* body {
-  background: url('CritterismBackground.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover
-} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
 
+body {
+  background-color: #ffffff
+}
 #google_signin {
     position: fixed;
     text-align: center;
@@ -37,13 +34,46 @@
     width: 160px
 }
 
-#google_signin a:link, #google_signin a:visited, #google_signin a:hover, #google_signin a:active {
-  text-decoration: none
-}
+/* #google_signin a:link, #google_signin a:visited, #google_signin a:hover, #google_signin a:active {
+  text-decoration: none;
+  color: #00adb5;
+  font-family: sans-serif;
+  cursor: pointer;
+} */
 
 #google_signin a {
+  text-decoration: none;
+  cursor: pointer;
   color: #00adb5;
   font-family: sans-serif
+}
+
+#play_trivia {
+    position: fixed;
+    text-align: center;
+    bottom: 15%;
+    left: 45%;
+    background-color: #00adb5;
+    padding: 8px;
+    /* margin-left: -104.5px; */
+    border-radius: 50px;
+    /* border-style: outset; */
+    /* border: solid #00adb5; */
+    border-collapse: collapse;
+    width: 100px
+}
+
+/* #play_trivia a:link, #play_trivia a:visited, #play_trivia a:hover, #play_trivia a:active {
+  text-decoration: none
+} */
+
+#play_trivia a {
+  /* color: #22252a; */
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 24px
 }
 
 #test {
