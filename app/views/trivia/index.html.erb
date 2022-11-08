@@ -1,14 +1,14 @@
 <center>
-  <% current_question = @trivia_questions[0] %>
-  <% i = 0 %>
-  <% i += 1 %>
-    <h3>Question <%= i %>: <%= current_question.question %></h3>
-    <div id='trivia_answers'>
-      <%= form_with url: trivia_path, method: :post, skip_enforcing_utf8: true, local: true do |f| %>
-      <% current_question.answers.each do |answer| %>
-      <p><%= f.radio_button :answer,answer %> <%= answer %> </p>
-    <% end %>
-  </div>
-  <%= f.submit 'Submit' %>
+  <% @trivia_questions.each_with_index do |question, index| %>
+    <div id='trivia_questions-<%= index + 1 %>'>
+      <h3>Question <%= index + 1 %>: <%= question.question %></h3>
+      <% question.answers.each_with_index do |answer, i| %>
+        <div id='answer'<%= i + 1 %>>
+          <button  id='button-q-<%= index + 1 %>-a-<%= i + 1 %>' type='button' >
+            <%= answer %>
+          </button>
+        </div>
+      <% end %>
+    </div>
   <% end %>
 </center>
