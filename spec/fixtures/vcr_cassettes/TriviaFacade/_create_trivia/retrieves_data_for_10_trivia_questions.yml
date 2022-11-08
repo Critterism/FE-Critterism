@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://critterism-be.herokuapp.com/api/v1/trivia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Nov 2022 15:30:35 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"fc205bde4faf8e925357e808c8bd8142"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b258b544-5cc9-4a34-a89d-224895ab119f
+      X-Runtime:
+      - '2.041726'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        are rhino\u0026#039;s horn made of?","correct_answer":"Keratin","incorrect_answers":["Bone","Ivory","Skin"],"answers":["Bone","Ivory","Skin","Keratin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
+        now extinct species \u0026quot;Thylacine\u0026quot; was native to where?","correct_answer":"Tasmania,
+        Australia","incorrect_answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
+        United States"],"answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
+        United States","Tasmania, Australia"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Which
+        of these species is not extinct?","correct_answer":"Komodo dragon","incorrect_answers":["Japanese
+        sea lion","Tasmanian tiger","Saudi gazelle"],"answers":["Japanese sea lion","Tasmanian
+        tiger","Saudi gazelle","Komodo dragon"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the fastest animal?","correct_answer":"Peregrine Falcon","incorrect_answers":["Golden
+        Eagle","Cheetah","Horsefly"],"answers":["Golden Eagle","Cheetah","Horsefly","Peregrine
+        Falcon"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
+        dish Fugu, is made from what family of fish?","correct_answer":"Pufferfish","incorrect_answers":["Bass","Salmon","Mackerel"],"answers":["Bass","Salmon","Mackerel","Pufferfish"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"],"answers":["Pack","Gaggle","Herd","Murder"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the scientific name of the Common Chimpanzee?","correct_answer":"Pan troglodytes","incorrect_answers":["Gorilla
+        gorilla","Pan paniscus","Panthera leo"],"answers":["Gorilla gorilla","Pan
+        paniscus","Panthera leo","Pan troglodytes"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"],"answers":["Black","White","Yellow","Brown"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the collective noun for rats?","correct_answer":"Mischief","incorrect_answers":["Pack","Race","Drift"],"answers":["Pack","Race","Drift","Mischief"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the world\u0026#039;s longest venomous snake?","correct_answer":"King Cobra","incorrect_answers":["Green
+        Anaconda","Inland Taipan","Yellow Bellied Sea Snake"],"answers":["Green Anaconda","Inland
+        Taipan","Yellow Bellied Sea Snake","King Cobra"]}}]}'
+  recorded_at: Tue, 08 Nov 2022 15:30:35 GMT
+recorded_with: VCR 6.1.0

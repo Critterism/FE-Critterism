@@ -1,14 +1,10 @@
-<%= stylesheet_link_tag 'background' %>
-
-<div id='test'>
-
-<% if current_user %>
-  <div id='play_trivia'>
-    <%= link_to 'Play', '/trivia', method: :get %>
-  </div>
-<% else %>
-  <div id='google_signin'>
-    <%= link_to 'Sign Up/Sign In with Google', 'auth/google_oauth2', method: :get %>
+<center>
+<% @trivia_questions.each_with_index do |question, index| %>
+    <h3>Question <%= index + 1 %>: <%= question.question %></h3>
+    <div id='trivia_answers'>
+      <% question.answers.each do |answer| %>
+      <p><%= answer %></p>
+    <% end %>
   </div>
 <% end %>
-</div>
+</center>
