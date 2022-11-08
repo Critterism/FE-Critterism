@@ -7,35 +7,40 @@ class TriviaFacade
       end
     end
 
-    def create_game
+    def create_game_table
       json = TriviaService.get_trivia_data
-      json[:data].map do |game|
-        @game = Game.create(
-          category: "#{game[:attributes][:category]}",
-          difficulty: "#{game[:attributes][:difficulty]}",
-          question: "#{game[:attributes][:question]}"
+      json[:data].map do |data|
+        Game.create(
+          category: "#{data[:attributes][:category]}",
+          difficulty: "#{data[:attributes][:difficulty]}",
+          question: "#{data[:attributes][:question]}"
         )
       end
     end
 
     def create_answers
       json = TriviaService.get_trivia_data
-      json[:data].map do |answer|
-        if answer[:attributes][:type] == "multiple"
+      json[:data].map do |data|
+        question = Game.create(
+          category: "#{data[:attributes][:category]}",
+          difficulty: "#{data[:attributes][:difficulty]}",
+          question: "#{data[:attributes][:question]}"
+        )
+        if data[:attributes][:type] == "multiple"
           Answer.create(
-            correct: "#{answer[:attributes][:correct_answer]}",
-            incorrect1: "#{answer[:attributes][:incorrect_answers][0]}",
-            incorrect2: "#{answer[:attributes][:incorrect_answers][1]}",
-            incorrect3: "#{answer[:attributes][:incorrect_answers][2]}",
-            answer_type: "#{answer[:attributes][:type]}",
-            game_id: @game.id
+            correct: "#{data[:attributes][:correct_answer]}",
+            incorrect1: "#{data[:attributes][:incorrect_answers][0]}",
+            incorrect2: "#{data[:attributes][:incorrect_answers][1]}",
+            incorrect3: "#{data[:attributes][:incorrect_answers][2]}",
+            answer_type: "#{data[:attributes][:type]}",
+            game_id: question.id
           )
         else
           Answer.create(
-            correct: "#{answer[:attributes][:correct_answer]}",
-            incorrect1: "#{answer[:attributes][:incorrect_answers][0]}",
-            answer_type: "#{answer[:attributes][:type]}",
-            game_id: @game.id
+            correct: "#{data[:attributes][:correct_answer]}",
+            incorrect1: "#{data[:attributes][:incorrect_answers][0]}",
+            answer_type: "#{data[:attributes][:type]}",
+            game_id: question.id
           )
         end
       end

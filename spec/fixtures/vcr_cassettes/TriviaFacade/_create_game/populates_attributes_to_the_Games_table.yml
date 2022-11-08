@@ -21,40 +21,26 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Tue, 08 Nov 2022 22:24:07 GMT
+      - Tue, 08 Nov 2022 23:04:51 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"4219f594dbffeb95356fcd9940da0438"
+      - W/"0cee9dc6b2d7ec2d4a4d723b7df36d88"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e4a7cf59-e0aa-4fee-b0a5-e4bbef18086c
+      - b4b3f9a6-c27a-4b0d-b05e-0357d9a5f118
       X-Runtime:
-      - '0.032548'
+      - '0.025223'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
-      encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        slug\u0026rsquo;s blood is green.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Kangaroos
-        keep food in their pouches next to their children.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the scientific name of the Budgerigar?","correct_answer":"Melopsittacus
-        undulatus","incorrect_answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara
-        macao"],"answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara macao","Melopsittacus
-        undulatus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Which
-        animal was part of an Russian domestication experiment in 1959?","correct_answer":"Foxes","incorrect_answers":["Pigeons","Bears","Alligators"],"answers":["Pigeons","Bears","Alligators","Foxes"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"Which
-        class of animals are newts members of?","correct_answer":"Amphibian","incorrect_answers":["Fish","Reptiles","Mammals"],"answers":["Fish","Reptiles","Mammals","Amphibian"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        caterpillar has more muscles than humans do.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        Killer Whale is considered a type of dolphin.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the fastest animal?","correct_answer":"Peregrine Falcon","incorrect_answers":["Golden
-        Eagle","Cheetah","Horsefly"],"answers":["Golden Eagle","Cheetah","Horsefly","Peregrine
-        Falcon"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"],"answers":["Black","White","Yellow","Brown"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
-        many teeth does an adult rabbit have?","correct_answer":"28","incorrect_answers":["30","26","24"],"answers":["30","26","24","28"]}}]}'
-  recorded_at: Tue, 08 Nov 2022 22:24:07 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImVhc3kiLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIGZhc3Rlc3QgIGxhbmQgYW5pbWFsPyIsImNvcnJlY3RfYW5zd2VyIjoiQ2hlZXRhaCIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkxpb24iLCJUaG9tc29uXHUwMDI2cnNxdW87cyBHYXplbGxlIiwiUHJvbmdob3JuIEFudGVsb3BlIl0sImFuc3dlcnMiOlsiTGlvbiIsIlRob21zb25cdTAwMjZyc3F1bztzIEdhemVsbGUiLCJQcm9uZ2hvcm4gQW50ZWxvcGUiLCJDaGVldGFoIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoiZWFzeSIsInF1ZXN0aW9uIjoiVGhlIEvEgWvEgXDFjSBpcyBhIGxhcmdlLCBmbGlnaHRsZXNzLCBub2N0dXJuYWwgcGFycm90IG5hdGl2ZSB0byB3aGljaCBjb3VudHJ5PyIsImNvcnJlY3RfYW5zd2VyIjoiTmV3IFplYWxhbmQiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJTb3V0aCBBZnJpY2EiLCJBdXN0cmFsaWEiLCJNYWRhZ2FzY2FyIl0sImFuc3dlcnMiOlsiU291dGggQWZyaWNhIiwiQXVzdHJhbGlhIiwiTWFkYWdhc2NhciIsIk5ldyBaZWFsYW5kIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJXaGF0IGNvbG9yL2NvbG91ciBpcyBhIHBvbGFyIGJlYXJcdTAwMjYjMDM5O3Mgc2tpbj8iLCJjb3JyZWN0X2Fuc3dlciI6IkJsYWNrIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiV2hpdGUiLCJQaW5rIiwiR3JlZW4iXSwiYW5zd2VycyI6WyJXaGl0ZSIsIlBpbmsiLCJHcmVlbiIsIkJsYWNrIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJXaGF0IGFyZSByaGlub1x1MDAyNiMwMzk7cyBob3JuIG1hZGUgb2Y/IiwiY29ycmVjdF9hbnN3ZXIiOiJLZXJhdGluIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiQm9uZSIsIkl2b3J5IiwiU2tpbiJdLCJhbnN3ZXJzIjpbIkJvbmUiLCJJdm9yeSIsIlNraW4iLCJLZXJhdGluIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoiZWFzeSIsInF1ZXN0aW9uIjoiV2hhdCBkbyB5b3UgY2FsbCBhIGJhYnkgYmF0PyIsImNvcnJlY3RfYW5zd2VyIjoiUHVwIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiQ3ViIiwiQ2hpY2siLCJLaWQiXSwiYW5zd2VycyI6WyJDdWIiLCJDaGljayIsIktpZCIsIlB1cCJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImhhcmQiLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHNjaWVudGlmaWMgbmFtZSBvZiB0aGUgQnVkZ2VyaWdhcj8iLCJjb3JyZWN0X2Fuc3dlciI6Ik1lbG9wc2l0dGFjdXMgdW5kdWxhdHVzIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiTnltcGhpY3VzIGhvbGxhbmRpY3VzIiwiUHlycmh1cmEgbW9saW5hZSIsIkFyYSBtYWNhbyJdLCJhbnN3ZXJzIjpbIk55bXBoaWN1cyBob2xsYW5kaWN1cyIsIlB5cnJodXJhIG1vbGluYWUiLCJBcmEgbWFjYW8iLCJNZWxvcHNpdHRhY3VzIHVuZHVsYXR1cyJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgbmFtZSBvZiB0aGUgZmFtaWx5IHRoYXQgdGhlIGRvbWVzdGljIGNhdCBpcyBhIG1lbWJlciBvZj8iLCJjb3JyZWN0X2Fuc3dlciI6IkZlbGlkYWUiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJGZWxpbmFlIiwiRmVsaXMiLCJDYXQiXSwiYW5zd2VycyI6WyJGZWxpbmFlIiwiRmVsaXMiLCJDYXQiLCJGZWxpZGFlIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJXaGF0IGRvZyBicmVhZCBpcyBvbmUgb2YgdGhlIG9sZGVzdCBicmVlZHMgb2YgZG9nIGFuZCBoYXMgZmxvdXJpc2hlZCBzaW5jZSBiZWZvcmUgNDAwIEJDRS4iLCJjb3JyZWN0X2Fuc3dlciI6IlB1Z3MiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJCdWxsZG9ncyIsIkJveGVycyIsIkNoaWh1YWh1YSJdLCJhbnN3ZXJzIjpbIkJ1bGxkb2dzIiwiQm94ZXJzIiwiQ2hpaHVhaHVhIiwiUHVncyJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6ImJvb2xlYW4iLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJGaW5uaXNoIExhcHBodW5kIGRvZ3Mgd2VyZSB1c2VkIGZvciBoZXJkaW5nIHJlaW5kZWVyLiIsImNvcnJlY3RfYW5zd2VyIjoiVHJ1ZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkZhbHNlIl0sImFuc3dlcnMiOlsiRmFsc2UiLCJUcnVlIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoiYm9vbGVhbiIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6IllvdSBjYW4gdGVsbCB0aGUgYWdlIG9mIGEgbGFkeWJpcmQgYnkgY291bnRpbmcgdGhlIHNwb3RzIG9uIGhpcyBiYWNrLiIsImNvcnJlY3RfYW5zd2VyIjoiRmFsc2UiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJUcnVlIl0sImFuc3dlcnMiOlsiVHJ1ZSIsIkZhbHNlIl19fV19
+  recorded_at: Tue, 08 Nov 2022 23:04:52 GMT
 recorded_with: VCR 6.1.0
