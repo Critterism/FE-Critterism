@@ -54,6 +54,10 @@ img {
 }
 
 button {
-  background-color: #00adb5;
-  color: #ffffff;
+  text-align: center;
+  padding: 4px;
+  border-radius: 50px;
+  border: solid #00adb5;
+  width: 100px;
+  height: 30px;
 }
