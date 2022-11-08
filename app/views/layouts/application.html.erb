@@ -15,6 +15,9 @@
 
     <nav>
       <ul>
+              <div class= "container-fluid-left">
+              <%= image_tag ("CritterismTrans.png"), :size => "500x400" %>
+              </div>
         <% unless current_page?(root_path) %>
           <li><%= link_to 'Home', root_path %></li>
         <% end %>
@@ -22,6 +25,7 @@
           <% if current_user %>
             <strong><%= current_user.name %></strong>
             <%= link_to 'Log Out', logout_path, method: :delete %>
+        
           <% end %>
         </li>
       </ul>
