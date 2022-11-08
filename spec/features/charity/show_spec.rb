@@ -21,8 +21,8 @@ RSpec.describe 'Charity show page' do
     click_on 'Animal Charities'
     click_on 'Animal Ethics'
     expect(current_path).to eq(charity_path(461062870))
-    expect(page).to have_content("Purpose:")
+    expect(page).to have_content("Click the donate button below to donate to this charity")
     expect(page).to have_content("Location:")
-    expect(page).to have_content("Visit their Website to donate!")
+    expect(page).to have_content("Outreach and research in defense of animals.")
   end
 end
