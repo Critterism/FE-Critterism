@@ -1,4 +1,4 @@
 <h1>Charity Dashboard</h1>
 
-<p><%= button_to "Animal Charities", charity_index_path, local: true, params: {q: "animals"}, method: :get %></p>
-<p><%= button_to "Wildlife Charities", charity_index_path, local: true, params: {q: "wildlife"}, method: :get %></p>
+<p><%= button_to 'Animal Charities', '/charities/animals', method: :get %></p>
+<p><%= button_to 'Wildlife Charities', '/charities/wildlife', method: :get %></p>

@@ -21,12 +21,15 @@ http_interactions:
       Server:
       - Cowboy
       Date:
+
       - Wed, 09 Nov 2022 18:02:55 GMT
+
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
+
       - W/"38d0b47c100c524516f26054179a6348"
       Cache-Control:
       - max-age=0, private, must-revalidate
@@ -34,12 +37,14 @@ http_interactions:
       - d5469872-0645-4064-ba5a-30bf809e9b5c
       X-Runtime:
       - '0.024365'
+
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
+
       string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
         does \u0026quot;hippopotamus\u0026quot; mean and in what langauge?","correct_answer":"River
         Horse (Greek)","incorrect_answers":["River Horse (Latin)","Fat Pig (Greek)","Fat
@@ -63,4 +68,5 @@ http_interactions:
         Wasp","Irukandji","Sea Nettle","Portuguese Man-of-War"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
         is the name for a male bee that comes from an unfertilized egg?","correct_answer":"Drone","incorrect_answers":["Soldier","Worker","Male"],"answers":["Soldier","Worker","Male","Drone"]}}]}'
   recorded_at: Wed, 09 Nov 2022 18:02:56 GMT
+
 recorded_with: VCR 6.1.0
