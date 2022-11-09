@@ -8,6 +8,15 @@ RSpec.describe Game, type: :model do
   end
 
   describe 'relationships' do
-    it { should have_many(:answers) }
+    it { should have_one(:answer) }
+  end
+
+  describe '.answer_array' do
+    xit 'is the answer belonging to a question' do
+      questions = TriviaFacade.create_game_table
+      game_answers = TriviaFacade.create_answers
+
+      expect(questions[0].answers).to eq(game_answers[0])
+    end
   end
 end
