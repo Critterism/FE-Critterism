@@ -11,13 +11,12 @@ class TriviaController < ApplicationController
       redirect_to charities_path
       flash[:alert] = 'Game Over!'
     end
-
   end
 
   private
 
-  
+
   def current_question
-    @trivia_questions[0]
+    @questions[0]
   end
 end

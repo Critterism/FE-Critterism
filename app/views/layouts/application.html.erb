@@ -15,17 +15,33 @@
 
     <nav>
       <ul>
-              <div class= "container-fluid-left">
-              <%= image_tag ("CritterismTrans.png"), :size => "500x400" %>
-              </div>
         <% unless current_page?(root_path) %>
+          <li class= "container-fluid-left">
+            <%= image_tag ("CritterismTrans.png"), :size => "500x400" %>
+          </li>
           <li><%= link_to 'Home', root_path %></li>
         <% end %>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Charities</a>
+          <div class="dropdown-content">
+            <a <%= link_to 'Animals', charities_animals_path %></a>
+            <a <%= link_to 'Wildlife', charities_wildlife_path %></a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Critterism Staff Picks</a>
+          <div class="dropdown-content">
+            <a href="https://www.every.org/cbrrescue">Sunny - Chesapeake Bay Retriever Relief and Rescue</a>
+            <a href="https://www.every.org/azhumane">Nicole - Arizona Humane Society</a>
+            <a href="https://www.rmhrr.org/">Sterling - Rocky Mountain House Rabbit Rescue</a>
+            <a href="https://www.savetheelephants.org/">Nikky - Save the Elephants</a>
+            <a href="https://q14.b9e.myftpupload.com/">Taryn - The Bird Rescue Center</a>
+          </div>
+        </li>
         <li style='float:right'>
           <% if current_user %>
             <strong><%= current_user.name %></strong>
             <%= link_to 'Log Out', logout_path, method: :delete %>
-        
           <% end %>
         </li>
       </ul>

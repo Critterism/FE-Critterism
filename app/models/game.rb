@@ -1,6 +1,6 @@
 class Game < ApplicationRecord
   enum result: {unanswered: 0, correct: 1, incorrect: 2}
-  
+
   validates :category, :question, :difficulty, presence: true
   has_one :answer
   belongs_to :user

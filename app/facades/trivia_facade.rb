@@ -1,23 +1,5 @@
 class TriviaFacade
   class << self
-    # def create_trivia
-    #   json = TriviaService.get_trivia_data
-    #   json[:data].map do |data|
-    #     Trivia.new(data)
-    #   end
-    # end
-
-    # def create_game_table
-    #   json = TriviaService.get_trivia_data
-    #   json[:data].map do |data|
-    #     Game.create(
-    #       category: "#{data[:attributes][:category]}",
-    #       difficulty: "#{data[:attributes][:difficulty]}",
-    #       question: "#{data[:attributes][:question]}"
-    #     )
-    #   end
-    # end
-
     def create_trivia_game(user_id)
       json = TriviaService.get_trivia_data
       game1 = json[:data].map do |data|
