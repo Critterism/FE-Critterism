@@ -1,0 +1,11 @@
+<center>
+
+<%= @next[0].question %><br>
+<%= form_with url: trivium_path(session[:user_id]), method: :patch, local: true do |f| %>
+  <% @next[0].answer.shuffle(@answer).each do |choice| %>
+    <p><%= f.radio_button 'answer', choice %>
+    <%= f.label :answer, choice %></p>
+  <% end %>
+  <%= f.submit 'Submit' %>
+<% end %>
+</center>

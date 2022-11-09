@@ -21,39 +21,26 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 00:44:02 GMT
+      - Wed, 09 Nov 2022 16:28:43 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e86ca4d32f6049b7c0ecd2380a8acf2b"
+      - W/"74023f266f3d6f822ac350b711a5b102"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 79df7bec-4366-4dc5-98ab-bec27c1c100a
+      - b8fc3c56-a4ec-4396-ba30-a9c2ca4434ad
       X-Runtime:
-      - '0.037053'
+      - '0.026317'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
-      encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        was the name of the Ethiopian Wolf before they knew it was related to wolves?","correct_answer":"Simien
-        Jackel","incorrect_answers":["Ethiopian Coyote","Amharic Fox","Canis Simiensis"],"answers":["Ethiopian
-        Coyote","Amharic Fox","Canis Simiensis","Simien Jackel"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        slug\u0026rsquo;s blood is green.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
-        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"],"answers":["Dolphin","Whale","Octopus","Seahorse"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Cashmere
-        is the wool from which kind of animal?","correct_answer":"Goat","incorrect_answers":["Sheep","Camel","Llama"],"answers":["Sheep","Camel","Llama","Goat"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        species is a \u0026quot;mountain chicken\u0026quot;?","correct_answer":"Frog","incorrect_answers":["Chicken","Horse","Fly"],"answers":["Chicken","Horse","Fly","Frog"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Finnish
-        Lapphund dogs were used for herding reindeer.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"],"answers":["Pack","Gaggle","Herd","Murder"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"],"answers":["Drove","Tribe","Husk","Sloth"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the world\u0026#039;s longest venomous snake?","correct_answer":"King Cobra","incorrect_answers":["Green
-        Anaconda","Inland Taipan","Yellow Bellied Sea Snake"],"answers":["Green Anaconda","Inland
-        Taipan","Yellow Bellied Sea Snake","King Cobra"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        freshwater amphibian, the Axolotl, can regrow it\u0026#039;s limbs.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}}]}'
-  recorded_at: Wed, 09 Nov 2022 00:44:02 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImVhc3kiLCJxdWVzdGlvbiI6IlRoZSBLxIFrxIFwxY0gaXMgYSBsYXJnZSwgZmxpZ2h0bGVzcywgbm9jdHVybmFsIHBhcnJvdCBuYXRpdmUgdG8gd2hpY2ggY291bnRyeT8iLCJjb3JyZWN0X2Fuc3dlciI6Ik5ldyBaZWFsYW5kIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiU291dGggQWZyaWNhIiwiQXVzdHJhbGlhIiwiTWFkYWdhc2NhciJdLCJhbnN3ZXJzIjpbIlNvdXRoIEFmcmljYSIsIkF1c3RyYWxpYSIsIk1hZGFnYXNjYXIiLCJOZXcgWmVhbGFuZCJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgcmhpbm9cdTAwMjYjMDM5O3MgaG9ybiBtYWRlIG9mPyIsImNvcnJlY3RfYW5zd2VyIjoiS2VyYXRpbiIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkJvbmUiLCJJdm9yeSIsIlNraW4iXSwiYW5zd2VycyI6WyJCb25lIiwiSXZvcnkiLCJTa2luIiwiS2VyYXRpbiJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImVhc3kiLCJxdWVzdGlvbiI6IldoYXQgZG8geW91IGNhbGwgYSBiYWJ5IGJhdD8iLCJjb3JyZWN0X2Fuc3dlciI6IlB1cCIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkN1YiIsIkNoaWNrIiwiS2lkIl0sImFuc3dlcnMiOlsiQ3ViIiwiQ2hpY2siLCJLaWQiLCJQdXAiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6IlRoZSBub3cgZXh0aW5jdCBzcGVjaWVzIFx1MDAyNnF1b3Q7VGh5bGFjaW5lXHUwMDI2cXVvdDsgd2FzIG5hdGl2ZSB0byB3aGVyZT8iLCJjb3JyZWN0X2Fuc3dlciI6IlRhc21hbmlhLCBBdXN0cmFsaWEiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJCYWx1Y2hpc3RhbiwgUGFraXN0YW4iLCJXYWxsYWNoaWEsIFJvbWFuaWEiLCJPcmVnb24sIFVuaXRlZCBTdGF0ZXMiXSwiYW5zd2VycyI6WyJCYWx1Y2hpc3RhbiwgUGFraXN0YW4iLCJXYWxsYWNoaWEsIFJvbWFuaWEiLCJPcmVnb24sIFVuaXRlZCBTdGF0ZXMiLCJUYXNtYW5pYSwgQXVzdHJhbGlhIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoiYm9vbGVhbiIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6IlRoZSBQbGF0eXB1cyBpcyBhIG1hbW1hbC4iLCJjb3JyZWN0X2Fuc3dlciI6IlRydWUiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJGYWxzZSJdLCJhbnN3ZXJzIjpbIkZhbHNlIiwiVHJ1ZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImVhc3kiLCJxdWVzdGlvbiI6IldoYXQgaXMgR3J1bXB5IENhdFx1MDAyNiMwMzk7cyByZWFsIG5hbWU/IiwiY29ycmVjdF9hbnN3ZXIiOiJUYXJkYXIgU2F1Y2UiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJTYXVjZSIsIk1pbm5pZSIsIkJyb2Njb2xpIl0sImFuc3dlcnMiOlsiU2F1Y2UiLCJNaW5uaWUiLCJCcm9jY29saSIsIlRhcmRhciBTYXVjZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImhhcmQiLCJxdWVzdGlvbiI6IldoaWNoIG9mIHRoZXNlIGlzIGEgY29sb255IG9mIHBvbHlwcyBhbmQgbm90IGEgamVsbHlmaXNoPyIsImNvcnJlY3RfYW5zd2VyIjoiUG9ydHVndWVzZSBNYW4tb2YtV2FyIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiU2VhIFdhc3AiLCJJcnVrYW5kamkiLCJTZWEgTmV0dGxlIl0sImFuc3dlcnMiOlsiU2VhIFdhc3AiLCJJcnVrYW5kamkiLCJTZWEgTmV0dGxlIiwiUG9ydHVndWVzZSBNYW4tb2YtV2FyIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoiYm9vbGVhbiIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6IlRpZ2VycyBoYXZlIG9uZSBjb2xvdXIgb2Ygc2tpbiBkZXNwaXRlIHRoZSBzdHJpcGV5IGZ1ci4iLCJjb3JyZWN0X2Fuc3dlciI6IkZhbHNlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiVHJ1ZSJdLCJhbnN3ZXJzIjpbIlRydWUiLCJGYWxzZSJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgY29sbGVjdGl2ZSBub3VuIGZvciBiZWFycz8iLCJjb3JyZWN0X2Fuc3dlciI6IlNsb3RoIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRHJvdmUiLCJUcmliZSIsIkh1c2siXSwiYW5zd2VycyI6WyJEcm92ZSIsIlRyaWJlIiwiSHVzayIsIlNsb3RoIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoiaGFyZCIsInF1ZXN0aW9uIjoiVG8gd2hpY2ggYmlvbG9naWNhbCBwaHlsdW0gZG8gYWxsIG1hbW1hbHMsIGJpcmRzIGFuZCByZXB0aWxlcyBiZWxvbmc/IiwiY29ycmVjdF9hbnN3ZXIiOiJDaG9yZGF0YSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkVjaGlub2Rlcm1hdGEiLCJBbm5lbGlkYSIsIlBsYWNhem9hIl0sImFuc3dlcnMiOlsiRWNoaW5vZGVybWF0YSIsIkFubmVsaWRhIiwiUGxhY2F6b2EiLCJDaG9yZGF0YSJdfX1dfQ==
+  recorded_at: Wed, 09 Nov 2022 16:28:43 GMT
 recorded_with: VCR 6.1.0

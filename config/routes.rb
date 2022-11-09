@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get '/charities', to: 'charity_dashboard#index'
 
   resources :user, only: %i[create show]
-  resources :trivia, only: %i[index]
+  resources :trivia, only: %i[index show update]
   resources :charity, only: %i[index show]
 
 

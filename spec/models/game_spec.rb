@@ -8,6 +8,7 @@ RSpec.describe Game, type: :model do
   end
 
   describe 'relationships' do
-    it { should have_many(:answers) }
+    it { should have_one(:answer) }
+    it { should belong_to(:user) }
   end
 end
