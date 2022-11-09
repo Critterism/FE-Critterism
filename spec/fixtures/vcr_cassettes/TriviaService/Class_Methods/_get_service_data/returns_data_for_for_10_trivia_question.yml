@@ -21,43 +21,39 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 00:07:56 GMT
+      - Wed, 09 Nov 2022 00:44:11 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"d7fc50e9f95a5e4b717425ec1154db6d"
+      - W/"dd4f1e6d2daf8f9f19147063e0bf53c7"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ba7fe320-737d-4d5e-b94e-6498dd7fa44d
+      - 9b5f564f-af21-4d3e-9e61-cbc9a32a5549
       X-Runtime:
-      - '0.030911'
+      - '0.025532'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        was the name of the Ethiopian Wolf before they knew it was related to wolves?","correct_answer":"Simien
-        Jackel","incorrect_answers":["Ethiopian Coyote","Amharic Fox","Canis Simiensis"],"answers":["Ethiopian
-        Coyote","Amharic Fox","Canis Simiensis","Simien Jackel"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"A
-        carnivorous animal eats flesh, what does a nucivorous animal eat?","correct_answer":"Nuts","incorrect_answers":["Nothing","Fruit","Seaweed"],"answers":["Nothing","Fruit","Seaweed","Nuts"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        slug\u0026rsquo;s blood is green.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the Gray Wolf\u0026#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
-        Aureus","Canis Latrans","Canis Lupus Lycaon"],"answers":["Canis Aureus","Canis
-        Latrans","Canis Lupus Lycaon","Canis Lupus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"],"answers":["Lion","Parrot","Wildcat","Ape"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the name of the copper-rich protein that creates the blue blood in the
-        Antarctic octopus?","correct_answer":"Hemocyanin","incorrect_answers":["Cytochrome","Iron","Methionine"],"answers":["Cytochrome","Iron","Methionine","Hemocyanin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"By
-        definition, where does an abyssopelagic animal live?","correct_answer":"At
-        the bottom of the ocean","incorrect_answers":["In the desert","On top of a
-        mountain","Inside a tree"],"answers":["In the desert","On top of a mountain","Inside
-        a tree","At the bottom of the ocean"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        can see what\u0026#039;s behind themselves without turning their heads.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the name for a male bee that comes from an unfertilized egg?","correct_answer":"Drone","incorrect_answers":["Soldier","Worker","Male"],"answers":["Soldier","Worker","Male","Drone"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the collective noun for vultures?","correct_answer":"Wake","incorrect_answers":["Ambush","Building","Gaze"],"answers":["Ambush","Building","Gaze","Wake"]}}]}'
-  recorded_at: Wed, 09 Nov 2022 00:07:57 GMT
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        Axolotl is an amphibian that can spend its whole life in a larval state.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Cashmere
+        is the wool from which kind of animal?","correct_answer":"Goat","incorrect_answers":["Sheep","Camel","Llama"],"answers":["Sheep","Camel","Llama","Goat"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        species is a \u0026quot;mountain chicken\u0026quot;?","correct_answer":"Frog","incorrect_answers":["Chicken","Horse","Fly"],"answers":["Chicken","Horse","Fly","Frog"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"],"answers":["Pack","Gaggle","Herd","Murder"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of the following is another name for the \u0026quot;Poecilotheria Metallica
+        Tarantula\u0026quot;?","correct_answer":"Gooty","incorrect_answers":["Hopper","Silver
+        Stripe","Woebegone"],"answers":["Hopper","Silver Stripe","Woebegone","Gooty"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Tigers
+        have one colour of skin despite the stripey fur.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        are carnivores.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"\u0026quot;Decapods\u0026quot;
+        are an order of ten-footed crustaceans.  Which of these are NOT decapods?","correct_answer":"Krill","incorrect_answers":["Lobsters","Shrimp","Crabs"],"answers":["Lobsters","Shrimp","Crabs","Krill"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the world\u0026#039;s longest venomous snake?","correct_answer":"King Cobra","incorrect_answers":["Green
+        Anaconda","Inland Taipan","Yellow Bellied Sea Snake"],"answers":["Green Anaconda","Inland
+        Taipan","Yellow Bellied Sea Snake","King Cobra"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        freshwater amphibian, the Axolotl, can regrow it\u0026#039;s limbs.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:44:12 GMT
 recorded_with: VCR 6.1.0

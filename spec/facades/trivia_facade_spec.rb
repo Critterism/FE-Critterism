@@ -49,8 +49,8 @@ RSpec.describe TriviaFacade do
           expect(answer.incorrect2).to be_a String
           expect(answer.incorrect3).to be_a String
         else
-          expect(answer.incorrect2).to eq nil
-          expect(answer.incorrect3).to eq nil
+          expect(answer.incorrect2).to eq('')
+          expect(answer.incorrect3).to eq('')
         end
       end
     end
