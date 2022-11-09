@@ -39,4 +39,53 @@ RSpec.describe 'The Welcome Page' do
     expect(page).to_not have_content('Jerry')
     expect(page).to have_link('Sign Up/Sign In with Google')
   end
+
+  it 'has a navbar with several links' do
+    visit root_path
+
+    expect(page).to_not have_link('Home')
+    expect(page).to have_link('Animals')
+    expect(page).to have_link('Wildlife')
+    expect(page).to have_link('Sunny - Chesapeake Bay Retriever Relief and Rescue')
+    expect(page).to have_link('Nicole - Arizona Humane Society')
+    expect(page).to have_link('Sterling - Rocky Mountain House Rabbit Rescue')
+    expect(page).to have_link('Nikky - Save the Elephants')
+    expect(page).to have_link('Taryn - The Bird Rescue Center')
+    expect(page).to_not have_link('Log Out')
+
+    click_link('Animals')
+
+    expect(current_path).to eq(charities_animals_path)
+    expect(page).to have_link('Home')
+
+    click_link('Home')
+    click_link('Wildlife')
+
+    expect(current_path).to eq(charities_wildlife_path)
+
+    # click_link('Home')
+    # click_link('Sunny - Chesapeake Bay Retriever Relief and Rescue')
+    #
+    # expect(current_path).to eq('https://www.every.org/cbrrescue')
+    #
+    # visit root_path
+    # click_link('Nicole - Arizona Humane Society')
+    #
+    # expect(current_path).to eq('https://www.every.org/azhumane')
+    #
+    # visit root_path
+    # click_link('Sterling - Rocky Mountain House Rabbit Rescue')
+    #
+    # expect(current_path).to eq('https://www.rmhrr.org/')
+    #
+    # visit root_path
+    # click_link('Nikky - Save the Elephants')
+    #
+    # expect(current_path).to eq('https://www.savetheelephants.org/')
+    #
+    # visit root_path
+    # click_link('Taryn - The Bird Rescue Center')
+    #
+    # expect(current_path).to eq('https://q14.b9e.myftpupload.com/')
+  end
 end
