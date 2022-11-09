@@ -26,7 +26,7 @@ RSpec.describe 'Trivia Game' do
 
       click_link 'Play'
 
-      expect(current_path).to eq('/trivia')
+      expect(current_path).to eq(trivium_path(session[:user_id]))
       within '#trivia_questions-1' do
         expect(page).to have_content('Question 1: ')
       end
