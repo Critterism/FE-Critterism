@@ -21,26 +21,46 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 16:11:54 GMT
+      - Wed, 09 Nov 2022 18:02:55 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"56d590b02abf561cdb399d3df1228ddd"
+      - W/"38d0b47c100c524516f26054179a6348"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1dc0fddc-b901-47f8-87ef-3f8156bb63e0
+      - d5469872-0645-4064-ba5a-30bf809e9b5c
       X-Runtime:
-      - '0.063679'
+      - '0.024365'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJkYXRhIjpbeyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiQSBjYXJuaXZvcm91cyBhbmltYWwgZWF0cyBmbGVzaCwgd2hhdCBkb2VzIGEgbnVjaXZvcm91cyBhbmltYWwgZWF0PyIsImNvcnJlY3RfYW5zd2VyIjoiTnV0cyIsImluY29ycmVjdF9hbnN3ZXJzIjpbIk5vdGhpbmciLCJGcnVpdCIsIlNlYXdlZWQiXSwiYW5zd2VycyI6WyJOb3RoaW5nIiwiRnJ1aXQiLCJTZWF3ZWVkIiwiTnV0cyJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCB0eXBlIG9mIGFuaW1hbCBpcyBhIG5hdHRlcmphY2s/IiwiY29ycmVjdF9hbnN3ZXIiOiJUb2FkIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiQmlyZCIsIkZpc2giLCJJbnNlY3QiXSwiYW5zd2VycyI6WyJCaXJkIiwiRmlzaCIsIkluc2VjdCIsIlRvYWQiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJlYXN5IiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBmYXN0ZXN0ICBsYW5kIGFuaW1hbD8iLCJjb3JyZWN0X2Fuc3dlciI6IkNoZWV0YWgiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJMaW9uIiwiVGhvbXNvblx1MDAyNnJzcXVvO3MgR2F6ZWxsZSIsIlByb25naG9ybiBBbnRlbG9wZSJdLCJhbnN3ZXJzIjpbIkxpb24iLCJUaG9tc29uXHUwMDI2cnNxdW87cyBHYXplbGxlIiwiUHJvbmdob3JuIEFudGVsb3BlIiwiQ2hlZXRhaCJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6ImJvb2xlYW4iLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJUaGUgQ2VyYXRvc2F1cnVzLCBhIGRpbm9zYXVyIGtub3duIGZvciBoYXZpbmcgYSBob3JuIG9uIHRoZSB0b3Agb2YgaXRzIG5vc2UsIGlzIGFsc28ga25vd24gdG8gYmUgYSBkZWNlbmRlbnQgb2YgdGhlIFR5cmFubm9zYXVydXMgUmV4LiIsImNvcnJlY3RfYW5zd2VyIjoiRmFsc2UiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJUcnVlIl0sImFuc3dlcnMiOlsiVHJ1ZSIsIkZhbHNlIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoiYm9vbGVhbiIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6IkFuIG9jdG9wdXMgY2FuIGZpdCB0aHJvdWdoIGFueSBob2xlIGxhcmdlciB0aGFuIGl0cyBiZWFrLiIsImNvcnJlY3RfYW5zd2VyIjoiVHJ1ZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkZhbHNlIl0sImFuc3dlcnMiOlsiRmFsc2UiLCJUcnVlIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoiZWFzeSIsInF1ZXN0aW9uIjoiVGhlIEvEgWvEgXDFjSBpcyBhIGxhcmdlLCBmbGlnaHRsZXNzLCBub2N0dXJuYWwgcGFycm90IG5hdGl2ZSB0byB3aGljaCBjb3VudHJ5PyIsImNvcnJlY3RfYW5zd2VyIjoiTmV3IFplYWxhbmQiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJTb3V0aCBBZnJpY2EiLCJBdXN0cmFsaWEiLCJNYWRhZ2FzY2FyIl0sImFuc3dlcnMiOlsiU291dGggQWZyaWNhIiwiQXVzdHJhbGlhIiwiTWFkYWdhc2NhciIsIk5ldyBaZWFsYW5kIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoiYm9vbGVhbiIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6Ilx1MDAyNnF1b3Q7S2FtZWEsXHUwMDI2cXVvdDsgdGhlIEdpbGJlcnRlc2UgSXNsYW5kZXIgd29yZCBmb3IgZG9nLCBpcyBkZXJpdmVkIGZyb20gdGhlIEVuZ2xpc2ggcGhyYXNlIFx1MDAyNnF1b3Q7Q29tZSBoZXJlIVx1MDAyNnF1b3Q7IiwiY29ycmVjdF9hbnN3ZXIiOiJUcnVlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRmFsc2UiXSwiYW5zd2VycyI6WyJGYWxzZSIsIlRydWUiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJib29sZWFuIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiVGhlIGF2ZXJhZ2UgbGlmZXNwYW4gb2YgYSB3aWxkY2F0IGlzIG9ubHkgYXJvdW5kIDUtNiB5ZWFycy4gIiwiY29ycmVjdF9hbnN3ZXIiOiJGYWxzZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIlRydWUiXSwiYW5zd2VycyI6WyJUcnVlIiwiRmFsc2UiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJlYXN5IiwicXVlc3Rpb24iOiJXaGljaCBjbGFzcyBvZiBhbmltYWxzIGFyZSBuZXd0cyBtZW1iZXJzIG9mPyIsImNvcnJlY3RfYW5zd2VyIjoiQW1waGliaWFuIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRmlzaCIsIlJlcHRpbGVzIiwiTWFtbWFscyJdLCJhbnN3ZXJzIjpbIkZpc2giLCJSZXB0aWxlcyIsIk1hbW1hbHMiLCJBbXBoaWJpYW4iXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJoYXJkIiwicXVlc3Rpb24iOiJUbyB3aGljaCBiaW9sb2dpY2FsIHBoeWx1bSBkbyBhbGwgbWFtbWFscywgYmlyZHMgYW5kIHJlcHRpbGVzIGJlbG9uZz8iLCJjb3JyZWN0X2Fuc3dlciI6IkNob3JkYXRhIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRWNoaW5vZGVybWF0YSIsIkFubmVsaWRhIiwiUGxhY2F6b2EiXSwiYW5zd2VycyI6WyJFY2hpbm9kZXJtYXRhIiwiQW5uZWxpZGEiLCJQbGFjYXpvYSIsIkNob3JkYXRhIl19fV19
-  recorded_at: Wed, 09 Nov 2022 16:11:54 GMT
+      encoding: UTF-8
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        does \u0026quot;hippopotamus\u0026quot; mean and in what langauge?","correct_answer":"River
+        Horse (Greek)","incorrect_answers":["River Horse (Latin)","Fat Pig (Greek)","Fat
+        Pig (Latin)"],"answers":["River Horse (Latin)","Fat Pig (Greek)","Fat Pig
+        (Latin)","River Horse (Greek)"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
+        Ergaster","Homo Erectus","Homo Neanderthalensis"],"answers":["Homo Ergaster","Homo
+        Erectus","Homo Neanderthalensis","Homo Sapiens"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
+        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"],"answers":["Dolphin","Whale","Octopus","Seahorse"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the Gray Wolf\u0026#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
+        Aureus","Canis Latrans","Canis Lupus Lycaon"],"answers":["Canis Aureus","Canis
+        Latrans","Canis Lupus Lycaon","Canis Lupus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        are rodents.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of these animals is NOT a lizard?","correct_answer":"Tuatara","incorrect_answers":["Komodo
+        Dragon","Gila Monster","Green Iguana"],"answers":["Komodo Dragon","Gila Monster","Green
+        Iguana","Tuatara"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Unlike
+        on most salamanders, this part of a newt is flat?","correct_answer":"Tail","incorrect_answers":["Head","Teeth","Feet"],"answers":["Head","Teeth","Feet","Tail"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Cats
+        have whiskers under their legs.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
+        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"],"answers":["Sea
+        Wasp","Irukandji","Sea Nettle","Portuguese Man-of-War"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the name for a male bee that comes from an unfertilized egg?","correct_answer":"Drone","incorrect_answers":["Soldier","Worker","Male"],"answers":["Soldier","Worker","Male","Drone"]}}]}'
+  recorded_at: Wed, 09 Nov 2022 18:02:56 GMT
 recorded_with: VCR 6.1.0
