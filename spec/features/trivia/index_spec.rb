@@ -19,9 +19,7 @@ RSpec.describe 'Trivia Game' do
   end
 
   context 'success' do
-    # let!(:questions) { TriviaFacade.create_trivia }
-    # let!(:question1) { questions.first }
-    # let!(:question2) { questions.second }
+
 
     it 'displays a link to play trivia to a signed in user' do
       expect(page).to have_link('Play')

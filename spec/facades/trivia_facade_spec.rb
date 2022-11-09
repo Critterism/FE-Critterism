@@ -21,9 +21,9 @@ RSpec.describe TriviaFacade do
     end
   end
 
-  describe '.create_game', :vcr do
+  describe '.create_tables', :vcr do
     it 'populates attributes to the Games table' do
-      game = TriviaFacade.create_game
+      game = TriviaFacade.create_game_table
 
       expect(game).to be_an Array
       game.each do |question|
@@ -40,7 +40,8 @@ RSpec.describe TriviaFacade do
 
       expect(answers).to be_an Array
       answers.each do |answer|
-        expect(answer.id).to eq nil
+        expect(answer.id).to be_an Integer
+        expect(answer.game_id).to be_an Integer
         expect(answer.answer_type).to be_a String
         expect(answer.correct).to be_a String
         expect(answer.incorrect1).to be_a String
@@ -48,8 +49,8 @@ RSpec.describe TriviaFacade do
           expect(answer.incorrect2).to be_a String
           expect(answer.incorrect3).to be_a String
         else
-          expect(answer.incorrect2).to eq nil
-          expect(answer.incorrect3).to eq nil
+          expect(answer.incorrect2).to eq('')
+          expect(answer.incorrect3).to eq('')
         end
       end
     end

@@ -21,41 +21,39 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Tue, 08 Nov 2022 22:24:23 GMT
+      - Wed, 09 Nov 2022 00:44:11 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"15c04eb9389fc3affb980293ea40fba2"
+      - W/"dd4f1e6d2daf8f9f19147063e0bf53c7"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a6f8719a-a57e-4857-886a-a4df09292332
+      - 9b5f564f-af21-4d3e-9e61-cbc9a32a5549
       X-Runtime:
-      - '0.026038'
+      - '0.025532'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
-        Ergaster","Homo Erectus","Homo Neanderthalensis"],"answers":["Homo Ergaster","Homo
-        Erectus","Homo Neanderthalensis","Homo Sapiens"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"\u0026quot;Kamea,\u0026quot;
-        the Gilbertese Islander word for dog, is derived from the English phrase \u0026quot;Come
-        here!\u0026quot;","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        are rhino\u0026#039;s horn made of?","correct_answer":"Keratin","incorrect_answers":["Bone","Ivory","Skin"],"answers":["Bone","Ivory","Skin","Keratin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"],"answers":["Canidae","Felidae","Eupleridae","Hyaenidae"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"For
-        what reason would a spotted hyena \u0026quot;laugh\u0026quot;?","correct_answer":"Nervousness","incorrect_answers":["Excitement","Aggression","Exhaustion"],"answers":["Excitement","Aggression","Exhaustion","Nervousness"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        do you call a baby bat?","correct_answer":"Pup","incorrect_answers":["Cub","Chick","Kid"],"answers":["Cub","Chick","Kid","Pup"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is Grumpy Cat\u0026#039;s real name?","correct_answer":"Tardar Sauce","incorrect_answers":["Sauce","Minnie","Broccoli"],"answers":["Sauce","Minnie","Broccoli","Tardar
-        Sauce"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for rats?","correct_answer":"Mischief","incorrect_answers":["Pack","Race","Drift"],"answers":["Pack","Race","Drift","Mischief"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the collective noun for vultures?","correct_answer":"Wake","incorrect_answers":["Ambush","Building","Gaze"],"answers":["Ambush","Building","Gaze","Wake"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        Axolotl is an amphibian that can spend its whole life in a larval state.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Cashmere
+        is the wool from which kind of animal?","correct_answer":"Goat","incorrect_answers":["Sheep","Camel","Llama"],"answers":["Sheep","Camel","Llama","Goat"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        species is a \u0026quot;mountain chicken\u0026quot;?","correct_answer":"Frog","incorrect_answers":["Chicken","Horse","Fly"],"answers":["Chicken","Horse","Fly","Frog"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"],"answers":["Pack","Gaggle","Herd","Murder"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of the following is another name for the \u0026quot;Poecilotheria Metallica
+        Tarantula\u0026quot;?","correct_answer":"Gooty","incorrect_answers":["Hopper","Silver
+        Stripe","Woebegone"],"answers":["Hopper","Silver Stripe","Woebegone","Gooty"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Tigers
+        have one colour of skin despite the stripey fur.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        are carnivores.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"\u0026quot;Decapods\u0026quot;
+        are an order of ten-footed crustaceans.  Which of these are NOT decapods?","correct_answer":"Krill","incorrect_answers":["Lobsters","Shrimp","Crabs"],"answers":["Lobsters","Shrimp","Crabs","Krill"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
         is the world\u0026#039;s longest venomous snake?","correct_answer":"King Cobra","incorrect_answers":["Green
         Anaconda","Inland Taipan","Yellow Bellied Sea Snake"],"answers":["Green Anaconda","Inland
-        Taipan","Yellow Bellied Sea Snake","King Cobra"]}}]}'
-  recorded_at: Tue, 08 Nov 2022 22:24:23 GMT
+        Taipan","Yellow Bellied Sea Snake","King Cobra"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        freshwater amphibian, the Axolotl, can regrow it\u0026#039;s limbs.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:44:12 GMT
 recorded_with: VCR 6.1.0
