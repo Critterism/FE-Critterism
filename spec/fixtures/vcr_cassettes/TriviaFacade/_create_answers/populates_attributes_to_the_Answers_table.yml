@@ -21,44 +21,37 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 00:07:48 GMT
+      - Wed, 09 Nov 2022 00:35:35 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"11c4b3b7e2fa1ca65b6255924342d4f8"
+      - W/"fae55161fa0cf3b7668df02e52d7ba1e"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5b8190f3-e3ae-4ee5-ae84-f9965a425ae6
+      - 9e57ba09-184b-49c8-8c5d-70bdf6389274
       X-Runtime:
-      - '1.064357'
+      - '3.030092'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        was the name of the Ethiopian Wolf before they knew it was related to wolves?","correct_answer":"Simien
-        Jackel","incorrect_answers":["Ethiopian Coyote","Amharic Fox","Canis Simiensis"],"answers":["Ethiopian
-        Coyote","Amharic Fox","Canis Simiensis","Simien Jackel"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
-        Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is
-        also known to be a decendent of the Tyrannosaurus Rex.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"An
-        octopus can fit through any hole larger than its beak.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
-        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"],"answers":["Dolphin","Whale","Octopus","Seahorse"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"An
+        octopus can fit through any hole larger than its beak.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Kangaroos
+        keep food in their pouches next to their children.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
         is the scientific name for the \u0026quot;Polar Bear\u0026quot;?","correct_answer":"Ursus
         Maritimus","incorrect_answers":["Polar Bear","Ursus Spelaeus","Ursus Arctos"],"answers":["Polar
-        Bear","Ursus Spelaeus","Ursus Arctos","Ursus Maritimus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"How
-        many known living species of hyenas are there?","correct_answer":"4","incorrect_answers":["8","2","6"],"answers":["8","2","6","4"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the scientific name of the Budgerigar?","correct_answer":"Melopsittacus
-        undulatus","incorrect_answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara
-        macao"],"answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara macao","Melopsittacus
-        undulatus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"In
-        2016, the IUCN reclassified the status of Giant Pandas from endangered to
-        vulnerable.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        species is a \u0026quot;mountain chicken\u0026quot;?","correct_answer":"Frog","incorrect_answers":["Chicken","Horse","Fly"],"answers":["Chicken","Horse","Fly","Frog"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        are carnivores.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}}]}'
-  recorded_at: Wed, 09 Nov 2022 00:07:49 GMT
+        Bear","Ursus Spelaeus","Ursus Arctos","Ursus Maritimus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        bear does NOT defecate during hibernation. ","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Which
+        animal was part of an Russian domestication experiment in 1959?","correct_answer":"Foxes","incorrect_answers":["Pigeons","Bears","Alligators"],"answers":["Pigeons","Bears","Alligators","Foxes"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        average lifespan of a wildcat is only around 5-6 years. ","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Cats
+        have whiskers under their legs.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
+        dish Fugu, is made from what family of fish?","correct_answer":"Pufferfish","incorrect_answers":["Bass","Salmon","Mackerel"],"answers":["Bass","Salmon","Mackerel","Pufferfish"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the collective noun for vultures?","correct_answer":"Wake","incorrect_answers":["Ambush","Building","Gaze"],"answers":["Ambush","Building","Gaze","Wake"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        internet browser Firefox is named after the Red Panda.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:35:36 GMT
 recorded_with: VCR 6.1.0

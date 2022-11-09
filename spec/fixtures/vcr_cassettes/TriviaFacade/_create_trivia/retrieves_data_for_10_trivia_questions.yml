@@ -21,43 +21,45 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 00:07:46 GMT
+      - Wed, 09 Nov 2022 00:35:31 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"977e3020888472b1253952a095564f08"
+      - W/"84e1442079038d11f3004f583a3278dc"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ea6edb88-f65c-4c61-90d8-cb0d859618bc
+      - 422e463c-c986-410f-8ea3-9065aba39bcf
       X-Runtime:
-      - '1.051840'
+      - '0.125686'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        was the name of the Ethiopian Wolf before they knew it was related to wolves?","correct_answer":"Simien
-        Jackel","incorrect_answers":["Ethiopian Coyote","Amharic Fox","Canis Simiensis"],"answers":["Ethiopian
-        Coyote","Amharic Fox","Canis Simiensis","Simien Jackel"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"An
-        octopus can fit through any hole larger than its beak.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        species of Brown Bear is not extinct?","correct_answer":"Syrian Brown Bear","incorrect_answers":["California
-        Grizzly Bear","Atlas Bear","Mexican Grizzly Bear"],"answers":["California
-        Grizzly Bear","Atlas Bear","Mexican Grizzly Bear","Syrian Brown Bear"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the Gray Wolf\u0026#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
-        Aureus","Canis Latrans","Canis Lupus Lycaon"],"answers":["Canis Aureus","Canis
-        Latrans","Canis Lupus Lycaon","Canis Lupus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        flock of crows is known as a homicide.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
-        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"],"answers":["Sea
-        Wasp","Irukandji","Sea Nettle","Portuguese Man-of-War"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"],"answers":["Black","White","Yellow","Brown"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"You
-        can tell the age of a ladybird by counting the spots on his back.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        are carnivores.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"To
-        which biological phylum do all mammals, birds and reptiles belong?","correct_answer":"Chordata","incorrect_answers":["Echinodermata","Annelida","Placazoa"],"answers":["Echinodermata","Annelida","Placazoa","Chordata"]}}]}'
-  recorded_at: Wed, 09 Nov 2022 00:07:46 GMT
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        Axolotl is an amphibian that can spend its whole life in a larval state.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is
+        also known to be a decendent of the Tyrannosaurus Rex.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
+        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"],"answers":["Dolphin","Whale","Octopus","Seahorse"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the scientific name of the Budgerigar?","correct_answer":"Melopsittacus
+        undulatus","incorrect_answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara
+        macao"],"answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara macao","Melopsittacus
+        undulatus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Which
+        animal was part of an Russian domestication experiment in 1959?","correct_answer":"Foxes","incorrect_answers":["Pigeons","Bears","Alligators"],"answers":["Pigeons","Bears","Alligators","Foxes"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of these animals is NOT a lizard?","correct_answer":"Tuatara","incorrect_answers":["Komodo
+        Dragon","Gila Monster","Green Iguana"],"answers":["Komodo Dragon","Gila Monster","Green
+        Iguana","Tuatara"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the name of the copper-rich protein that creates the blue blood in the
+        Antarctic octopus?","correct_answer":"Hemocyanin","incorrect_answers":["Cytochrome","Iron","Methionine"],"answers":["Cytochrome","Iron","Methionine","Hemocyanin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"By
+        definition, where does an abyssopelagic animal live?","correct_answer":"At
+        the bottom of the ocean","incorrect_answers":["In the desert","On top of a
+        mountain","Inside a tree"],"answers":["In the desert","On top of a mountain","Inside
+        a tree","At the bottom of the ocean"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"],"answers":["Black","White","Yellow","Brown"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
+        many teeth does an adult rabbit have?","correct_answer":"28","incorrect_answers":["30","26","24"],"answers":["30","26","24","28"]}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:35:32 GMT
 recorded_with: VCR 6.1.0
