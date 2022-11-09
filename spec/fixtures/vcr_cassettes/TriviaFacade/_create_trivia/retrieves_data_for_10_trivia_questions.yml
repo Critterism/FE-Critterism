@@ -21,26 +21,41 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 16:11:54 GMT
+      - Wed, 09 Nov 2022 18:41:37 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"56d590b02abf561cdb399d3df1228ddd"
+      - W/"a6af346d18f411d342a0c90b20f55198"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1dc0fddc-b901-47f8-87ef-3f8156bb63e0
+      - 8013507d-b0e0-4eb5-b871-f2935a9f6c31
       X-Runtime:
-      - '0.063679'
+      - '0.028555'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJkYXRhIjpbeyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiQSBjYXJuaXZvcm91cyBhbmltYWwgZWF0cyBmbGVzaCwgd2hhdCBkb2VzIGEgbnVjaXZvcm91cyBhbmltYWwgZWF0PyIsImNvcnJlY3RfYW5zd2VyIjoiTnV0cyIsImluY29ycmVjdF9hbnN3ZXJzIjpbIk5vdGhpbmciLCJGcnVpdCIsIlNlYXdlZWQiXSwiYW5zd2VycyI6WyJOb3RoaW5nIiwiRnJ1aXQiLCJTZWF3ZWVkIiwiTnV0cyJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCB0eXBlIG9mIGFuaW1hbCBpcyBhIG5hdHRlcmphY2s/IiwiY29ycmVjdF9hbnN3ZXIiOiJUb2FkIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiQmlyZCIsIkZpc2giLCJJbnNlY3QiXSwiYW5zd2VycyI6WyJCaXJkIiwiRmlzaCIsIkluc2VjdCIsIlRvYWQiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJlYXN5IiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBmYXN0ZXN0ICBsYW5kIGFuaW1hbD8iLCJjb3JyZWN0X2Fuc3dlciI6IkNoZWV0YWgiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJMaW9uIiwiVGhvbXNvblx1MDAyNnJzcXVvO3MgR2F6ZWxsZSIsIlByb25naG9ybiBBbnRlbG9wZSJdLCJhbnN3ZXJzIjpbIkxpb24iLCJUaG9tc29uXHUwMDI2cnNxdW87cyBHYXplbGxlIiwiUHJvbmdob3JuIEFudGVsb3BlIiwiQ2hlZXRhaCJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6ImJvb2xlYW4iLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJUaGUgQ2VyYXRvc2F1cnVzLCBhIGRpbm9zYXVyIGtub3duIGZvciBoYXZpbmcgYSBob3JuIG9uIHRoZSB0b3Agb2YgaXRzIG5vc2UsIGlzIGFsc28ga25vd24gdG8gYmUgYSBkZWNlbmRlbnQgb2YgdGhlIFR5cmFubm9zYXVydXMgUmV4LiIsImNvcnJlY3RfYW5zd2VyIjoiRmFsc2UiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJUcnVlIl0sImFuc3dlcnMiOlsiVHJ1ZSIsIkZhbHNlIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoiYm9vbGVhbiIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6IkFuIG9jdG9wdXMgY2FuIGZpdCB0aHJvdWdoIGFueSBob2xlIGxhcmdlciB0aGFuIGl0cyBiZWFrLiIsImNvcnJlY3RfYW5zd2VyIjoiVHJ1ZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkZhbHNlIl0sImFuc3dlcnMiOlsiRmFsc2UiLCJUcnVlIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoiZWFzeSIsInF1ZXN0aW9uIjoiVGhlIEvEgWvEgXDFjSBpcyBhIGxhcmdlLCBmbGlnaHRsZXNzLCBub2N0dXJuYWwgcGFycm90IG5hdGl2ZSB0byB3aGljaCBjb3VudHJ5PyIsImNvcnJlY3RfYW5zd2VyIjoiTmV3IFplYWxhbmQiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJTb3V0aCBBZnJpY2EiLCJBdXN0cmFsaWEiLCJNYWRhZ2FzY2FyIl0sImFuc3dlcnMiOlsiU291dGggQWZyaWNhIiwiQXVzdHJhbGlhIiwiTWFkYWdhc2NhciIsIk5ldyBaZWFsYW5kIl19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoiYm9vbGVhbiIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6Ilx1MDAyNnF1b3Q7S2FtZWEsXHUwMDI2cXVvdDsgdGhlIEdpbGJlcnRlc2UgSXNsYW5kZXIgd29yZCBmb3IgZG9nLCBpcyBkZXJpdmVkIGZyb20gdGhlIEVuZ2xpc2ggcGhyYXNlIFx1MDAyNnF1b3Q7Q29tZSBoZXJlIVx1MDAyNnF1b3Q7IiwiY29ycmVjdF9hbnN3ZXIiOiJUcnVlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRmFsc2UiXSwiYW5zd2VycyI6WyJGYWxzZSIsIlRydWUiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJib29sZWFuIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiVGhlIGF2ZXJhZ2UgbGlmZXNwYW4gb2YgYSB3aWxkY2F0IGlzIG9ubHkgYXJvdW5kIDUtNiB5ZWFycy4gIiwiY29ycmVjdF9hbnN3ZXIiOiJGYWxzZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIlRydWUiXSwiYW5zd2VycyI6WyJUcnVlIiwiRmFsc2UiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJlYXN5IiwicXVlc3Rpb24iOiJXaGljaCBjbGFzcyBvZiBhbmltYWxzIGFyZSBuZXd0cyBtZW1iZXJzIG9mPyIsImNvcnJlY3RfYW5zd2VyIjoiQW1waGliaWFuIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRmlzaCIsIlJlcHRpbGVzIiwiTWFtbWFscyJdLCJhbnN3ZXJzIjpbIkZpc2giLCJSZXB0aWxlcyIsIk1hbW1hbHMiLCJBbXBoaWJpYW4iXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJoYXJkIiwicXVlc3Rpb24iOiJUbyB3aGljaCBiaW9sb2dpY2FsIHBoeWx1bSBkbyBhbGwgbWFtbWFscywgYmlyZHMgYW5kIHJlcHRpbGVzIGJlbG9uZz8iLCJjb3JyZWN0X2Fuc3dlciI6IkNob3JkYXRhIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRWNoaW5vZGVybWF0YSIsIkFubmVsaWRhIiwiUGxhY2F6b2EiXSwiYW5zd2VycyI6WyJFY2hpbm9kZXJtYXRhIiwiQW5uZWxpZGEiLCJQbGFjYXpvYSIsIkNob3JkYXRhIl19fV19
-  recorded_at: Wed, 09 Nov 2022 16:11:54 GMT
+      encoding: UTF-8
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
+        Ergaster","Homo Erectus","Homo Neanderthalensis"],"answers":["Homo Ergaster","Homo
+        Erectus","Homo Neanderthalensis","Homo Sapiens"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
+        many legs do butterflies have?","correct_answer":"6","incorrect_answers":["2","4","0"],"answers":["2","4","0","6"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"],"answers":["Canidae","Felidae","Eupleridae","Hyaenidae"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"For
+        what reason would a spotted hyena \u0026quot;laugh\u0026quot;?","correct_answer":"Nervousness","incorrect_answers":["Excitement","Aggression","Exhaustion"],"answers":["Excitement","Aggression","Exhaustion","Nervousness"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
+        now extinct species \u0026quot;Thylacine\u0026quot; was native to where?","correct_answer":"Tasmania,
+        Australia","incorrect_answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
+        United States"],"answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
+        United States","Tasmania, Australia"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the name of the family that the domestic cat is a member of?","correct_answer":"Felidae","incorrect_answers":["Felinae","Felis","Cat"],"answers":["Felinae","Felis","Cat","Felidae"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the name of the copper-rich protein that creates the blue blood in the
+        Antarctic octopus?","correct_answer":"Hemocyanin","incorrect_answers":["Cytochrome","Iron","Methionine"],"answers":["Cytochrome","Iron","Methionine","Hemocyanin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the name for a male bee that comes from an unfertilized egg?","correct_answer":"Drone","incorrect_answers":["Soldier","Worker","Male"],"answers":["Soldier","Worker","Male","Drone"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"],"answers":["Drove","Tribe","Husk","Sloth"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the collective noun for rats?","correct_answer":"Mischief","incorrect_answers":["Pack","Race","Drift"],"answers":["Pack","Race","Drift","Mischief"]}}]}'
+  recorded_at: Wed, 09 Nov 2022 18:41:38 GMT
 recorded_with: VCR 6.1.0

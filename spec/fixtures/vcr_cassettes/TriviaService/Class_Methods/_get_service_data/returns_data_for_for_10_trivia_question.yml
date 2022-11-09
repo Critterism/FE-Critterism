@@ -21,42 +21,38 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 16:12:04 GMT
+      - Wed, 09 Nov 2022 18:41:50 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"409cd528243832678b505c81de97bd91"
+      - W/"36ad981dbe75fe7ec8d001afff625c9f"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 54105a52-1081-493f-afd2-e34746fba7bf
+      - f598e577-134f-4739-9823-475479e83c0a
       X-Runtime:
-      - '1.027061'
+      - '3.027881'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
-        Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is
-        also known to be a decendent of the Tyrannosaurus Rex.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        species of Brown Bear is not extinct?","correct_answer":"Syrian Brown Bear","incorrect_answers":["California
-        Grizzly Bear","Atlas Bear","Mexican Grizzly Bear"],"answers":["California
-        Grizzly Bear","Atlas Bear","Mexican Grizzly Bear","Syrian Brown Bear"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
-        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"],"answers":["Dolphin","Whale","Octopus","Seahorse"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Kangaroos
-        keep food in their pouches next to their children.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        do you call a baby bat?","correct_answer":"Pup","incorrect_answers":["Cub","Chick","Kid"],"answers":["Cub","Chick","Kid","Pup"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"In
-        2016, the IUCN reclassified the status of Giant Pandas from endangered to
-        vulnerable.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the name of the copper-rich protein that creates the blue blood in the
-        Antarctic octopus?","correct_answer":"Hemocyanin","incorrect_answers":["Cytochrome","Iron","Methionine"],"answers":["Cytochrome","Iron","Methionine","Hemocyanin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Finnish
-        Lapphund dogs were used for herding reindeer.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the scientific name of the Common Chimpanzee?","correct_answer":"Pan troglodytes","incorrect_answers":["Gorilla
-        gorilla","Pan paniscus","Panthera leo"],"answers":["Gorilla gorilla","Pan
-        paniscus","Panthera leo","Pan troglodytes"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for rats?","correct_answer":"Mischief","incorrect_answers":["Pack","Race","Drift"],"answers":["Pack","Race","Drift","Mischief"]}}]}'
-  recorded_at: Wed, 09 Nov 2022 16:12:04 GMT
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        does \u0026quot;hippopotamus\u0026quot; mean and in what langauge?","correct_answer":"River
+        Horse (Greek)","incorrect_answers":["River Horse (Latin)","Fat Pig (Greek)","Fat
+        Pig (Latin)"],"answers":["River Horse (Latin)","Fat Pig (Greek)","Fat Pig
+        (Latin)","River Horse (Greek)"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Which
+        animal was part of an Russian domestication experiment in 1959?","correct_answer":"Foxes","incorrect_answers":["Pigeons","Bears","Alligators"],"answers":["Pigeons","Bears","Alligators","Foxes"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        average lifespan of a wildcat is only around 5-6 years. ","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        are rodents.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        caterpillar has more muscles than humans do.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        Killer Whale is considered a type of dolphin.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Finnish
+        Lapphund dogs were used for herding reindeer.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        can see what\u0026#039;s behind themselves without turning their heads.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the name for a male bee that comes from an unfertilized egg?","correct_answer":"Drone","incorrect_answers":["Soldier","Worker","Male"],"answers":["Soldier","Worker","Male","Drone"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the name of a rabbit\u0026#039;s abode?","correct_answer":"Burrow","incorrect_answers":["Nest","Den","Dray"],"answers":["Nest","Den","Dray","Burrow"]}}]}'
+  recorded_at: Wed, 09 Nov 2022 18:41:51 GMT
 recorded_with: VCR 6.1.0
