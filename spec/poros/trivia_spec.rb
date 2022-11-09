@@ -24,7 +24,7 @@ RSpec.describe Trivia do
       expect(trivia.question).to eq('the axolotl us amphibian that can spend it whole life in a larval state?')
       expect(trivia.correct_answer).to eq('True')
       expect(trivia.incorrect_answers).to eq(['False'])
-      expect(trivia.answers).to eq(['True', 'False'])
+      expect(trivia.answers).to be_an Array
     end
   end
 end
