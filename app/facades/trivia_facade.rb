@@ -26,12 +26,10 @@ class TriviaFacade
           difficulty: "#{data[:attributes][:difficulty]}",
           question: "#{data[:attributes][:question]}"
         )
-        if data[:attributes][:type] == "multiple"
+        if data[:attributes][:type] == "boolean"
           Answer.create(
             correct: "#{data[:attributes][:correct_answer]}",
             incorrect1: "#{data[:attributes][:incorrect_answers][0]}",
-            incorrect2: "#{data[:attributes][:incorrect_answers][1]}",
-            incorrect3: "#{data[:attributes][:incorrect_answers][2]}",
             answer_type: "#{data[:attributes][:type]}",
             game_id: question.id
           )
@@ -39,6 +37,8 @@ class TriviaFacade
           Answer.create(
             correct: "#{data[:attributes][:correct_answer]}",
             incorrect1: "#{data[:attributes][:incorrect_answers][0]}",
+            incorrect2: "#{data[:attributes][:incorrect_answers][1]}",
+            incorrect3: "#{data[:attributes][:incorrect_answers][2]}",
             answer_type: "#{data[:attributes][:type]}",
             game_id: question.id
           )

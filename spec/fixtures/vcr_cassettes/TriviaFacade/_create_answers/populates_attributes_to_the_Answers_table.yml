@@ -21,45 +21,44 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Tue, 08 Nov 2022 23:13:53 GMT
+      - Wed, 09 Nov 2022 00:07:48 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"b36556e529aa6abcfad251e2e2cc3721"
+      - W/"11c4b3b7e2fa1ca65b6255924342d4f8"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3b7787d8-b073-491c-a25d-747f9581e1ae
+      - 5b8190f3-e3ae-4ee5-ae84-f9965a425ae6
       X-Runtime:
-      - '0.028173'
+      - '1.064357'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
-        Ergaster","Homo Erectus","Homo Neanderthalensis"],"answers":["Homo Ergaster","Homo
-        Erectus","Homo Neanderthalensis","Homo Sapiens"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
-        many legs do butterflies have?","correct_answer":"6","incorrect_answers":["2","4","0"],"answers":["2","4","0","6"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"],"answers":["Canidae","Felidae","Eupleridae","Hyaenidae"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"Which
-        class of animals are newts members of?","correct_answer":"Amphibian","incorrect_answers":["Fish","Reptiles","Mammals"],"answers":["Fish","Reptiles","Mammals","Amphibian"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the scientific name of the Common Chimpanzee?","correct_answer":"Pan troglodytes","incorrect_answers":["Gorilla
-        gorilla","Pan paniscus","Panthera leo"],"answers":["Gorilla gorilla","Pan
-        paniscus","Panthera leo","Pan troglodytes"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"By
-        definition, where does an abyssopelagic animal live?","correct_answer":"At
-        the bottom of the ocean","incorrect_answers":["In the desert","On top of a
-        mountain","Inside a tree"],"answers":["In the desert","On top of a mountain","Inside
-        a tree","At the bottom of the ocean"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the common term for bovine spongiform encephalopathy (BSE)?","correct_answer":"Mad
-        Cow disease","incorrect_answers":["Weil\u0026#039;s disease","Milk fever","Foot-and-mouth
-        disease"],"answers":["Weil\u0026#039;s disease","Milk fever","Foot-and-mouth
-        disease","Mad Cow disease"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
-        many teeth does an adult rabbit have?","correct_answer":"28","incorrect_answers":["30","26","24"],"answers":["30","26","24","28"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"],"answers":["Drove","Tribe","Husk","Sloth"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for rats?","correct_answer":"Mischief","incorrect_answers":["Pack","Race","Drift"],"answers":["Pack","Race","Drift","Mischief"]}}]}'
-  recorded_at: Tue, 08 Nov 2022 23:13:53 GMT
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        was the name of the Ethiopian Wolf before they knew it was related to wolves?","correct_answer":"Simien
+        Jackel","incorrect_answers":["Ethiopian Coyote","Amharic Fox","Canis Simiensis"],"answers":["Ethiopian
+        Coyote","Amharic Fox","Canis Simiensis","Simien Jackel"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is
+        also known to be a decendent of the Tyrannosaurus Rex.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"An
+        octopus can fit through any hole larger than its beak.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
+        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"],"answers":["Dolphin","Whale","Octopus","Seahorse"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the scientific name for the \u0026quot;Polar Bear\u0026quot;?","correct_answer":"Ursus
+        Maritimus","incorrect_answers":["Polar Bear","Ursus Spelaeus","Ursus Arctos"],"answers":["Polar
+        Bear","Ursus Spelaeus","Ursus Arctos","Ursus Maritimus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"How
+        many known living species of hyenas are there?","correct_answer":"4","incorrect_answers":["8","2","6"],"answers":["8","2","6","4"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the scientific name of the Budgerigar?","correct_answer":"Melopsittacus
+        undulatus","incorrect_answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara
+        macao"],"answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara macao","Melopsittacus
+        undulatus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"In
+        2016, the IUCN reclassified the status of Giant Pandas from endangered to
+        vulnerable.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        species is a \u0026quot;mountain chicken\u0026quot;?","correct_answer":"Frog","incorrect_answers":["Chicken","Horse","Fly"],"answers":["Chicken","Horse","Fly","Frog"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        are carnivores.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:07:49 GMT
 recorded_with: VCR 6.1.0

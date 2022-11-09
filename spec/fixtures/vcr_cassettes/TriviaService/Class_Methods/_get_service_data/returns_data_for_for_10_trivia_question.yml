@@ -21,43 +21,43 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Tue, 08 Nov 2022 23:14:01 GMT
+      - Wed, 09 Nov 2022 00:07:56 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"d81a7de4e300e4eb1959e2350280accd"
+      - W/"d7fc50e9f95a5e4b717425ec1154db6d"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c5fe1a7c-8d39-4da3-b6b1-d2026bec05e1
+      - ba7fe320-737d-4d5e-b94e-6498dd7fa44d
       X-Runtime:
-      - '1.045644'
+      - '0.030911'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
-        Ergaster","Homo Erectus","Homo Neanderthalensis"],"answers":["Homo Ergaster","Homo
-        Erectus","Homo Neanderthalensis","Homo Sapiens"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        bear does NOT defecate during hibernation. ","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the scientific name of the cheetah?","correct_answer":"Acinonyx jubatus","incorrect_answers":["Panthera
-        onca","Lynx rufus","Felis catus"],"answers":["Panthera onca","Lynx rufus","Felis
-        catus","Acinonyx jubatus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of these animals is NOT a lizard?","correct_answer":"Tuatara","incorrect_answers":["Komodo
-        Dragon","Gila Monster","Green Iguana"],"answers":["Komodo Dragon","Gila Monster","Green
-        Iguana","Tuatara"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"],"answers":["Pack","Gaggle","Herd","Murder"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
-        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"],"answers":["Sea
-        Wasp","Irukandji","Sea Nettle","Portuguese Man-of-War"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"],"answers":["Black","White","Yellow","Brown"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the name of a rabbit\u0026#039;s abode?","correct_answer":"Burrow","incorrect_answers":["Nest","Den","Dray"],"answers":["Nest","Den","Dray","Burrow"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for rats?","correct_answer":"Mischief","incorrect_answers":["Pack","Race","Drift"],"answers":["Pack","Race","Drift","Mischief"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        internet browser Firefox is named after the Red Panda.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}}]}'
-  recorded_at: Tue, 08 Nov 2022 23:14:02 GMT
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        was the name of the Ethiopian Wolf before they knew it was related to wolves?","correct_answer":"Simien
+        Jackel","incorrect_answers":["Ethiopian Coyote","Amharic Fox","Canis Simiensis"],"answers":["Ethiopian
+        Coyote","Amharic Fox","Canis Simiensis","Simien Jackel"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"A
+        carnivorous animal eats flesh, what does a nucivorous animal eat?","correct_answer":"Nuts","incorrect_answers":["Nothing","Fruit","Seaweed"],"answers":["Nothing","Fruit","Seaweed","Nuts"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        slug\u0026rsquo;s blood is green.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the Gray Wolf\u0026#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
+        Aureus","Canis Latrans","Canis Lupus Lycaon"],"answers":["Canis Aureus","Canis
+        Latrans","Canis Lupus Lycaon","Canis Lupus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"],"answers":["Lion","Parrot","Wildcat","Ape"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the name of the copper-rich protein that creates the blue blood in the
+        Antarctic octopus?","correct_answer":"Hemocyanin","incorrect_answers":["Cytochrome","Iron","Methionine"],"answers":["Cytochrome","Iron","Methionine","Hemocyanin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"By
+        definition, where does an abyssopelagic animal live?","correct_answer":"At
+        the bottom of the ocean","incorrect_answers":["In the desert","On top of a
+        mountain","Inside a tree"],"answers":["In the desert","On top of a mountain","Inside
+        a tree","At the bottom of the ocean"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        can see what\u0026#039;s behind themselves without turning their heads.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the name for a male bee that comes from an unfertilized egg?","correct_answer":"Drone","incorrect_answers":["Soldier","Worker","Male"],"answers":["Soldier","Worker","Male","Drone"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the collective noun for vultures?","correct_answer":"Wake","incorrect_answers":["Ambush","Building","Gaze"],"answers":["Ambush","Building","Gaze","Wake"]}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:07:57 GMT
 recorded_with: VCR 6.1.0
