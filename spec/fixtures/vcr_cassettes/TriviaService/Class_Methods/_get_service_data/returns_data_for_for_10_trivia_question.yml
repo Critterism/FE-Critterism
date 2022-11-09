@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://critterism-be.herokuapp.com/api/v1/trivia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Nov 2022 18:47:17 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"845aafa3519783b897856dccbd92a2fe"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - eafc9c4d-2382-4ec9-b1f3-249155ea0eed
+      X-Runtime:
+      - '3.032250'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the fastest  land animal?","correct_answer":"Cheetah","incorrect_answers":["Lion","Thomson\u0026rsquo;s
+        Gazelle","Pronghorn Antelope"],"answers":["Lion","Thomson\u0026rsquo;s Gazelle","Pronghorn
+        Antelope","Cheetah"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is
+        also known to be a decendent of the Tyrannosaurus Rex.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        are rhino\u0026#039;s horn made of?","correct_answer":"Keratin","incorrect_answers":["Bone","Ivory","Skin"],"answers":["Bone","Ivory","Skin","Keratin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        average lifespan of a wildcat is only around 5-6 years. ","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        caterpillar has more muscles than humans do.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Cats
+        have whiskers under their legs.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Finnish
+        Lapphund dogs were used for herding reindeer.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the scientific name of the Common Chimpanzee?","correct_answer":"Pan troglodytes","incorrect_answers":["Gorilla
+        gorilla","Pan paniscus","Panthera leo"],"answers":["Gorilla gorilla","Pan
+        paniscus","Panthera leo","Pan troglodytes"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"Tigers
+        have one colour of skin despite the stripey fur.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"],"answers":["Black","White","Yellow","Brown"]}}]}'
+  recorded_at: Tue, 08 Nov 2022 18:47:18 GMT
+recorded_with: VCR 6.1.0
