@@ -1,11 +1,12 @@
 class TriviaController < ApplicationController
   def index
-    @trivia_questions = TriviaFacade.create_trivia
+    @questions = TriviaFacade.create_game_table
+    @answers = TriviaFacade.create_answers
   end
 
   private
 
   def current_question
-    @trivia_questions[0]
+    @questions[0]
   end
 end
