@@ -3,11 +3,11 @@ class Answer < ApplicationRecord
   validates_presence_of :incorrect2, :incorrect3, unless: -> { answer_type = 'boolean' }
   belongs_to :game
 
-  def shuffle(answers)
-    if answers.answer_type == "multiple"
-      return [answers.correct, answers.incorrect1, answers.incorrect2, answers.incorrect3].shuffle
+  def shuffle(answer)
+    if answer.answer_type == "multiple"
+      return [answer.correct, answer.incorrect1, answer.incorrect2, answer.incorrect3].shuffle
     else
-    return [answers.correct, answers.incorrect1].shuffle
+      return [answer.correct, answer.incorrect1].shuffle
     end
   end
 end

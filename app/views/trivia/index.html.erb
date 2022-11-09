@@ -1,14 +1,1 @@
-<center>
-  <% @questions.each_with_index do |question, index| %>
-    <div id='trivia_questions-<%= index + 1 %>'>
-      <h3>Question <%= index + 1 %>: <%= question.question %></h3>
-      <% @answers.each_with_index do |answer, i| %>
-        <div id='answer'<%= i + 1 %>>
-          <button  id='button-q-<%= index + 1 %>-a-<%= i + 1 %>' type='button' >
-            <%= answer.shuffle(answer) %>
-          </button>
-        </div>
-      <% end %>
-    </div>
-  <% end %>
-</center>
+
