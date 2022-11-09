@@ -21,41 +21,52 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 18:41:37 GMT
+
+      - Wed, 09 Nov 2022 18:02:55 GMT
+
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"a6af346d18f411d342a0c90b20f55198"
+
+      - W/"38d0b47c100c524516f26054179a6348"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 8013507d-b0e0-4eb5-b871-f2935a9f6c31
+      - d5469872-0645-4064-ba5a-30bf809e9b5c
       X-Runtime:
-      - '0.028555'
+      - '0.024365'
+
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+
+      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        does \u0026quot;hippopotamus\u0026quot; mean and in what langauge?","correct_answer":"River
+        Horse (Greek)","incorrect_answers":["River Horse (Latin)","Fat Pig (Greek)","Fat
+        Pig (Latin)"],"answers":["River Horse (Latin)","Fat Pig (Greek)","Fat Pig
+        (Latin)","River Horse (Greek)"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
         is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
         Ergaster","Homo Erectus","Homo Neanderthalensis"],"answers":["Homo Ergaster","Homo
-        Erectus","Homo Neanderthalensis","Homo Sapiens"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
-        many legs do butterflies have?","correct_answer":"6","incorrect_answers":["2","4","0"],"answers":["2","4","0","6"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"],"answers":["Canidae","Felidae","Eupleridae","Hyaenidae"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"For
-        what reason would a spotted hyena \u0026quot;laugh\u0026quot;?","correct_answer":"Nervousness","incorrect_answers":["Excitement","Aggression","Exhaustion"],"answers":["Excitement","Aggression","Exhaustion","Nervousness"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
-        now extinct species \u0026quot;Thylacine\u0026quot; was native to where?","correct_answer":"Tasmania,
-        Australia","incorrect_answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
-        United States"],"answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
-        United States","Tasmania, Australia"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the name of the family that the domestic cat is a member of?","correct_answer":"Felidae","incorrect_answers":["Felinae","Felis","Cat"],"answers":["Felinae","Felis","Cat","Felidae"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the name of the copper-rich protein that creates the blue blood in the
-        Antarctic octopus?","correct_answer":"Hemocyanin","incorrect_answers":["Cytochrome","Iron","Methionine"],"answers":["Cytochrome","Iron","Methionine","Hemocyanin"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the name for a male bee that comes from an unfertilized egg?","correct_answer":"Drone","incorrect_answers":["Soldier","Worker","Male"],"answers":["Soldier","Worker","Male","Drone"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"],"answers":["Drove","Tribe","Husk","Sloth"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the collective noun for rats?","correct_answer":"Mischief","incorrect_answers":["Pack","Race","Drift"],"answers":["Pack","Race","Drift","Mischief"]}}]}'
-  recorded_at: Wed, 09 Nov 2022 18:41:38 GMT
+        Erectus","Homo Neanderthalensis","Homo Sapiens"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
+        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"],"answers":["Dolphin","Whale","Octopus","Seahorse"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the Gray Wolf\u0026#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
+        Aureus","Canis Latrans","Canis Lupus Lycaon"],"answers":["Canis Aureus","Canis
+        Latrans","Canis Lupus Lycaon","Canis Lupus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        are rodents.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of these animals is NOT a lizard?","correct_answer":"Tuatara","incorrect_answers":["Komodo
+        Dragon","Gila Monster","Green Iguana"],"answers":["Komodo Dragon","Gila Monster","Green
+        Iguana","Tuatara"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Unlike
+        on most salamanders, this part of a newt is flat?","correct_answer":"Tail","incorrect_answers":["Head","Teeth","Feet"],"answers":["Head","Teeth","Feet","Tail"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"easy","question":"Cats
+        have whiskers under their legs.","correct_answer":"True","incorrect_answers":["False"],"answers":["False","True"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
+        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"],"answers":["Sea
+        Wasp","Irukandji","Sea Nettle","Portuguese Man-of-War"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the name for a male bee that comes from an unfertilized egg?","correct_answer":"Drone","incorrect_answers":["Soldier","Worker","Male"],"answers":["Soldier","Worker","Male","Drone"]}}]}'
+  recorded_at: Wed, 09 Nov 2022 18:02:56 GMT
+
 recorded_with: VCR 6.1.0

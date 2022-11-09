@@ -13,4 +13,14 @@ RSpec.describe Answer, type: :model do
   describe 'relationships' do
     it { should belong_to(:game) }
   end
+
+  describe 'Instance Methods' do
+    describe '.shuffle' do
+      it 'returns all the answers incorrect and correct shuffled' do
+        game = Game.create!(category: "multiple", difficulty: "hard", question: "Which species of Brown Bear is not extinct?")
+        answers = Answer.create!(correct: "Syrian Brown Bear", incorrect1: "California Grizzly Bear", incorrect2: "Atlas Bear",incorrect: "Mexican Grizzly Bear", game_id: game.id, answer_type: game.category)
+        expect(answers.shuffle(answers)).to be_an Array
+      end
+    end
+  end
 end
