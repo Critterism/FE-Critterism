@@ -21,45 +21,26 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 16:11:55 GMT
+      - Wed, 09 Nov 2022 18:02:59 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e55d628158a3f77dc114caf8bdb581e9"
+      - W/"9cd16a0c488bdee072de501ee6eec03f"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b36bdc44-1366-44df-98ff-cf884336d602
+      - 9cce8dfe-6ef3-4fd5-b076-c73bd2c1a36a
       X-Runtime:
-      - '0.039533'
+      - '3.027982'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
-      encoding: UTF-8
-      string: '{"data":[{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
-        Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is
-        also known to be a decendent of the Tyrannosaurus Rex.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Cashmere
-        is the wool from which kind of animal?","correct_answer":"Goat","incorrect_answers":["Sheep","Camel","Llama"],"answers":["Sheep","Camel","Llama","Goat"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the scientific name for the \u0026quot;Polar Bear\u0026quot;?","correct_answer":"Ursus
-        Maritimus","incorrect_answers":["Polar Bear","Ursus Spelaeus","Ursus Arctos"],"answers":["Polar
-        Bear","Ursus Spelaeus","Ursus Arctos","Ursus Maritimus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        scientific suborder does the family Hyaenidae belong to?","correct_answer":"Feliformia","incorrect_answers":["Haplorhini","Caniformia","Ciconiiformes"],"answers":["Haplorhini","Caniformia","Ciconiiformes","Feliformia"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the scientific name of the Budgerigar?","correct_answer":"Melopsittacus
-        undulatus","incorrect_answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara
-        macao"],"answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara macao","Melopsittacus
-        undulatus"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"],"answers":["Lion","Parrot","Wildcat","Ape"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"Which
-        of these species is not extinct?","correct_answer":"Komodo dragon","incorrect_answers":["Japanese
-        sea lion","Tasmanian tiger","Saudi gazelle"],"answers":["Japanese sea lion","Tasmanian
-        tiger","Saudi gazelle","Komodo dragon"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
-        dish Fugu, is made from what family of fish?","correct_answer":"Pufferfish","incorrect_answers":["Bass","Salmon","Mackerel"],"answers":["Bass","Salmon","Mackerel","Pufferfish"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the scientific name of the Common Chimpanzee?","correct_answer":"Pan troglodytes","incorrect_answers":["Gorilla
-        gorilla","Pan paniscus","Panthera leo"],"answers":["Gorilla gorilla","Pan
-        paniscus","Panthera leo","Pan troglodytes"]}},{"id":null,"type":"trivia","attributes":{"category":"Animals","type":"boolean","difficulty":"medium","question":"You
-        can tell the age of a ladybird by counting the spots on his back.","correct_answer":"False","incorrect_answers":["True"],"answers":["True","False"]}}]}'
-  recorded_at: Wed, 09 Nov 2022 16:11:55 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIFx1MDAyNnF1b3Q7aGlwcG9wb3RhbXVzXHUwMDI2cXVvdDsgbWVhbiBhbmQgaW4gd2hhdCBsYW5nYXVnZT8iLCJjb3JyZWN0X2Fuc3dlciI6IlJpdmVyIEhvcnNlIChHcmVlaykiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJSaXZlciBIb3JzZSAoTGF0aW4pIiwiRmF0IFBpZyAoR3JlZWspIiwiRmF0IFBpZyAoTGF0aW4pIl0sImFuc3dlcnMiOlsiUml2ZXIgSG9yc2UgKExhdGluKSIsIkZhdCBQaWcgKEdyZWVrKSIsIkZhdCBQaWcgKExhdGluKSIsIlJpdmVyIEhvcnNlIChHcmVlaykiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJlYXN5IiwicXVlc3Rpb24iOiJUaGUgS8SBa8SBcMWNIGlzIGEgbGFyZ2UsIGZsaWdodGxlc3MsIG5vY3R1cm5hbCBwYXJyb3QgbmF0aXZlIHRvIHdoaWNoIGNvdW50cnk/IiwiY29ycmVjdF9hbnN3ZXIiOiJOZXcgWmVhbGFuZCIsImluY29ycmVjdF9hbnN3ZXJzIjpbIlNvdXRoIEFmcmljYSIsIkF1c3RyYWxpYSIsIk1hZGFnYXNjYXIiXSwiYW5zd2VycyI6WyJTb3V0aCBBZnJpY2EiLCJBdXN0cmFsaWEiLCJNYWRhZ2FzY2FyIiwiTmV3IFplYWxhbmQiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJtZWRpdW0iLCJxdWVzdGlvbiI6IkNhc2htZXJlIGlzIHRoZSB3b29sIGZyb20gd2hpY2gga2luZCBvZiBhbmltYWw/IiwiY29ycmVjdF9hbnN3ZXIiOiJHb2F0IiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiU2hlZXAiLCJDYW1lbCIsIkxsYW1hIl0sImFuc3dlcnMiOlsiU2hlZXAiLCJDYW1lbCIsIkxsYW1hIiwiR29hdCJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgcmhpbm9cdTAwMjYjMDM5O3MgaG9ybiBtYWRlIG9mPyIsImNvcnJlY3RfYW5zd2VyIjoiS2VyYXRpbiIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkJvbmUiLCJJdm9yeSIsIlNraW4iXSwiYW5zd2VycyI6WyJCb25lIiwiSXZvcnkiLCJTa2luIiwiS2VyYXRpbiJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6ImJvb2xlYW4iLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJUaGUgUGxhdHlwdXMgaXMgYSBtYW1tYWwuIiwiY29ycmVjdF9hbnN3ZXIiOiJUcnVlIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiRmFsc2UiXSwiYW5zd2VycyI6WyJGYWxzZSIsIlRydWUiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJoYXJkIiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBuYW1lIG9mIHRoZSBjb3BwZXItcmljaCBwcm90ZWluIHRoYXQgY3JlYXRlcyB0aGUgYmx1ZSBibG9vZCBpbiB0aGUgQW50YXJjdGljIG9jdG9wdXM/IiwiY29ycmVjdF9hbnN3ZXIiOiJIZW1vY3lhbmluIiwiaW5jb3JyZWN0X2Fuc3dlcnMiOlsiQ3l0b2Nocm9tZSIsIklyb24iLCJNZXRoaW9uaW5lIl0sImFuc3dlcnMiOlsiQ3l0b2Nocm9tZSIsIklyb24iLCJNZXRoaW9uaW5lIiwiSGVtb2N5YW5pbiJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6Im1lZGl1bSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgc2NpZW50aWZpYyBuYW1lIG9mIHRoZSBDb21tb24gQ2hpbXBhbnplZT8iLCJjb3JyZWN0X2Fuc3dlciI6IlBhbiB0cm9nbG9keXRlcyIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkdvcmlsbGEgZ29yaWxsYSIsIlBhbiBwYW5pc2N1cyIsIlBhbnRoZXJhIGxlbyJdLCJhbnN3ZXJzIjpbIkdvcmlsbGEgZ29yaWxsYSIsIlBhbiBwYW5pc2N1cyIsIlBhbnRoZXJhIGxlbyIsIlBhbiB0cm9nbG9keXRlcyJdfX0seyJpZCI6bnVsbCwidHlwZSI6InRyaXZpYSIsImF0dHJpYnV0ZXMiOnsiY2F0ZWdvcnkiOiJBbmltYWxzIiwidHlwZSI6Im11bHRpcGxlIiwiZGlmZmljdWx0eSI6ImVhc3kiLCJxdWVzdGlvbiI6IkhvdyBtYW55IHRlZXRoIGRvZXMgYW4gYWR1bHQgcmFiYml0IGhhdmU/IiwiY29ycmVjdF9hbnN3ZXIiOiIyOCIsImluY29ycmVjdF9hbnN3ZXJzIjpbIjMwIiwiMjYiLCIyNCJdLCJhbnN3ZXJzIjpbIjMwIiwiMjYiLCIyNCIsIjI4Il19fSx7ImlkIjpudWxsLCJ0eXBlIjoidHJpdmlhIiwiYXR0cmlidXRlcyI6eyJjYXRlZ29yeSI6IkFuaW1hbHMiLCJ0eXBlIjoibXVsdGlwbGUiLCJkaWZmaWN1bHR5IjoibWVkaXVtIiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBjb2xsZWN0aXZlIG5vdW4gZm9yIGJlYXJzPyIsImNvcnJlY3RfYW5zd2VyIjoiU2xvdGgiLCJpbmNvcnJlY3RfYW5zd2VycyI6WyJEcm92ZSIsIlRyaWJlIiwiSHVzayJdLCJhbnN3ZXJzIjpbIkRyb3ZlIiwiVHJpYmUiLCJIdXNrIiwiU2xvdGgiXX19LHsiaWQiOm51bGwsInR5cGUiOiJ0cml2aWEiLCJhdHRyaWJ1dGVzIjp7ImNhdGVnb3J5IjoiQW5pbWFscyIsInR5cGUiOiJtdWx0aXBsZSIsImRpZmZpY3VsdHkiOiJoYXJkIiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBjb2xsZWN0aXZlIG5vdW4gZm9yIHZ1bHR1cmVzPyIsImNvcnJlY3RfYW5zd2VyIjoiV2FrZSIsImluY29ycmVjdF9hbnN3ZXJzIjpbIkFtYnVzaCIsIkJ1aWxkaW5nIiwiR2F6ZSJdLCJhbnN3ZXJzIjpbIkFtYnVzaCIsIkJ1aWxkaW5nIiwiR2F6ZSIsIldha2UiXX19XX0=
+  recorded_at: Wed, 09 Nov 2022 18:02:59 GMT
 recorded_with: VCR 6.1.0
