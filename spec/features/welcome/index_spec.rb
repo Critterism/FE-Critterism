@@ -47,7 +47,7 @@ RSpec.describe 'The Welcome Page' do
     expect(page).to have_link('Animals')
     expect(page).to have_link('Wildlife')
     expect(page).to have_link('Sunny - Chesapeake Bay Retriever Relief and Rescue')
-    expect(page).to have_link('Nicole - Arizona Humane Society')
+    expect(page).to have_link('Nicole - Friends of PACC')
     expect(page).to have_link('Sterling - Rocky Mountain House Rabbit Rescue')
     expect(page).to have_link('Nikky - Save the Elephants')
     expect(page).to have_link('Taryn - The Bird Rescue Center')
