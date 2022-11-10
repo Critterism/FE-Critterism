@@ -13,10 +13,9 @@ class TriviaController < ApplicationController
     end
   end
 
-  private
-
-
-  def current_question
-    @questions[0]
+  def update
+    @user = User.find(params[:id])
+    binding.pry
+    redirect_to trivium_path(@user)
   end
 end
