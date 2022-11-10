@@ -132,11 +132,11 @@ Once cloned, run the following commands:
   </code>
 </pre>
 
-<h4>Get Charity by EIN</h4>
+<h4>Get Charity by Slug</h4>
 <pre>
   <code>
-    "/api/v1/charities/#{ein}"
-
+    "/api/v1/charities/#{slug}"
+    
     "data": {
         "id": "82ea3d2e-ee6e-4e1e-b9ef-9e890ee2be88",
         "type": "charity",
