@@ -4,6 +4,26 @@
 
 Users can sign in with Google OAuth and play a 10-question trivia game with fun animal facts. Upon completion, users are granted the option to explore animal and wildlife organizations that they can donate to. The frontend application makes API calls to the backend. Crittism is currently deployed on Heroku, click <a href="https://critterism-fe.herokuapp.com/">here</a>. 
 
+When users first visit <a href="https://critterism-fe.herokuapp.com/">Critterism</a>, they'll have an option to sign in or sign up with Google OAuth.
+
+<img width="1357" alt="Screenshot 2022-11-10 at 1 25 34 PM" src="https://user-images.githubusercontent.com/98506079/201199298-ce5d8166-8afb-4759-85f5-db5c293a95ec.png">
+
+Upon signing in, they'll have the option to play a trivia game.
+
+<img width="1383" alt="Screenshot 2022-11-10 at 1 25 45 PM" src="https://user-images.githubusercontent.com/98506079/201199868-19d00086-2a72-4e8f-91c2-93be100ddd0c.png">
+
+They only see one question at a time and the user will be told if they answered correctly or incorrectly when they hit submit.
+
+<img width="1440" alt="Screenshot 2022-11-10 at 1 25 50 PM" src="https://user-images.githubusercontent.com/98506079/201199923-33e542a9-280c-4574-b814-2d7a448ac5ea.png">
+
+When they've completed the game, they'll be presented with a choice to select animal or wildlife charities.
+
+<img width="1393" alt="Screenshot 2022-11-10 at 1 26 48 PM" src="https://user-images.githubusercontent.com/98506079/201200215-1fb32889-9e4c-47be-aab8-fb577092f547.png">
+
+Once they've made a selection, they'll see top charities to choose from.
+
+<img width="1399" alt="Screenshot 2022-11-10 at 1 27 04 PM" src="https://user-images.githubusercontent.com/98506079/201200407-a212cd83-8a8d-4e9b-84ae-93de7363cb4e.png">
+
 <!-- TABLE OF CONTENTS -->
 
 <h2> Table of Contents</h2>
