@@ -44,6 +44,11 @@ h1 {
   text-align: center;
 }
 
+.name a {
+  text-decoration: none;
+  color: #22252a;
+}
+
 .logo {
   padding: 10px;
 }
@@ -60,4 +65,9 @@ button {
   border: solid #00adb5;
   width: 100px;
   height: 30px;
+}
+
+button a {
+  text-decoration: none;
+  color: #22252a;
 }
