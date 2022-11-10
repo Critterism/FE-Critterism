@@ -18,7 +18,7 @@ RSpec.describe 'Charity show page' do
     visit root_path
     click_on 'Sign Up/Sign In with Google'
     visit charities_path
-    click_on 'Animal Charities'
+    click_link 'Animal Charities'
     click_on 'Animal Ethics'
     expect(current_path).to eq(charity_path(461062870))
     expect(page).to have_content("Click the donate button below to donate to this charity")

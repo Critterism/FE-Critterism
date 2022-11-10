@@ -6,7 +6,7 @@ RSpec.describe 'Animal Charities Index', :vcr do
     expect(page).to have_button('Animal Charities')
     expect(page).to have_button('Wildlife Charities')
 
-    click_button 'Animal Charities'
+    click_link 'Animal Charities'
 
     expect(current_path).to eq('/charities/animals')
     expect(current_path).to eq(charities_animals_path)
