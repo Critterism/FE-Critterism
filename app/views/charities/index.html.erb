@@ -1,4 +1,13 @@
-<h1>Charity Dashboard</h1>
+<h1>Browse Charities</h1>
 
-<p><%= button_to 'Animal Charities', '/charities/animals', method: :get %></p>
-<p><%= button_to 'Wildlife Charities', '/charities/wildlife', method: :get %></p>
+<center>
+
+<button id='button-charity-links' type='button'>
+  <%= link_to 'Animal Charities', '/charities/animals', method: :get %>
+</button>
+
+<button id='button-charity-links' type='button'>
+  <%= link_to 'Wildlife Charities', '/charities/wildlife', method: :get %>
+</button>
+
+</center>

@@ -4,7 +4,7 @@ RSpec.describe 'Index Page for Charities' do
   it 'shows list of wildlife charities' do
     visit charities_path
 
-    click_button 'Wildlife Charities'
+    click_link 'Wildlife Charities'
 
     expect(current_path).to eq(charities_wildlife_path)
     expect(page).to have_content("Name:")
@@ -13,7 +13,7 @@ RSpec.describe 'Index Page for Charities' do
   it 'shows list of wildlife charities', :vcr do
     visit '/charities'
 
-    click_button 'Wildlife Charities'
+    click_link 'Wildlife Charities'
 
     expect(page).to have_content('Wildlife Charities')
     expect(page).to_not have_content('Animal Charities')
@@ -28,7 +28,7 @@ RSpec.describe 'Index Page for Charities' do
   it 'shows list of animal charities', :vcr do
     visit '/charities'
 
-    click_button 'Animal Charities'
+    click_link 'Animal Charities'
 
     expect(page).to have_content('Animal Charities')
     expect(page).to_not have_content('Wildlife Charities')

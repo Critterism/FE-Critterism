@@ -21,6 +21,7 @@
           </li>
           <li><%= link_to 'Home', root_path %></li>
         <% end %>
+        <% unless current_page?(charities_path) %>
         <li class="dropdown">
           <a href="javascript:void(0)" class="dropbtn">Charities</a>
           <div class="dropdown-content">
@@ -28,6 +29,7 @@
             <a <%= link_to 'Wildlife', charities_wildlife_path %></a>
           </div>
         </li>
+        <% end %>
         <li class="dropdown">
           <a href="javascript:void(0)" class="dropbtn">Critterism Staff Picks</a>
           <div class="dropdown-content">

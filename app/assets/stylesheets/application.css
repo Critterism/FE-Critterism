@@ -85,3 +85,38 @@ body {
 /* #button-q-1-a-1 {
   background-color: red;
 } */
+
+#button-charity-links {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #00adb5;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #999;
+  height: 100px;
+  width: 20%
+}
+
+#button-charity-links a {
+  text-decoration: none;
+  color: #22252a;
+}
+
+#button-charity-links:hover {
+  background-color: #00dee8;
+  text-decoration: none;
+}
+
+#button-charity-links:active {
+  background-color: #393e46;
+  box-shadow: 0 5px #505762;
+  transform: translateY(4px);
+  text-decoration: none;
+}
