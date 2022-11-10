@@ -14,13 +14,13 @@ Upon signing in, they'll have the option to play a trivia game.
 
 They only see one question at a time and the user will be told if they answered correctly or incorrectly when they hit submit.
 
-<img width="1440" alt="Screenshot 2022-11-10 at 1 25 50 PM" src="https://user-images.githubusercontent.com/98506079/201199923-33e542a9-280c-4574-b814-2d7a448ac5ea.png">
+<img width="1391" alt="Screenshot 2022-11-10 at 1 26 09 PM" src="https://user-images.githubusercontent.com/98506079/201200686-4bbe0281-1bff-4b38-9e73-a821dc924d7d.png">
 
 When they've completed the game, they'll be presented with a choice to select animal or wildlife charities.
 
 <img width="1393" alt="Screenshot 2022-11-10 at 1 26 48 PM" src="https://user-images.githubusercontent.com/98506079/201200215-1fb32889-9e4c-47be-aab8-fb577092f547.png">
 
-Once they've made a selection, they'll see top charities to choose from.
+Once they've made a selection, they'll have a list of charities to choose from.
 
 <img width="1399" alt="Screenshot 2022-11-10 at 1 27 04 PM" src="https://user-images.githubusercontent.com/98506079/201200407-a212cd83-8a8d-4e9b-84ae-93de7363cb4e.png">
 
