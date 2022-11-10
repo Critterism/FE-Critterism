@@ -1,7 +1,7 @@
 <center>
 
   <%= @next[0].question %><br>
-  <%= form_with url: trivium_path(session[:user_id]), params: {correct: @next[0].answer.correct}, local: true, method: :patch do |f| %>
+  <%= form_with url: trivium_path(session[:user_id]), params: {question: @next[0].question}, local: true, method: :patch do |f| %>
     <% @next[0].answer.shuffle(@answer).each do |choice| %>
       <p><%= f.radio_button 'answer', choice %>
       <%= f.label :answer, choice %></p>
