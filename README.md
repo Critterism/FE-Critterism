@@ -87,7 +87,7 @@ Once cloned, run the following commands:
   <li>rails db:create</li>
   <li>rails db:migrate</li>
   <li>Run the Figaro command: <em>bundle exec figaro install</em></li>
-  <li>Update the `application.yml` file with `ENV` variables storing API keys for <em>GOOGLE_CLIENT_ID: '< your api key ></em> and <em>GOOGLE_CLIENT_SECRET: '< your ID >'</em>. Follow the instruction on how to get started with Google OAuth <a href="https://oauth.net/getting-started/">here</a>.</li>
+  <li>Update the `application.yml` file with `ENV` variables storing API keys for <em>GOOGLE_CLIENT_ID: '< your api key >'</em> and <em>GOOGLE_CLIENT_SECRET: '< your ID >'</em>. Follow the instruction on how to get started with Google OAuth <a href="https://oauth.net/getting-started/">here</a>.</li>
 </ul>  
 
 <!-- DATABASE SCHEMA -->
