@@ -15,7 +15,19 @@ class TriviaController < ApplicationController
 
   def update
     @user = User.find(params[:id])
-    binding.pry
-    redirect_to trivium_path(@user)
+    question = @user.games.find_by(params[:question])
+    if question.save
+      if params[:answer] == question.answer.correct
+        flash[:alert] = 'Correct!'
+        redirect_to trivium_path(@user)
+        @user.games.rotate
+      elsif params[:answer] != question.answer.correct
+        flash[:alert] = "Incorrect! Correct answer is #{question.answer.correct}"
+        redirect_to trivium_path(@user)
+        @user.games.rotate
+      else
+        redirect_to trivium_path(@user)
+      end
+    end
   end
 end
