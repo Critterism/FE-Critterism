@@ -17,7 +17,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
 
 body {
-  background-color: #ffffff
+  background-color: #ffffff;
+  font-family: sans-serif
 }
 
 #google_signin {
@@ -54,6 +55,7 @@ body {
     /* border-style: outset; */
     /* border: solid #00adb5; */
     border-collapse: collapse;
+    box-shadow: 0 5px #999;
     width: 100px
 }
 
@@ -67,24 +69,12 @@ body {
   color: #ffffff;
   font-family: 'Ubuntu';
   font-weight: 400;
-  font-size: 24px
+  font-size: 20px
 }
 
 #test {
   height:auto;
 }
-
-/* #trivia_questions-2 {
-  display: none;
-} */
-
-#button-q-1-a-1 {
-  background-color: red;
-}
-
-/* #button-q-1-a-1 {
-  background-color: red;
-} */
 
 #button-charity-links {
   text-decoration: none;
