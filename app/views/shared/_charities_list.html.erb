@@ -5,10 +5,10 @@
   <div class="grid-container">
     <c:forEach var="charity" items="${charity_list}">
       <div class="grid-item">
-        <div class="name">Name: <%= link_to charity.name, charity_path(charity.ein) %></div>
+        <div class="name"><%= link_to charity.name, charity_path(charity.ein) %></div>
         <div class="logo"><img src="<%= charity.logo.to_s %>" alt="<%= charity.name %>"></div>
-        <form action="/charities/#{charity_slug}" method="GET">
-        <button type="submit">More Info</button>
+        <form action="/charities/#{charity.slug}" method="GET">
+        <button type="submit"><%= link_to 'More Info', charity_path(charity.ein) %></button>
         </form>
       </div>
     </c:forEach>
