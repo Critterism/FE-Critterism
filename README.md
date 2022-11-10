@@ -10,7 +10,7 @@
   <ol>
     <li><a href="#technical-requirements"> Technical Requirements</a></li>
     <li><a href="#gems-and-tools"> Gems and Tools</a></li>
-    <li><a href="installation"> Ticketmaster API</a></li>
+    <li><a href="installation"> Installation</a></li>
     <li><a href="#schema"> Schema</a></li>
     <li><a href="#endpoints"> Server API Endpoint</a></li>
     <li><a href="#contributors"> Contributors</a></li>
