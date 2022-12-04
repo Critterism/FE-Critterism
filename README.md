@@ -77,35 +77,35 @@ Once they've made a selection, they'll have a list of charities to choose from.
 
 [bcrypt][bcrypt-docs]
 
-[capybara](https://github.com/teamcapybara/capybara)
+[capybara][capybara-docs]
 
-[factory_bot_rails](https://github.com/thoughtbot/factory_bot_rails)
+[factory_bot_rails][factory_bot_rails-docs]
 
-[faker](https://github.com/faker-ruby/faker)
+[faker][faker-docs]
 
-[faraday](https://lostisland.github.io/faraday/)
+[faraday][faraday-docs]
 
-[figaro](https://github.com/laserlemon/figaro)
+[figaro][figaro-docs]
 
-[jsonapi-serializer](https://github.com/jsonapi-serializer/jsonapi-serializer)
+[jsonapi-serializer][jsonapi-serializer-docs]
 
-[launchy](https://www.rubydoc.info/gems/launchy/2.2.0)
+[launchy][launchy-docs]
 
-[omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
+[omniauth-google-oauth2][omniauth-google-oauth2-docs]
 
-[orderly](https://github.com/jmondo/orderly)
+[orderly][orderly-docs]
 
-[pry](https://github.com/pry/pry)
+[pry][pry-docs]
 
-[rspec-rails](https://github.com/rspec/rspec-rails)
+[rspec-rails][rspec-rails-docs]
 
-[shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers)
+[shoulda-matchers][shoulda-matchers-docs]
 
-[simplecov](https://github.com/simplecov-ruby/simplecov)
+[simplecov][simplecov-docs]
 
-[vcr](https://github.com/vcr/vcr)
+[vcr][vcr-docs]
 
-[webmock](https://github.com/bblimke/webmock)
+[webmock][webmock-docs]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -300,3 +300,18 @@ Once cloned, run the following commands:
 [Postman-url]: https://web.postman.co/
 
 [bcrypt-docs]: https://github.com/bcrypt-ruby/bcrypt-ruby
+[capybara-docs]: https://github.com/teamcapybara/capybara
+[factory_bot_rails-docs]: https://github.com/thoughtbot/factory_bot_rails
+[faker-docs]: https://github.com/faker-ruby/faker
+[faraday-docs]: https://lostisland.github.io/faraday/
+[figaro-docs]: https://github.com/laserlemon/figaro
+[jsonapi-serializer-docs]: https://github.com/jsonapi-serializer/jsonapi-serializer
+[launchy-docs]: https://www.rubydoc.info/gems/launchy/2.2.0
+[omniauth-google-oauth2-docs]: https://github.com/zquestz/omniauth-google-oauth2
+[orderly-docs]: https://github.com/jmondo/orderly
+[pry-docs]: https://github.com/pry/pry
+[rspec-rails-docs]: https://github.com/rspec/rspec-rails
+[shoulda-matchers-docs]: https://github.com/thoughtbot/shoulda-matchers
+[simplecov-docs]: https://github.com/simplecov-ruby/simplecov
+[vcr-docs]: https://github.com/vcr/vcr
+[webmock-docs]: https://github.com/bblimke/webmock
