@@ -57,7 +57,7 @@ Once they've made a selection, they'll have a list of charities to choose from.
 * [![Postman][Postman]][Postman-url]
 * [![CircleCI][CircleCI]][CircleCI-url]
 * [![Bootstrap][Bootstrap]][Bootstrap-url]
-* [![jQuery][jQuery][jQuery-url]
+* [![jQuery][jQuery]][jQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
