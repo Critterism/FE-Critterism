@@ -65,6 +65,7 @@ Once they've made a selection, they'll have a list of charities to choose from.
 * [![Bootstrap][Bootstrap]][Bootstrap-url]
 * [![jQuery][jQuery]][jQuery-url]
 * [![Heroku][Heroku]][Heroku-url]
+* [![Miro][Miro]][Miro-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -294,6 +295,9 @@ Once cloned, run the following commands:
 
 [LinkedIn Badge]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [LinkedIn-url]: https://www.linkedin.com/in/<Username>/
+    
+[Miro]: https://img.shields.io/badge/Miro-050038?style=for-the-badge&logo=Miro&logoColor=white
+[Miro-url]: https://miro.com/
 
 [PostgreSQL]: https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
 [PostgreSQL-url]: https://www.postgresql.org/
