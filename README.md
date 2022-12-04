@@ -35,6 +35,7 @@ Once they've made a selection, they'll have a list of charities to choose from.
 <details open="open">
 <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#built-with">Built With</a></li>
     <li><a href="#technical-requirements"> Technical Requirements</a></li>
     <li><a href="#gems-and-tools"> Gems and Tools</a></li>
     <li><a href="installation"> Installation</a></li>
@@ -43,6 +44,21 @@ Once they've made a selection, they'll have a list of charities to choose from.
     <li><a href="#contributors"> Contributors</a></li>
   </ol>
 </details>
+
+<!-- Built With -->
+
+<h2 id="built-with">Built With</h2>
+
+* [![Rails][Rails]][Rails-url]
+* [![Ruby][Ruby]][Ruby-url]
+* [![RSpec][RSpec]][RSpec-url]
+* [![Atom][Atom]][Atom-url]
+* [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
+* [![Postman][Postman]][Postman-url]
+* [![CircleCI][CircleCI]][CircleCI-url]
+* [![Bootstrap][Bootstrap]][Bootstrap-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- TECHNICAL REQUIREMENTS -->
 
@@ -231,6 +247,10 @@ Once cloned, run the following commands:
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [Bootstrap]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com/
+    
+[CircleCI]: https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white
+[CircleCI-url]: https://circleci.com/developer
 
 [Rails]: https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white
 [Rails-url]: https://rubyonrails.org/
