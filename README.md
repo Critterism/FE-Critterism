@@ -71,6 +71,7 @@ Once they've made a selection, they'll have a list of charities to choose from.
 <!-- TECHNICAL REQUIREMENTS -->
 
 <h2 id="technical-requirements">Technical Requirements</h2>
+
 <ul>
 <li>Ruby 2.7.4</li>
 <li>Rails 5.2.8</li>
@@ -82,37 +83,22 @@ Once they've made a selection, they'll have a list of charities to choose from.
 
 <h2 id="gems-and-tools">Gems and Tools</h2>
 
-[bcrypt][bcrypt-docs]
-
-[capybara][capybara-docs]
-
-[factory_bot_rails][factory_bot_rails-docs]
-
-[faker][faker-docs]
-
-[faraday][faraday-docs]
-
-[figaro][figaro-docs]
-
-[jsonapi-serializer][jsonapi-serializer-docs]
-
-[launchy][launchy-docs]
-
-[omniauth-google-oauth2][omniauth-google-oauth2-docs]
-
-[orderly][orderly-docs]
-
-[pry][pry-docs]
-
-[rspec-rails][rspec-rails-docs]
-
-[shoulda-matchers][shoulda-matchers-docs]
-
-[simplecov][simplecov-docs]
-
-[vcr][vcr-docs]
-
-[webmock][webmock-docs]
+* [bcrypt][bcrypt-docs]
+* [capybara][capybara-docs]
+* [factory_bot_rails][factory_bot_rails-docs]
+* [faker][faker-docs]
+* [faraday][faraday-docs]
+* [figaro][figaro-docs]
+* [jsonapi-serializer][jsonapi-serializer-docs]
+* [launchy][launchy-docs]
+* [omniauth-google-oauth2][omniauth-google-oauth2-docs]
+* [orderly][orderly-docs]
+* [pry][pry-docs]
+* [rspec-rails][rspec-rails-docs]
+* [shoulda-matchers][shoulda-matchers-docs]
+* [simplecov][simplecov-docs]
+* [vcr][vcr-docs]
+* [webmock][webmock-docs]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
