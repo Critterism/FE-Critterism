@@ -57,6 +57,7 @@ Once they've made a selection, they'll have a list of charities to choose from.
 * [![Postman][Postman]][Postman-url]
 * [![CircleCI][CircleCI]][CircleCI-url]
 * [![Bootstrap][Bootstrap]][Bootstrap-url]
+* [![jQuery][jQuery][jQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -274,6 +275,9 @@ Once cloned, run the following commands:
     
 [CircleCI]: https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white
 [CircleCI-url]: https://circleci.com/developer
+
+[jQuery]: https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white
+[jQuery-url]: https://github.com/rails/jquery-rails
 
 [Rails]: https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white
 [Rails-url]: https://rubyonrails.org/
