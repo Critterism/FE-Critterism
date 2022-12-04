@@ -68,26 +68,43 @@ Once they've made a selection, they'll have a list of charities to choose from.
 <li>Rails 5.2.8</li>
 </ul>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GEMS AND TOOLS -->
 
 <h2 id="gems-and-tools">Gems and Tools</h2>
-<ul>
-  <li>Bootstrap</li>
-  <li>Capybara</li>
-  <li>Factory Bot</li>
-  <li>Faker</li>
-  <li>Faraday</li>
-  <li>Figaro</li>
-  <li>Launchy</li>
-  <li>Orderly</li>
-  <li>Postman</li>
-  <li>Pry</li>
-  <li>Shoulda-Matchers</li>
-  <li>SimpleCov</li>
-  <li>VCR</li>
-  <li>Webmock</li>
-  <li>RSpec</li>
-</ul>
+
+[bcrypt][bcrypt-docs]
+
+[capybara](https://github.com/teamcapybara/capybara)
+
+[factory_bot_rails](https://github.com/thoughtbot/factory_bot_rails)
+
+[faker](https://github.com/faker-ruby/faker)
+
+[faraday](https://lostisland.github.io/faraday/)
+
+[figaro](https://github.com/laserlemon/figaro)
+
+[jsonapi-serializer](https://github.com/jsonapi-serializer/jsonapi-serializer)
+
+[launchy](https://www.rubydoc.info/gems/launchy/2.2.0)
+
+[orderly](https://github.com/jmondo/orderly)
+
+[pry](https://github.com/pry/pry)
+
+[rspec-rails](https://github.com/rspec/rspec-rails)
+
+[shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers)
+
+[simplecov](https://github.com/simplecov-ruby/simplecov)
+
+[vcr](https://github.com/vcr/vcr)
+
+[webmock](https://github.com/bblimke/webmock)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- INSTALLATION -->
 
@@ -104,13 +121,17 @@ Once cloned, run the following commands:
   <li>rails db:create</li>
   <li>rails db:migrate</li>
   <li>Run the Figaro command: <em>bundle exec figaro install</em></li>
-  <li>Update the `application.yml` file with `ENV` variables storing API keys for <em>GOOGLE_CLIENT_ID: '< your api key >'</em> and <em>GOOGLE_CLIENT_SECRET: '< your ID >'</em>. Follow the instruction on how to get started with Google OAuth <a href="https://oauth.net/getting-started/">here</a>.</li>
+  <li>Update the `application.yml` file with `ENV` variables storing API keys for <em>GOOGLE_CLIENT_ID: '< your api key >'</em> and <em>GOOGLE_CLIENT_SECRET: '< your ID >'</em>. Follow the instruction on how to get started with <a href="https://oauth.net/getting-started/">Google OAuth</a>.</li>
 </ul>  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DATABASE SCHEMA -->
 <h2 id="schema"> Schema</h2>
 
 ![Image](https://user-images.githubusercontent.com/98506079/200989143-7b73c4c7-a679-4ae0-8216-52483c2dc169.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SERVER API ENDPOINT -->
 <h2 id="endpoints"> Endpoints</h2>
@@ -219,6 +240,7 @@ Once cloned, run the following commands:
   </code>
 </pre>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTORS -->
 <h2 id="contributors"> Contributors</h2>
@@ -243,6 +265,7 @@ Once cloned, run the following commands:
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sunny-moore)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sunny-moore/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
