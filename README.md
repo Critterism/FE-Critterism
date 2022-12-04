@@ -91,6 +91,8 @@ Once they've made a selection, they'll have a list of charities to choose from.
 
 [launchy](https://www.rubydoc.info/gems/launchy/2.2.0)
 
+[omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
+
 [orderly](https://github.com/jmondo/orderly)
 
 [pry](https://github.com/pry/pry)
