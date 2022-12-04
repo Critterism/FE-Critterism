@@ -55,11 +55,16 @@ Once they've made a selection, they'll have a list of charities to choose from.
 * [![Ruby][Ruby]][Ruby-url]
 * [![RSpec][RSpec]][RSpec-url]
 * [![Atom][Atom]][Atom-url]
+* [![Visual Studio Code][Visual Studio Code]][Visual Studio Code-url]
+* [![CSS][CSS]][CSS-url]
+* [![HTML5][HTML5]][HTML5-url]
+* [![JavaScript][JavaScript]][JavaScript-url]
 * [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
 * [![Postman][Postman]][Postman-url]
 * [![CircleCI][CircleCI]][CircleCI-url]
 * [![Bootstrap][Bootstrap]][Bootstrap-url]
 * [![jQuery][jQuery]][jQuery-url]
+* [![Heroku][Heroku]][Heroku-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -289,6 +294,9 @@ Once cloned, run the following commands:
 [Atom]: https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white
 [Atom-url]: https://atom.io/
 
+[Visual Studio Code]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
+[Visual Studio Code-url]: https://code.visualstudio.com/
+
 [Ruby]: https://img.shields.io/badge/Ruby-000000?style=for-the-badge&logo=ruby&logoColor=CC342D
 [Ruby-url]: https://www.ruby-lang.org/en/
 
@@ -300,6 +308,18 @@ Once cloned, run the following commands:
 
 [Postman]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
 [Postman-url]: https://web.postman.co/
+    
+[CSS]: 	https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://en.wikipedia.org/wiki/CSS
+
+[HTML5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[HTML5-url]: https://en.wikipedia.org/wiki/HTML5
+
+[JavaScript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[JavaScript-url]: https://www.javascript.com/
+
+[Heroku]: https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white
+[Heroku-url]: https://www.heroku.com/
 
 [bcrypt-docs]: https://github.com/bcrypt-ruby/bcrypt-ruby
 [capybara-docs]: https://github.com/teamcapybara/capybara
