@@ -3,9 +3,9 @@
 
 <b>Critterism</b> is an animal trivia application with an ulterior cause that seeks to persuade animal welfare without the Sarah McLachlan guilt trip soundtrack. 
 
-Users can sign in with Google OAuth and play a 10-question trivia game with fun animal facts. Upon completion, users are granted the option to explore animal and wildlife organizations that they can donate to. The frontend application makes API calls to the backend. Crittism is currently deployed on Heroku, click <a href="https://critterism-fe.herokuapp.com/">here</a>. 
+Users can sign in with Google OAuth and play a 10-question trivia game with fun animal facts. Upon completion, users are granted the option to explore animal and wildlife organizations that they can donate to. The frontend application makes API calls to the backend. Crittism is currently deployed on <a href="https://critterism-fe.herokuapp.com/">Heroku</a>. 
 
-The backend repo is linked <a href="https://github.com/Critterism/Critterism-BE">here</a> and is deployed to heroku <a href="https://critterism-be.herokuapp.com/">here</a>.
+The <a href="https://github.com/Critterism/Critterism-BE">Back End Repo</a> and is deployed to <a href="https://critterism-be.herokuapp.com/">Heroku</a>.
 
 <h2> Preview </h2>
 
