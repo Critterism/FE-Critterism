@@ -5,7 +5,7 @@
 
 Users can sign in with Google OAuth and play a 10-question trivia game with fun animal facts. Upon completion, users are granted the option to explore animal and wildlife organizations that they can donate to. The frontend application makes API calls to the backend. Crittism is currently deployed on <a href="https://critterism-fe.herokuapp.com/">Heroku</a>. 
 
-The <a href="https://github.com/Critterism/Critterism-BE">Back End Repo</a> and is deployed to <a href="https://critterism-be.herokuapp.com/">Heroku</a>.
+The <a href="https://github.com/Critterism/Critterism-BE">Back End Repo</a> can be found deployed to <a href="https://critterism-be.herokuapp.com/">Heroku</a>.
 
 <h2> Preview </h2>
 
