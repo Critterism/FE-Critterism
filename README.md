@@ -51,22 +51,26 @@ Once they've made a selection, they'll have a list of charities to choose from.
 
 <h2 id="built-with">Built With</h2>
 
-* [![Rails][Rails]][Rails-url]
-* [![Ruby][Ruby]][Ruby-url]
-* [![RSpec][RSpec]][RSpec-url]
-* [![Atom][Atom]][Atom-url]
-* [![Visual Studio Code][Visual Studio Code]][Visual Studio Code-url]
-* [![CSS][CSS]][CSS-url]
-* [![HTML5][HTML5]][HTML5-url]
-* [![JavaScript][JavaScript]][JavaScript-url]
-* [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
-* [![Postman][Postman]][Postman-url]
-* [![CircleCI][CircleCI]][CircleCI-url]
-* [![Bootstrap][Bootstrap]][Bootstrap-url]
-* [![jQuery][jQuery]][jQuery-url]
-* [![Heroku][Heroku]][Heroku-url]
-* [![Miro][Miro]][Miro-url]
+<div align="center">
+  
+  <p>
 
+[![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![Visual Studio Code][Visual Studio Code]][Visual Studio Code-url]
+    
+  </p>
+  <p>
+    
+[![CSS][CSS]][CSS-url] [![HTML5][HTML5]][HTML5-url] [![JavaScript][JavaScript]][JavaScript-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url]
+    
+  </p>
+  <p>
+    
+[![CircleCI][CircleCI]][CircleCI-url] [![Bootstrap][Bootstrap]][Bootstrap-url] [![jQuery][jQuery]][jQuery-url] [![Heroku][Heroku]][Heroku-url] [![Miro][Miro]][Miro-url]
+
+  </p>
+  
+ </div>
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- TECHNICAL REQUIREMENTS -->
